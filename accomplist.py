@@ -771,7 +771,7 @@ def file_exist(file):
 
 ## Main
 if __name__ == "__main__":
-    log_info('ACCOMPLIST Started')
+    log_info('\n----- ACCOMPLIST STARTED -----\n')
  
     # Header/User-Agent to use when downloading lists, some sites block non-browser downloads
     headers = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' }
@@ -875,6 +875,9 @@ if __name__ == "__main__":
                     if len(element) > 2:
                         id = element[0]
                         bw = element[1].lower()
+
+                        log_info('\n----- ' + id.upper() + ' -----')
+
                         if (bw == 'black' and readblack) or (bw == 'white' and readwhite) or (bw == 'exclude' and (readwhite or readblack)):
                             source = element[2]
                             downloadfile = False
@@ -927,8 +930,6 @@ if __name__ == "__main__":
                                             log_err('Regex \"@' + r + '\" does not exist in \"' + fileregexlist + '\" using default \"' + defaultexclude +'\"')
                                     else:
                                         exclude = regex.compile(r, regex.I)
-
-                                log_info('-----')
 
                                 if url:
                                     age = file_exist(listfile)
@@ -1049,6 +1050,8 @@ if __name__ == "__main__":
     except BaseException as err:
         log_err('Unable to open file \"' + sources + '\": ' + str(err))
 
+    log_info('\n----- OPTIMIZING PHASE -----')
+
     # Excluding domains, first thing to do on "dirty" lists
     if excludelist and (readblack or readwhite):
         # Optimize excludelist
@@ -1087,6 +1090,8 @@ if __name__ == "__main__":
         cwhitelist4 = unwhite_ip(cwhitelist4, cblacklist4, 'IPv4 List')
         cwhitelist6 = unwhite_ip(cwhitelist6, cblacklist6, 'IPv6 List')
 
+    log_info('\n----- GRAND TOTAL -----')
+
     # Reporting
     regexcount = str(len(rwhitelist)/3)
     ipcount = str(len(cwhitelist4) + len(cwhitelist6))
@@ -1100,10 +1105,12 @@ if __name__ == "__main__":
     asncount = str(len(asnblacklist))
     log_info('BlackList Totals: ' + regexcount + ' REGEXES, ' + ipcount + ' IPs/CIDRs, ' + domaincount + ' DOMAINS and ' + asncount + ' ASNs')
 
+    log_info('\n----- SAVE LISTS -----')
+
     # Save processed list for distribution
     write_out(whitesave, blacksave, False)
 
-    log_info('ACCOMPLIST Finished')
+    log_info('\n----- ACCOMPLIST Finished -----\n')
 
     sys.exit(0)
 
