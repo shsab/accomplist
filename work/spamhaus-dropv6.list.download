@@ -1,7 +1,7 @@
 ; spamhaus ipv6 drop list 2018/04/29 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/dropv6.txt
 ; last-modified: sat, 07 apr 2018 03:14:00 gmt
-; expires: sun, 29 apr 2018 01:38:30 gmt
+; expires: sun, 29 apr 2018 07:56:14 gmt
 2a00:dfe0::/29 ; sbl211615
 2a0a:a200::/29 ; sbl369605
 2a00:4c80::/29 ; sbl303520

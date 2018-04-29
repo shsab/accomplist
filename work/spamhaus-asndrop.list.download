@@ -1,7 +1,7 @@
-; spamhaus asn-drop list 2018/04/28 - (c) 2018 the spamhaus project
+; spamhaus asn-drop list 2018/04/29 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/asndrop.txt
-; last-modified: sat, 28 apr 2018 07:56:15 gmt
-; expires: sun, 29 apr 2018 07:56:15 gmt
+; last-modified: sun, 29 apr 2018 08:00:13 gmt
+; expires: mon, 30 apr 2018 08:00:13 gmt
 as612 ; us | precisiontech - precision technology inc,us
 as3266 ; us | poisonix-, de
 as3396 ; us | egg - t g & a
