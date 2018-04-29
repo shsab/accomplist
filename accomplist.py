@@ -928,6 +928,8 @@ if __name__ == "__main__":
                                     else:
                                         exclude = regex.compile(r, regex.I)
 
+                                log_info('-----')
+
                                 if url:
                                     age = file_exist(listfile)
                                     if not age or age > filettl or force:
