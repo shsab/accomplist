@@ -19,12 +19,14 @@ Chris-TLDS	black	/opt/accomplist/chris/tlds	/opt/accomplist/work/chris-tlds.list
 Chris-ASN-Black	black	/opt/accomplist/chris/asn.black	/opt/accomplist/work/chris-asn-black.list	7200	@ASN
 Chris-ASN-White	white	/opt/accomplist/chris/asn.white	/opt/accomplist/work/chris-asn-white.list	7200	@ASN
 
-#Shalla-Ads	black	https://github.com/cbuijs/shallalist/raw/master/adv/domains	/opt/accomplist/work/shalla-ads.list	7200	@DOMAIN
-#Shalla-CostTraps	black	https://github.com/cbuijs/shallalist/raw/master/costtraps/domains	/opt/accomplist/work/shalla-costtraps.list	7200	@DOMAIN
-#Shalla-Gamble	black	https://github.com/cbuijs/shallalist/raw/master/gamble/domains	/opt/accomplist/work/shalla-gamble.list	7200	@DOMAIN
-#Shalla-Porn	black	https://github.com/cbuijs/shallalist/raw/master/porn/domains	/opt/accomplist/work/shalla-porn.list	7200	@DOMAINX	^(.*\.)*((blog|start)spot|tumblr)\.(?!com).*$
-#Shalla-SpyWare	black	https://github.com/cbuijs/shallalist/raw/master/spyware/domains	/opt/accomplist/work/shalla-spyware.list	7200	@DOMAIN
-#Shalla-Tracker	black	https://github.com/cbuijs/shallalist/raw/master/tracker/domains	/opt/accomplist/work/shalla-tracker.list	7200	@DOMAIN
+#Shalla-Ads	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/adv/domains	/opt/accomplist/work/shalla-ads.list	7200	@DOMAIN
+Shalla-Banking	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/finance/banking/domains
+#Shalla-CostTraps	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/costtraps/domains	/opt/accomplist/work/shalla-costtraps.list	7200	@DOMAIN
+#Shalla-Gamble	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/gamble/domains	/opt/accomplist/work/shalla-gamble.list	7200	@DOMAIN
+#Shalla-Porn	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/porn/domains	/opt/accomplist/work/shalla-porn.list	7200	@DOMAINX	^(.*\.)*((blog|start)spot|tumblr)\.(?!com).*$
+#Shalla-SpyWare	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains	/opt/accomplist/work/shalla-spyware.list	7200	@DOMAIN
+#Shalla-Tracker	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/trackers/domains	/opt/accomplist/work/shalla-tracker.list	7200	@DOMAIN
+#Shall-UpdateSites	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/updatesites/domains	/opt/accomplist/work/shalla-update.list	7200	@DOMAIN
 #Shalla-Warez	black	https://github.com/cbuijs/shallalist/raw/master/warez/domains	/opt/accomplist/work/shalla-warez.list	7200	@DOMAIN
 
 Disconnect-Ads	black	https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt	/opt/accomplist/work/disconnect-ads.list	7200	@DOMAIN
