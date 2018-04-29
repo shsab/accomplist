@@ -88,8 +88,8 @@ BaddBoys	black	https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/
 #Krogza-Ultimate-Domain	black	https://hosts.ubuntu101.co.za/domains.list	/opt/accomplist/work/krogza-ultimate-domain.list	7200	@DOMAIN
 Krogza-Hacked	black	https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list	/opt/accomplist/work/krogza-hacked.list	7200	@DOMAIN
 
-Notracking-Hosts	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt	/opt/accomplist/work/notracking-hosts.list	7200	@HOST0
-Notracking-Domains	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt	/opt/accomplist/work/notracking-domains.list	7200	@DNSMASQ-ADDRESS
+Notracking-Hosts	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt	/opt/accomplist/work/notracking-hosts.list	7200	@HOST0	^::\s
+Notracking-Domains	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt	/opt/accomplist/work/notracking-domains.list	7200	@DNSMASQ-ADDRESS	/::$
 
 SpamHaus-Top10-TLD	black	https://www.spamhaus.org/statistics/tlds/	/opt/accomplist/work/spamhaus-top10-tld.list	7200	@SPAMHAUS
 SpamHaus-Top10-BotNet	black	https://www.spamhaus.org/statistics/botnet-isp/	/opt/accomplist/work/spamhaus-top10-botnet.list	7200	@SPAMHAUS
