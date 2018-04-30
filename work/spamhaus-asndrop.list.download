@@ -1,7 +1,7 @@
-; spamhaus asn-drop list 2018/04/29 - (c) 2018 the spamhaus project
+; spamhaus asn-drop list 2018/04/30 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/asndrop.txt
-; last-modified: sun, 29 apr 2018 08:00:13 gmt
-; expires: mon, 30 apr 2018 08:00:13 gmt
+; last-modified: mon, 30 apr 2018 08:00:25 gmt
+; expires: tue, 01 may 2018 08:00:25 gmt
 as612 ; us | precisiontech - precision technology inc,us
 as3266 ; us | poisonix-, de
 as3396 ; us | egg - t g & a
@@ -199,7 +199,6 @@ as53648 ; us | pwrhse - the powerhouse network, us
 as53723 ; us | fast2500 - fast lane communications llc, us
 as53812 ; us | sparrowise technology llc
 as54014 ; us | vunity-inc - vunity, inc,us
-as54543 ; us | epicup-com - epicup.com, us
 as54997 ; us | acquinity - acquinity interactive, llc,us
 as55150 ; us | dst-01 - dst resources,us
 as56831 ; ro | inevo inevo labs srl
