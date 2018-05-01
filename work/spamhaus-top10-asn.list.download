@@ -178,7 +178,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 								<td bgcolor="#000066"><span class="pagetitle"><font color="white">the 10 worst botnet asns</font></span></td>
 							</tr>
 							<tr>
-								<td bgcolor="#ffd700"><font size="-1"><span class="body"><span class="body">as of 29 april 2018</span></span></font> <span class="body">the world's worst botnet infected autonomous system numbers are:</span></td>
+								<td bgcolor="#ffd700"><font size="-1"><span class="body"><span class="body">as of 01 may 2018</span></span></font> <span class="body">the world's worst botnet infected autonomous system numbers are:</span></td>
 							</tr>
 						</table>
 						<img src="/images/shad02.gif" alt="" width="544" height="15" border="0"/><span class="body"></span>
@@ -194,7 +194,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">chinanet-backbone no.31,jin-rong street, cn</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 1364814
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 1378918
 </span></td>
 							</tr>
 						</table>
@@ -212,7 +212,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">bsnl-nib national internet backbone, in</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 566426
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 562334
 </span></td>
 							</tr>
 						</table>
@@ -230,7 +230,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">china169-backbone china unicom china169 backbone, cn</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 312655
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 328795
 </span></td>
 							</tr>
 						</table>
@@ -248,7 +248,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">bharti-mobility-as-ap bharti airtel ltd. as for gprs service, in</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 306495
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 314083
 </span></td>
 							</tr>
 						</table>
@@ -266,7 +266,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">vnpt-as-vn vnpt corp, vn</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 256641
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 249137
 </span></td>
 							</tr>
 						</table>
@@ -284,7 +284,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">uninet s.a. de c.v., mx</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 231447
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 230884
 </span></td>
 							</tr>
 						</table>
@@ -298,11 +298,11 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 										7									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6">
-									<span class="subtitle">as9121</span>
+									<span class="subtitle">as24560</span>
 									<br/>
-									<span class="body">ttnet, tr</span>
+									<span class="body">airtelbroadband-as-ap bharti airtel ltd., telemedia services, in</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 222573
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 223068
 </span></td>
 							</tr>
 						</table>
@@ -316,11 +316,11 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 										8									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6">
-									<span class="subtitle">as24560</span>
+									<span class="subtitle">as9121</span>
 									<br/>
-									<span class="body">airtelbroadband-as-ap bharti airtel ltd., telemedia services, in</span>
+									<span class="body">ttnet, tr</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 222440
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 219171
 </span></td>
 							</tr>
 						</table>
@@ -338,7 +338,7 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 									<br/>
 									<span class="body">rostelecom-as, ru</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 185751
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 185813
 </span></td>
 							</tr>
 						</table>
@@ -352,11 +352,11 @@ additional and more detailed statistics can be found at the spamhaus cbl website
 										10									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6">
-									<span class="subtitle">as7552</span>
+									<span class="subtitle">as45595</span>
 									<br/>
-									<span class="body">vietel-as-ap viettel group, vn</span>
+									<span class="body">pktelecom-as-pk pakistan telecom company limited, pk</span>
 								</td>
-								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 167614
+								<td valign="middle" bgcolor="#e6e6e6" width="180"><span class="body">number of bots: 167962
 </span></td>
 							</tr>
 						</table>

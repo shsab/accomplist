@@ -1,7 +1,7 @@
 [adblock plus 1.1]
-! version: 201804300605
+! version: 201805010549
 ! title: easyprivacy
-! last modified: 30 apr 2018 06:05 utc
+! last modified: 01 may 2018 05:49 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -444,6 +444,7 @@
 /amazon-affiliate-
 /amdhfp/a.do?param$image
 /amdhfp/t.do?id$image
+/amp-omniture-iframe?
 /amp/amp-analytics-
 /amp_ping/*
 /amplitude-*.js$script
@@ -14616,6 +14617,7 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||kataweb.it/wt/wt.js?http$domain=video.repubblica.it
 @@||lastampa.it/modulo/tracciatori/js/nielsen.js
 @@||maxmind.com^*/geoip.js$domain=sportube.tv
+@@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=vodafone.it
 @@||paginegialle.it/js/shinystat.js
 @@||panorama.it/wp-content/themes/panorama/js/google-nielsen-analytics.js?
 @@||repstatic.it^*/nielsen.js
@@ -14732,4 +14734,4 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||ukrposhta.ua/js/tracking.js
 ! anti-adblock
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-! checksum: 9k2igexcqbfvbbgugzkdnw
+! checksum: 8aobw5du/pm60syr79lx1a
