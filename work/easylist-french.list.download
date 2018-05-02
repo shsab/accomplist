@@ -1,6 +1,6 @@
 [adblock plus 2.0]
-! checksum: 1yi4ucolsgh52e1ohfos+a
-! version: 201805020222
+! checksum: cpyexxujhlf/y5xqczo/wg
+! version: 201805020812
 ! title: liste fr
 ! liste fr ~ filtres francophones complmentaires  easylist
 ! expires: 1 days
@@ -4146,7 +4146,7 @@ debugger:$popup
 ||traffdaq.com^$third-party
 ||traffe.eu^$third-party
 ||trafficfabrik.com^$third-party
-||trafficforce.com^$thid-party
+||trafficforce.com^$third-party
 ||trafficmagnates.com^$third-party
 ||trafficrevmaster.com^$third-party
 ||trafficsan.com^$third-party
@@ -4736,7 +4736,7 @@ debugger:$popup
 ||wanaldster.com^
 ||xvika.com^
 ||zbwttofskjnc.com^
-! ad-maven
+! admaven
 /^http:\/\/[a-z]{5,12}\.(info|online|space|top)\/([0-9a-za-z\+\/]){138,140}/$image,third-party
 /^https?:\/\/(?!disqus\.)([a-z]+)\.(com|info|online|space|top)\/([0-9a-za-z\+\/]){400,460}/$subdocument,third-party
 ||abarrange.info^
@@ -15143,7 +15143,6 @@ formation-dz.com##.mod_banners
 le-buzz.fr##.modal-backdrop
 grazia.fr##.modal-backdrop.in
 nicematin.com##.modal_background
-jeunesfooteux.com,zinfos974.com##.module-pub
 techno-science.net##.module.moduleboutiqueencart
 aujourdhui-en-france.fr,leparisien.fr##.modulenew300
 m6.fr##.module_epg_publicite

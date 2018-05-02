@@ -6,7 +6,7 @@
 #   primary url: http://www.dshield.org/feeds/suspiciousdomains_high.txt
 #
 #   comments: info@dshield.org
-#    updated: tue may  1 04:08:27 2018 utc
+#    updated: wed may  2 04:09:35 2018 utc
 #   
 #    this list consists of high level sensitivity website urls
 #     columns (tab delimited):
@@ -14,28 +14,21 @@
 #      (1) site
 #
 site
-spotmarka.ap0x.com
-bin1.kns1.al
-maminoleinc.tk
 4w5wihkwyhsav2ha.dreamtest.at
 ojmekzw4mujvqeju.dreamtest.at
-jutrack.dp.ua
 i01001.dgn.vn
 x5sbb5gesp6kzwsh.homewind.pl
 honourableud.top
 aa12111.top
 istyle.ge
-dzitech.net
-l3d.pp.ru
-gyalkingerz.com
 rqfsctpgpuani.pw
 #
 # statistics
 #
 # total in database: 37981
-# total in report:   15
-# percent of total:  0.04 %
+# total in report:   8
+# percent of total:  0.02 %
 #
 # end
 #
-#  finished list generation: tue may  1 04:08:27 2018 utc
+#  finished list generation: wed may  2 04:09:35 2018 utc
