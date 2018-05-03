@@ -9,4 +9,5 @@
 /^(.*\.)*itunes(essentials|festivals|match|su)\.com$/
 /^(.*\.)*(netflix|nflx[a-z]+)\.(edgesuite\.)*(com|net)$/
 /^(.*\.)*netflix$/
+/^(.*\.)*slack(-(edge|files|(im|ms)gs|redir))*\.(com|net)$/
 /^account\..*$/
