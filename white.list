@@ -14,6 +14,7 @@ ntp.org!	Chris-Exclude
 /^(.*\.)*itunes(essentials|festivals|match|su)\.com$/	Chris-Regex-White
 /^(.*\.)*(netflix|nflx[a-z]+)\.(edgesuite\.)*(com|net)$/	Chris-Regex-White
 /^(.*\.)*netflix$/	Chris-Regex-White
+/^(.*\.)*slack(-(edge|files|(im|ms)gs|redir))*\.(com|net)$/	Chris-Regex-White
 /^account\..*$/	Chris-Regex-White
 ### WHITELIST DOMAINS ###
 bibm.ad	Shalla-Banking
@@ -2555,7 +2556,6 @@ authentication-api.skimlinks.com	EasyList-White
 skodabank.com	Shalla-Banking
 skyfi.com	Shalla-Banking
 skype.com	Chris-White
-slack.com	Chris-White
 sloveniansavings.com	Shalla-Banking
 smbonline.com	Shalla-Banking
 snbenid.com	Shalla-Banking
