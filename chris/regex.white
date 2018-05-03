@@ -15,5 +15,8 @@
 /^(.*\.)*(netflix|nflx[a-z]+)\.(edgesuite\.)*(com|net)$/
 /^(.*\.)*netflix$/
 
+# Slack
+/^(.*\.)*slack(-(edge|files|(im|ms)gs|redir))*\.(com|net)$/
+
 # Generic
 /^account\..*$/
