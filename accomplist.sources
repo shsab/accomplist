@@ -119,7 +119,7 @@ Immortal-Malware	black	http://mirror1.malwaredomains.com/files/immortal_domains.
 Skype-Resolvers	black	http://mirror1.malwaredomains.com/files/Skype-resolvers.txt	/opt/accomplist/work/skype-resolvers.list	7200	@DOMAIN
 Free-WebHosts	black	http://mirror1.malwaredomains.com/files/freewebhosts.txt	/opt/accomplist/work/freewebhosts.list	7200	@DOMAIN
 Spyware	black	http://mirror1.malwaredomains.com/files/spywaredomains.zones	/opt/accomplist/work/spyware.list	7200	@ZONE
-URL-Shorteners	white	https://mirror1.malwaredomains.com/files/url_shorteners.txt	/opt/accomplist/work/url-shorteners	7200	@DOMAIN
+#URL-Shorteners	white	https://mirror1.malwaredomains.com/files/url_shorteners.txt	/opt/accomplist/work/url-shorteners.list	7200	@DOMAIN
 
 RansomeWareTracker-Domains	black	https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt	/opt/accomplist/work/ransomewaretracker-doms.list	7200	@DOMAIN
 RansomeWareTracker-IPs	black	https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt	/opt/accomplist/work/ransomewaretracker-ips.list	7200	@IP
