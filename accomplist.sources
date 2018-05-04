@@ -35,7 +35,7 @@ Disconnect-Tracking	black	https://s3.amazonaws.com/lists.disconnect.me/simple_tr
 Disconnect-Malvertising	black	https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt	/opt/accomplist/work/disconnect-malvertising.list	7200	@DOMAIN
 
 #Adguard-Android	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/android.txt	/opt/accomplist/work/adguard-android.list	7200	@DOMAIN
-#Adguard-Banks	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/banks.txt	/opt/accomplist/work/adguard-banks.list	7200	@DOMAIN
+Adguard-Banks	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/banks.txt	/opt/accomplist/work/adguard-banks.list	7200	@DOMAIN
 #Adguard-FireFox	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/firefox.txt	/opt/accomplist/work/adguard-firefox.list	7200	@DOMAIN
 #Adguard-Issues	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/issues.txt	/opt/accomplist/work/adguard-issues.list	7200	@DOMAIN
 #Adguard-Sensistive	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/sensitive.txt	/opt/accomplist/work/adguard-sensitive.list	7200	@DOMAIN
@@ -80,13 +80,13 @@ FireHol1	black	https://raw.githubusercontent.com/firehol/blocklist-ipsets/master
 #FireHol4	black	https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level4.netset	/opt/accomplist/work/firehol4.list	7200	@IP
 #FireHol-Abusers	black	https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_abusers_30d.netset	/opt/accomplist/work/firehol-abusers.list	7200	@IP
 
-BaddBoys	black	https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts	/opt/accomplist/work/baddboyz.list	7200	@HOST0
+#BaddBoys	black	https://raw.githubusercontent.com/mitchellkrogza/Badd-Boyz-Hosts/master/hosts	/opt/accomplist/work/baddboyz.list	7200	@HOST0
 #Krogza-False-Positive	exclude	https://raw.githubusercontent.com/mitchellkrogza/CENTRAL-REPO.Dead.Inactive.Whitelisted.Domains.For.Hosts.Projects/master/DOMAINS-whitelist.txt	/opt/accomplist/work/krogza-fp.list	7200	@DOMAIN
 #Krogza-Dead-Domains	exclude	https://raw.githubusercontent.com/mitchellkrogza/CENTRAL-REPO.Dead.Inactive.Whitelisted.Domains.For.Hosts.Projects/master/DOMAINS-dead.txt	/opt/accomplist/work/krogza-dead.list	7200	@DOMAIN
 #Krogza-Reactivated	black	https://raw.githubusercontent.com/mitchellkrogza/CENTRAL-REPO.Dead.Inactive.Whitelisted.Domains.For.Hosts.Projects/master/DOMAINS-re-active.txt	/opt/accomplist/work/krogza-reactivate.list	7200	@DOMAIN
 #Krogza-Ultimate-IP	black	https://hosts.ubuntu101.co.za/ips.list	/opt/accomplist/work/krogza-ultimate-ip.list	7200	@IP
 #Krogza-Ultimate-Domain	black	https://hosts.ubuntu101.co.za/domains.list	/opt/accomplist/work/krogza-ultimate-domain.list	7200	@DOMAIN
-Krogza-Hacked	black	https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list	/opt/accomplist/work/krogza-hacked.list	7200	@DOMAIN
+#Krogza-Hacked	black	https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list	/opt/accomplist/work/krogza-hacked.list	7200	@DOMAIN
 
 Notracking-Hosts	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt	/opt/accomplist/work/notracking-hosts.list	7200	@HOST0	^::\s
 Notracking-Domains	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt	/opt/accomplist/work/notracking-domains.list	7200	@DNSMASQ-ADDRESS	/::$
@@ -119,6 +119,7 @@ Immortal-Malware	black	http://mirror1.malwaredomains.com/files/immortal_domains.
 Skype-Resolvers	black	http://mirror1.malwaredomains.com/files/Skype-resolvers.txt	/opt/accomplist/work/skype-resolvers.list	7200	@DOMAIN
 Free-WebHosts	black	http://mirror1.malwaredomains.com/files/freewebhosts.txt	/opt/accomplist/work/freewebhosts.list	7200	@DOMAIN
 Spyware	black	http://mirror1.malwaredomains.com/files/spywaredomains.zones	/opt/accomplist/work/spyware.list	7200	@ZONE
+URL-Shorteners	white	https://mirror1.malwaredomains.com/files/url_shorteners.txt	/opt/accomplist/work/url-shorteners	7200	@DOMAIN
 
 RansomeWareTracker-Domains	black	https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt	/opt/accomplist/work/ransomewaretracker-doms.list	7200	@DOMAIN
 RansomeWareTracker-IPs	black	https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt	/opt/accomplist/work/ransomewaretracker-ips.list	7200	@IP
