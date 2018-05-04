@@ -14,7 +14,7 @@ Chris-White	white	/opt/accomplist/chris/white	/opt/accomplist/work/chris-white.l
 
 Chris-Exclude	exclude	/opt/accomplist/chris/exclude	/opt/accomplist/work/chris-exclude.list	7200	@DEFAULT
 
-Chris-TLDS	black	/opt/accomplist/chris/tlds	/opt/accomplist/work/chris-tlds.list	7200	@DOMAIN
+Chris-TLDS	black	/opt/accomplist/chris/tlds.black	/opt/accomplist/work/chris-tlds.list	7200	@DOMAIN
 
 Chris-ASN-Black	black	/opt/accomplist/chris/asn.black	/opt/accomplist/work/chris-asn-black.list	7200	@ASN
 Chris-ASN-White	white	/opt/accomplist/chris/asn.white	/opt/accomplist/work/chris-asn-white.list	7200	@ASN
