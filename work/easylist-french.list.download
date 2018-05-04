@@ -1,6 +1,6 @@
 [adblock plus 2.0]
-! checksum: gz+0m8gbqaih7vvmgxxrwg
-! version: 201805031102
+! checksum: kbjkdq+k+dpnfawstabtvw
+! version: 201805040821
 ! title: liste fr
 ! liste fr ~ filtres francophones complmentaires  easylist
 ! expires: 1 days
@@ -922,7 +922,10 @@
 /banner-ads.
 /banner-publi-lateral.
 /banner-tag-
+/banner.*?a_id=
+/banner.ashx?
 /banner.control.
+/banner.html?
 /banner.outer.
 /banner/*/goclick/?
 /banner/*/sponsored?
@@ -2978,6 +2981,7 @@ debugger:$popup
 ||adsfogz.net^$third-party
 ||adsfull.click^$third-party
 ||adsgarden.com^$third-party
+||adsgid.com^$third-party
 ||adsgridads.com^$third-party
 ||adshare.click^$third-party
 ||adsitonline.net^$third-party
@@ -3607,6 +3611,7 @@ debugger:$popup
 ||journaux-du-midi.com^$third-party
 ||jsadapi.com^$third-party
 ||jsmptjmp.com^$third-party
+||json.gdn^$third-party
 ||justasingle.click^$third-party
 ||kadserver.com^$third-party
 ||kalqui.com^$third-party
@@ -3879,6 +3884,7 @@ debugger:$popup
 ||payreadydistinctive.xyz^$third-party
 ||pdanew.com^$third-party
 ||pee-puu-see.com^$third-party
+||pelicansource.com^$third-party
 ||perabetads.com^$third-party
 ||peretasker.xyz^$third-party
 ||peritas247.info^$third-party
@@ -4047,6 +4053,7 @@ debugger:$popup
 ||s2block.com^$third-party
 ||s2blosh.com^$third-party
 ||s2normal.com^$third-party
+||s4block.com^$third-party
 ||s7jrg2eb.club^$third-party
 ||sabavision.com^$third-party
 ||safeadnetwork.net^$third-party
@@ -4133,6 +4140,7 @@ debugger:$popup
 ||ssl4me.ga^$third-party
 ||ssl4us.tk^$third-party
 ||statisticresearch.com^$third-party
+||steakafka.pro^$third-party
 ||stickredgr.online^$third-party
 ||stickyads.tv^$third-party
 ||stigads.com^$third-party
@@ -4258,6 +4266,7 @@ debugger:$popup
 ||uaadi.com^$third-party
 ||uclick.in^$third-party
 ||ultrafiles.co^$third-party
+||uncyane.com^$third-party
 ||unicefworld12.ovh^$third-party
 ||unit-sense.net^$third-party
 ||univers-porno.com^$third-party
@@ -4818,8 +4827,8 @@ debugger:$popup
 ||xvika.com^
 ||zbwttofskjnc.com^
 ! admaven
-/^http:\/\/[a-z]{5,12}\.(info|online|space|top)\/([0-9a-za-z\+\/]){138,140}/$image,third-party
-/^https?:\/\/(?!disqus\.)([a-z]+)\.(com|info|online|space|top)\/([0-9a-za-z\+\/]){400,460}/$subdocument,third-party
+/^http:\/\/[a-z]{5,12}\.(club|info|online|space|top)\/([0-9a-za-z\+\/]){138,140}/$image,third-party
+/^https?:\/\/(?!disqus\.)([a-z]+)\.(club|com|info|online|space|top)\/([0-9a-za-z\+\/]){400,460}/$subdocument,third-party
 ||abarrange.info^
 ||abourself.com^
 ||aceleration.info^
@@ -4872,6 +4881,7 @@ debugger:$popup
 ||cecrating.info^
 ||cellorun.info^
 ||centracts.com^
+||certaken.com^
 ||certakes.com^
 ||chanicut.com^
 ||chardneave.info^
@@ -5039,6 +5049,7 @@ debugger:$popup
 ||sovietname.info^
 ||spondenced.com^
 ||sprincipal.com^
+||squite.club^
 ||stampshire.info^
 ||stodyew.info
 ||stodyew.info^
@@ -7107,6 +7118,7 @@ debugger:$popup
 ||px9y26.com^$popup,third-party
 ||quebec-bin.com^$popup,third-party
 ||questionfly.com^$popup,third-party
+||rapidyl.net^$popup,third-party
 ||rdsa2013.com^$popup,third-party
 ||rdsa2014.com^$popup,third-party
 ||reacheffect.com^$popup,third-party
@@ -8601,6 +8613,7 @@ http://images.futbolbase.us/peponi2.html
 ||wp.com/csstatic.com/banners/
 ||wp.com/medialot.fr/wp-content/uploads/*?resize=300%2c38
 ||wp.com/static.keep2share.cc/images/i/
+||wp.com^*-300x250.
 ||wp.com^*.imglnka.com/
 ||wp.com^*.misslk.com/
 ||wtpn.twenga.com/publisher/$third-party
@@ -10076,6 +10089,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ||echangedeclics.com/files/banners/
 ||echoroukonline.com/sponsors/
 ||echoroukonline.com/sponsors2015/
+||eclypsia.com^*/redirect/siteskin/$popup
 ||economiematin.fr^*-ban-300x150.
 ||edcom.fr/images/gaml/
 ||edcom.fr/images/habillage/
@@ -10751,7 +10765,6 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ||mega-debrid.eu/images/cessfull.png
 ||mega-p2p.net/vpn
 ||mega-stream.fr/pub/
-||megadvdrip.com/popup.js
 ||meilleures-grandes-ecoles.com/*/int-mb/
 ||meilleures-grandes-ecoles.com/images/habillage/
 ||meilleures-grandes-ecoles.com/intertitiel/
@@ -10853,6 +10866,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ||mustvideos.com^$popup,~third-party
 ||my-link.pro/banner.js
 ||my-meteo.fr/web/site/ajaxpubs
+||mybad.fr^*.gif
 ||mybloggertricks.googlecode.com/files/mbtlikebox2.js
 ||myfreesurf.com/partenaires/
 ||mymanga.io/ga/
