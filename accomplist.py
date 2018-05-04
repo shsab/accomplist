@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v0.01-20180428 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v0.02-20180504 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -151,8 +151,6 @@ def check_regex(name, bw):
             return '\"' + rlist[i,2] + '\" (' + rlist[i,0] + ')'
         
     return False
-
-
 
 
 # Add exclusions to lists
