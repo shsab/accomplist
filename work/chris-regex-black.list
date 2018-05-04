@@ -11,7 +11,7 @@
 /^(.*[\.\-])*[0-9]*(blog|click|php|preroll|text|web|[mwxy])*ad[sxz]*[0-9]*[\.\-]/
 /^(.*[\.\-])*ad(aly[sz]er|am|banner|bureau|click|dynamo|farm|hese|im[a]*g[e]*|info|ition|just|k2|load|log|media|ma(n|nager|x)|ne(t[a-z]+|xus)|nxs|ocean|renaline|revolver|rotat(e|or)|science|script|sense|spirit|[v\-]*s[e]*r(v|ve|ver|vi(ce|ng))|stat|stream)[sxz]*[0-9]*[\.\-]/
 /^(.*[\.\-])*ad([v]*server[a-z]*|shuffle|sl|sy(s|stem)|test|(v|ve(r|rt|rtis(e|er|ing)))|trac(k|king|ker)|wise|word)[sxz]*[0-9]*[\.\-]/
-/^(banner[a-z]*|open[-]*(ad|x)|page[-]*ad|reklam|(secure[-]*)*pub[-]*ad|smart[-]*ad[s]*([-]*server)*|unityad)[sz]*[0-9]*[\.\-]/
+/^(banner[a-z]*|beacon|open[-]*(ad|x)|page[-]*ad|reklam|(secure[-]*)*pub[-]*ad|smart[-]*ad[s]*([-]*server)*|unityad)[sz]*[0-9]*[\.\-]/
 /^(.*[\.\-])*(affiliate|([s]*anal|local)[iy](s[iy]s|ti[ck])|click|clk|cooki(e|ex)|cnt|coun(t[y]*|t[e]*[dr])|creative|datacollect|hit|(amp|[s]*)metr[iy][ck]|open[-]*(ad|x)|partner|ping|pixel|sta(t|tisti[ck])|tag|(web|[uv]*)stat)[sz]*[0-9]*[\.\-]/
 /^(.*[\.\-])*(telemetr[iy]|(evil|[s]*)tra[ck](k|king|ker)|[s]*trk|utm|video[-]*stat)[sz]*[0-9]*[\.\-]/
 /^(creatives|gcirm[0-9]*|marketing|oa(s|scentral)|o(x|x-d)|prom(o|otion)|qwe|.*servedby|syndicat(e|ion)|traffic)[\.\-]/
@@ -28,8 +28,6 @@
 /^(adult|hentai|porn[o]*|se(ks|x(e|o|y)))\..*$/
 /^(.*\.)*geil[a-z\-]*\..*$/
 /^.*(betting|baccarat|bingo|blackjack|casino|craps|lott(ery|o)|gam(e[rs]|ing|bl(e|ing))|roulette|sweepstake|poker).*$/
-/^a\./
-/^1\./
 /(bn|db|hk)[0-9]sch[0-9]+\.wns\.windows\.com$/
 /^wpad\./
 /^mkt[0-9]+\./
