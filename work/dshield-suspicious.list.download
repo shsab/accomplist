@@ -1,0 +1,34 @@
+#
+#   dshield.org suspicious domain list
+#    (c) 2018 dshield.org
+#   some rights reserved. details http://creativecommons.org/licenses/by-nc-sa/2.5/
+#   use on your own risk. no warranties implied.
+#   primary url: http://www.dshield.org/feeds/suspiciousdomains_high.txt
+#
+#   comments: info@dshield.org
+#    updated: sat may  5 04:08:24 2018 utc
+#   
+#    this list consists of high level sensitivity website urls
+#     columns (tab delimited):
+#
+#      (1) site
+#
+site
+4w5wihkwyhsav2ha.dreamtest.at
+ojmekzw4mujvqeju.dreamtest.at
+i01001.dgn.vn
+x5sbb5gesp6kzwsh.homewind.pl
+honourableud.top
+aa12111.top
+istyle.ge
+rqfsctpgpuani.pw
+#
+# statistics
+#
+# total in database: 37981
+# total in report:   8
+# percent of total:  0.02 %
+#
+# end
+#
+#  finished list generation: sat may  5 04:08:24 2018 utc
