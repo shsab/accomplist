@@ -1,8 +1,8 @@
 ################################[update]#################################
 # source: https://github.com/notracking/hosts-blocklists
-# last update: fri may 4 05:59:06 cest 2018
+# last update: sat may 5 05:15:36 cest 2018
 # filter supports ipv4 and ipv6
-# number of unique hostnames: 35566
+# number of unique hostnames: 35567
 #################################[info]##################################
 # blocks ads, fake sites, shock sites, malware hosts and trackers
 # removed verified false calls and added a large set of custom entries
@@ -58075,6 +58075,8 @@
 :: telemetry.appex.bing.net
 0.0.0.0 telemetry.battle.net
 :: telemetry.battle.net
+0.0.0.0 telemetry.firstpartyapps.oaspapps.com
+:: telemetry.firstpartyapps.oaspapps.com
 0.0.0.0 telemetry.gfe.nvidia.com
 :: telemetry.gfe.nvidia.com
 0.0.0.0 telemetry.jivosite.com
