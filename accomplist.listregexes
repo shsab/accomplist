@@ -1,7 +1,7 @@
 DEFAULT	^(?P<line>.*)$
 ADBLOCK-BLACK	^\|\|(?P<domain>[a-zA-Z0-9\.\-]+)\^([$][^=~]+)*$
 ADBLOCK-WHITE	^\@\@\|\|(?P<domain>[a-zA-Z0-9\.\-]+)\^([$][^=~]+)*$
-ADBLOCK-EXCLUDE	^.*[,\$](generic(block|hide)|other|ping|popup|script|third[\-]*party|web(rtc|socket)).*$
+ADBLOCK-EXCLUDE	^.*[,\$]((elem|generic)(block|hide)|other|ping|popup|script|third[\-]*party|web(rtc|socket)).*$
 ADBLOCK-ELEMENT	^##(a|img)\[.*(href|src)[\^]*=\"(http[s]*://)*[\.]*(?P<domain>[a-zA-Z0-9\.\-]+\.[a-zA-Z0-9\.\-]+)[/]*\"
 ASN	^(?P<asn>AS[0-9]+)(\s.*)*$
 URLCSV2	^[^,]+,[a-z]+://(?P<domain>[a-zA-Z0-9\.\-]+)[/]*,
