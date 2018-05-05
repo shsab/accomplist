@@ -1,7 +1,7 @@
 [adblock plus 2.0]
-! version: 201805050804
+! version: 201805051122
 ! title: easylist
-! last modified: 05 may 2018 08:04 utc
+! last modified: 05 may 2018 11:22 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -39,7 +39,7 @@
 &adgroupid=
 &adlist=
 &admeld_
-&admid=
+&admid=$~subdocument
 &adname=
 &adnet=
 &adnum=
@@ -41320,6 +41320,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||denza.pro^$popup,third-party
 ||develop-forevery4u.com^$popup,third-party
 ||digitaldsp.com^$popup
+||dinuclean.com^$popup,third-party
 ||directrev.com^$popup
 ||distantnews.com^$popup,third-party
 ||distantstat.com^$popup,third-party
@@ -46124,6 +46125,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||bcvc.mobi/go.php
 ||bdnews24.com^*/ads/
 ||beap.gemini.yahoo.com^
+||beb.crackwatch.com^
 ||beforeitsnews.com/static/data/story-stripmall-new.html
 ||beforeitsnews.com/static/iframe/
 ||beingpc.com^*/banners/
@@ -69053,4 +69055,4 @@ www.google.com#@##videoads
 @@||tumblr.com^$popup,domain=pornhub.com
 @@||twitter.com^$popup,domain=pornhub.com
 @@||wmtrafficentry.com/cgi-bin/ewm.cgi/*_headertab?$popup,domain=extremetube.com|spankwire.com
-! checksum: yhjwhnuesgq0x3cqrah9lq
+! checksum: 1c+0qdecffbm/7xz3krf/a
