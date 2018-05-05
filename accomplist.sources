@@ -53,6 +53,10 @@ EasyList-French	black	https://easylist-downloads.adblockplus.org/liste_fr.txt	/o
 EasyList-French-Element	black	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-element.list	7200	@ADBLOCK-ELEMENT
 EasyList-French-White	white	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
+Daenoman	black	https://raw.githubusercontent.com/hl2guide/All-in-One-Customized-Adblock-List/master/deanoman-adblocklist.txt	/opt/accomplist/daenoman.list	7200	@ADBLOCK-BLACK
+Daenoman	black	/opt/accomplist/daenoman.list.download	/opt/accomplist/daenoman-element.list	7200	@ADBLOCK-ELEMENT
+Daenoman	white	/opt/accomplist/daenoman.list.download	/opt/accomplist/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+
 #FanBoy-Complete	black	https://fanboy.co.nz/r/fanboy-complete.txt	/opt/accomplist/work/fanboy.list	7200	@ADBLOCK-BLACK
 #FanBoy-Complete-White	white	/opt/accomplist/work/fanboy.list.download	/opt/accomplist/work/fanboy-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
@@ -145,4 +149,3 @@ Blacklist.DE	black	https://lists.blocklist.de/lists/all.txt	/opt/accomplist/work
 
 #Bogon4	black	https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt	/opt/accomplist/work/bogon4.list	7200	@IP
 #Bogon6	black	https://www.team-cymru.org/Services/Bogons/fullbogons-ipv6.txt	/opt/accomplist/work/bogon6.list	7200	@IP
-
