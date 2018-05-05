@@ -54,8 +54,8 @@ EasyList-French-Element	black	/opt/accomplist/work/easylist-french.list.download
 EasyList-French-White	white	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
 Daenoman	black	https://raw.githubusercontent.com/hl2guide/All-in-One-Customized-Adblock-List/master/deanoman-adblocklist.txt	/opt/accomplist/work/daenoman.list	7200	@ADBLOCK-BLACK
-Daenoman	black	/opt/accomplist/daenoman.list.download	/opt/accomplist/work/daenoman-element.list	7200	@ADBLOCK-ELEMENT
-Daenoman	white	/opt/accomplist/daenoman.list.download	/opt/accomplist/work/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+Daenoman	black	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-element.list	7200	@ADBLOCK-ELEMENT
+Daenoman	white	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
 #FanBoy-Complete	black	https://fanboy.co.nz/r/fanboy-complete.txt	/opt/accomplist/work/fanboy.list	7200	@ADBLOCK-BLACK
 #FanBoy-Complete-White	white	/opt/accomplist/work/fanboy.list.download	/opt/accomplist/work/fanboy-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
