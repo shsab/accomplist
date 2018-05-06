@@ -1,7 +1,7 @@
-; spamhaus asn-drop list 2018/05/05 - (c) 2018 the spamhaus project
+; spamhaus asn-drop list 2018/05/06 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/asndrop.txt
-; last-modified: sat, 05 may 2018 08:14:25 gmt
-; expires: sun, 06 may 2018 08:14:25 gmt
+; last-modified: sun, 06 may 2018 08:14:48 gmt
+; expires: mon, 07 may 2018 08:14:48 gmt
 as612 ; us | precisiontech - precision technology inc,us
 as3266 ; us | poisonix-, de
 as3396 ; us | egg - t g & a
@@ -149,6 +149,7 @@ as44414 ; ro | sc holland toner srl
 as44520 ; ro | multihands srl
 as44559 ; ua | erent-as e-rent llc
 as44814 ; bg | btel-bg-as , bg
+as45017 ; ua | lir ukraine llc
 as45052 ; ro | jony-global-gsm-srl-as str. tatulesti 5, ro
 as45569 ; us | xeex-as-ap xeex communication,in
 as46368 ; us | asn-ideal-hosting - ideal hosting,us
@@ -163,6 +164,7 @@ as47598 ; ua | khtel-as, ua
 as47602 ; rs | profisol-as , ro
 as47860 ; ua | albino-ua-as llc _albino_
 as47893 ; ua | shopinbox2, ua
+as47920 ; ua | comrec, ua
 as48028 ; us | haxxr-games, gb
 as48030 ; bg | crypt-logic, bg
 as48066 ; ru | mobilestroyproektas, ru
@@ -283,6 +285,8 @@ as197145 ; ua | -reserved as-,zz
 as197286 ; cz | asjdmnet david jarolimek,cz
 as197328 ; tr | inetltd, tr
 as197426 ; in | bitcanal-as, pt
+as197569 ; ua | energomontazh-as , ru
+as197812 ; ua | asferazko, ua
 as199176 ; cz | asgigalynx gigalynx s.r.o.
 as199297 ; gb | sktic skt interconnect srl,ro
 as199432 ; eg | sktnet skt netcon srl,ro
