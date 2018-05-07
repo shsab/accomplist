@@ -1,6 +1,6 @@
 #
 # suspect-networks.io text only dataset
-# generated: 2018-05-07 08:30:01 utc
+# generated: 2018-05-07 20:30:01 utc
 #
 # this file contains the text only dataset of suspect-network
 # it may be used for further processing, for example integration into squid proxy etc
@@ -80,6 +80,7 @@
 188.120.248.0/23
 188.127.237.0/24
 188.209.52.0/24
+191.101.167.0/24
 191.101.22.0/24
 191.101.31.0/24
 193.169.135.0/24
@@ -122,6 +123,7 @@
 5.133.15.0/29
 5.187.48.32/29
 5.187.49.224/29
+5.188.10.0/23
 5.200.35.0/24
 5.34.180.0/23
 51.254.19.192/26
@@ -195,4 +197,4 @@
 95.47.161.0/24
 95.59.26.0/24
 98.143.144.192/26
-# 188 entries
+# 190 entries
