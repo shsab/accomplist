@@ -6,7 +6,7 @@
 # changelog: https://github.com/hoshsadiq/adblock-nocoin-list/commits/master/hosts.txt
 # license: https://mit-license.org/
 #
-# last modified: 24 april 2018
+# last modified: 5 may 2018
 #
 
 0.0.0.0 cnhv.co
@@ -238,6 +238,9 @@
 0.0.0.0 webminerpool.com
 0.0.0.0 minercry.pt
 0.0.0.0 adplusplus.fr
+0.0.0.0 ethtrader.de
+0.0.0.0 gobba.myeffect.net
+0.0.0.0 bauersagtnein.myeffect.net
 
 # does not seem to work anymore, but keeping it here just in case it gets revived
 0.0.0.0 azvjudwr.info
