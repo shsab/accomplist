@@ -1,7 +1,7 @@
 [adblock plus 1.1]
-! version: 201805080725
+! version: 201805081759
 ! title: easyprivacy
-! last modified: 08 may 2018 07:25 utc
+! last modified: 08 may 2018 17:59 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -6383,7 +6383,6 @@ _mongo_stats/
 ||fge9vbrzwt.bid^$third-party
 ||flare-analytics.com^$third-party
 ||flophous.cf^$third-party
-||flu.cc^$third-party
 ||freecontent.bid^$third-party
 ||freecontent.loan^$third-party
 ||freecontent.racing^$third-party
@@ -6483,7 +6482,6 @@ _mongo_stats/
 ||nfwebminer.com^$third-party
 ||niematego.tk^$third-party
 ||noblock.pro^$third-party
-||nut.cc^$third-party
 ||ogrid.org^$third-party
 ||okeyletsgo.ml^$third-party
 ||onlinereserchstatistics.online^$third-party
@@ -14771,4 +14769,4 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||ukrposhta.ua/js/tracking.js
 ! anti-adblock
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-! checksum: wb5rxjznae89ditndp620a
+! checksum: i5x2m0+bmsz7iqzqsynlgq

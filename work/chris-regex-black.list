@@ -27,7 +27,7 @@
 /^.*(adult|(adult|ana[a]*l|blowjob|bondage|cam|dildo|date|fetish|free|(hard|soft)core|hentai|hot|live|mature|phone|teen)[-]*(fuck|porn[o]*|se(ks|x))|eroti(c|k|sich)|fuck|gangbang|(hard|soft)core|hentai|neuk|nsfw|piemel|porn[o]*|se(ks|x)[-]*(cam|chat|dat(e|ing)|movie|shop|show|toy|tracker|video)[sz]*[0-9]*|sluts|tieten|xxx).*$/
 /^(adult|hentai|porn[o]*|se(ks|x(e|o|y)))\..*$/
 /^(.*\.)*geil[a-z\-]*\..*$/
-/^.*(betting|baccarat|bingo|blackjack|casino|craps|lott(ery|o)|gam(e[rs]|ing|bl(e|ing))|roulette|sweepstake|poker).*$/
+/^.*(bet(ting|s)|baccarat|bingo|blackjack|casino|craps|lott(ery|o)|gam(e[rs]|ing|bl(e|ing))|roulette|sweepstake|poker).*$/
 /(bn|db|hk)[0-9]sch[0-9]+\.wns\.windows\.com$/
 /^wpad\./
 /^mkt[0-9]+\./
