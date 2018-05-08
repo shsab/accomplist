@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v0.02-20180504 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v0.04-20180508 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -35,6 +35,9 @@ import pytricia
 
 # Use IPSet from IPy to aggregate
 from IPy import IP, IPSet
+
+# Use unicode-data to normalize inputs
+import unicodedata
 
 ##########################################################################################
 
@@ -337,7 +340,7 @@ def add_cidr(iplist4, iplist6, entry, id):
 
 # Domain aggregator, removes subdomains if parent exists
 def optimize_domlists(name, listname):
-    log_info('Unduplicating/Optimizing \"' + listname + '\"')
+    log_info('\nUnduplicating/Optimizing \"' + listname + '\"')
 
     domlist = dom_sort(name.keys())
 
@@ -373,7 +376,7 @@ def unwhite_ip(wlist, blist, listname):
     if not unwhitelist:
         return wlist
 
-    if (debug >= 2): log_info('Un-Whitelisting IPs from ' + listname)
+    if (debug >= 2): log_info('\nUn-Whitelisting IPs from ' + listname + ' NOT IMPLEMENTED!')
     # !!! TODO, placeholder
     return wlist
 
@@ -397,7 +400,7 @@ def unwhite_domain(wlist, blist):
     if not unwhitelist:
         return wlist
 
-    if (debug >= 2): log_info('Un-Whitelisting domains from whitelist')
+    if (debug >= 2): log_info('\nUn-Whitelisting domains from whitelist')
 
     new = dict()
 
@@ -443,7 +446,7 @@ def unwhite_domain(wlist, blist):
 
 # Uncomplicate lists, removed whitelisted domains from blacklist
 def uncomplicate_lists(whitelist, rwhitelist, blacklist, safelist):
-    log_info('Uncomplicating Domain black/whitelists')
+    log_info('\nUncomplicating Domain black/whitelists')
 
     listw = dom_sort(whitelist.keys())
     listb = dom_sort(blacklist.keys())
@@ -501,7 +504,7 @@ def uncomplicate_lists(whitelist, rwhitelist, blacklist, safelist):
 
 # Remove excluded entries from domain-lists
 def exclude_domlist(domlist, excludelist, listname):
-    log_info('Excluding \"' + listname + '\"')
+    log_info('\nExcluding \"' + listname + '\"')
 
     newlist = deepcopy(domlist)
     checklist = '#'.join(newlist.keys()) + '#'
@@ -534,7 +537,7 @@ def exclude_domlist(domlist, excludelist, listname):
 
 # Uncomplicate IP lists, remove whitelisted IP's from blacklist
 def uncomplicate_ip_lists(cwhitelist, cblacklist, listname):
-    log_info('Uncomplicating ' + listname + ' black/whitelists')
+    log_info('\nUncomplicating ' + listname + ' black/whitelists')
 
     listw = cwhitelist.keys()
     listb = cblacklist.keys()
@@ -566,7 +569,7 @@ def uncomplicate_ip_lists(cwhitelist, cblacklist, listname):
 
 # Remove entries from domains already matching by a regex
 def unreg_lists(dlist, rlist, safelist, listname):
-    log_info('Unregging \"' + listname + '\"')
+    log_info('\nUnregging \"' + listname + '\"')
 
     before = len(dlist)
 
@@ -692,7 +695,7 @@ def dom_sort(domlist):
 
 # Aggregate IP list
 def aggregate_ip(iplist, listname):
-    log_info('Aggregating \"' + listname + '\"')
+    log_info('\nAggregating \"' + listname + '\"')
 
     undupped = list(iplist.keys())
 
