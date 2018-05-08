@@ -73,7 +73,7 @@
 /^(.*\.)*geil[a-z\-]*\..*$/
 
 ### Gambling
-/^.*(betting|baccarat|bingo|blackjack|casino|craps|lott(ery|o)|gam(e[rs]|ing|bl(e|ing))|roulette|sweepstake|poker).*$/
+/^.*(bet(ting|s)|baccarat|bingo|blackjack|casino|craps|lott(ery|o)|gam(e[rs]|ing|bl(e|ing))|roulette|sweepstake|poker).*$/
 
 ### Misc / Special / Other
 #/^(.*[\.\-])*(advert|banner|beacon|cash|click[y]*|coin|count|megavolt|ms[-]*edge|([ens0-9]+)*(omni|over)ture|pop(cash|check|test|under|up)|tracker)/
