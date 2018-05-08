@@ -1,7 +1,7 @@
 [adblock plus 1.1]
-! version: 201805072017
+! version: 201805080725
 ! title: easyprivacy
-! last modified: 07 may 2018 20:17 utc
+! last modified: 08 may 2018 07:25 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -14771,4 +14771,4 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||ukrposhta.ua/js/tracking.js
 ! anti-adblock
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-! checksum: tvqatf1nvdnwxyd8o3f6oa
+! checksum: wb5rxjznae89ditndp620a

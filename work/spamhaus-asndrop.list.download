@@ -1,7 +1,7 @@
-; spamhaus asn-drop list 2018/05/07 - (c) 2018 the spamhaus project
+; spamhaus asn-drop list 2018/05/08 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/asndrop.txt
-; last-modified: mon, 07 may 2018 08:15:27 gmt
-; expires: tue, 08 may 2018 08:15:27 gmt
+; last-modified: tue, 08 may 2018 08:15:29 gmt
+; expires: wed, 09 may 2018 08:15:29 gmt
 as612 ; us | precisiontech - precision technology inc,us
 as3266 ; us | poisonix-, de
 as3396 ; us | egg - t g & a
@@ -216,6 +216,7 @@ as57858 ; ee | as57858, ee
 as57972 ; ee | jingyun , ee
 as58014 ; ru | mds-as mds ltd.,ru
 as58099 ; hk | mikima-as mikma ltd.,ua
+as58222 ; ru | solar-as, gb
 as58313 ; ru | ru-linktelecom-asn cjsc link telecom,ru
 as58366 ; bg | bgonline bulgaria on line,bg
 as58827 ; cn | jilin gosun technology co. ltd
