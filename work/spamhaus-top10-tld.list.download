@@ -234,7 +234,6 @@ function selectionchange()
 	<option value="army">army</option>
 	<option value="arpa">arpa</option>
 	<option value="art">art</option>
-	<option value="arte">arte</option>
 	<option value="as">as</option>
 	<option value="asda">asda</option>
 	<option value="asia">asia</option>
@@ -278,7 +277,6 @@ function selectionchange()
 	<option value="bible">bible</option>
 	<option value="bid">bid</option>
 	<option value="bike">bike</option>
-	<option value="bing">bing</option>
 	<option value="bingo">bingo</option>
 	<option value="bio">bio</option>
 	<option value="biz">biz</option>
@@ -294,7 +292,6 @@ function selectionchange()
 	<option value="bnpparibas">bnpparibas</option>
 	<option value="bo">bo</option>
 	<option value="boats">boats</option>
-	<option value="bosch">bosch</option>
 	<option value="bostik">bostik</option>
 	<option value="boston">boston</option>
 	<option value="bot">bot</option>
@@ -345,7 +342,6 @@ function selectionchange()
 	<option value="cfa">cfa</option>
 	<option value="cg">cg</option>
 	<option value="ch">ch</option>
-	<option value="chanel">chanel</option>
 	<option value="chat">chat</option>
 	<option value="cheap">cheap</option>
 	<option value="christmas">christmas</option>
@@ -410,6 +406,8 @@ function selectionchange()
 	<option value="deals">deals</option>
 	<option value="degree">degree</option>
 	<option value="delivery">delivery</option>
+	<option value="deloitte">deloitte</option>
+	<option value="delta">delta</option>
 	<option value="democrat">democrat</option>
 	<option value="dental">dental</option>
 	<option value="dentist">dentist</option>
@@ -461,7 +459,6 @@ function selectionchange()
 	<option value="exposed">exposed</option>
 	<option value="express">express</option>
 	<option value="extraspace">extraspace</option>
-	<option value="fage">fage</option>
 	<option value="fail">fail</option>
 	<option value="faith">faith</option>
 	<option value="family">family</option>
@@ -485,7 +482,6 @@ function selectionchange()
 	<option value="fm">fm</option>
 	<option value="fo">fo</option>
 	<option value="foo">foo</option>
-	<option value="foodnetwork">foodnetwork</option>
 	<option value="football">football</option>
 	<option value="forex">forex</option>
 	<option value="forsale">forsale</option>
@@ -570,6 +566,7 @@ function selectionchange()
 	<option value="hospital">hospital</option>
 	<option value="host">host</option>
 	<option value="hosting">hosting</option>
+	<option value="hoteles">hoteles</option>
 	<option value="house">house</option>
 	<option value="how">how</option>
 	<option value="hr">hr</option>
@@ -634,7 +631,6 @@ function selectionchange()
 	<option value="kr">kr</option>
 	<option value="krd">krd</option>
 	<option value="kred">kred</option>
-	<option value="kuokgroup">kuokgroup</option>
 	<option value="kw">kw</option>
 	<option value="ky">ky</option>
 	<option value="kyoto">kyoto</option>
@@ -643,6 +639,7 @@ function selectionchange()
 	<option value="lamborghini">lamborghini</option>
 	<option value="land">land</option>
 	<option value="landrover">landrover</option>
+	<option value="lanxess">lanxess</option>
 	<option value="lat">lat</option>
 	<option value="law">law</option>
 	<option value="lawyer">lawyer</option>
@@ -674,12 +671,11 @@ function selectionchange()
 	<option value="ltd">ltd</option>
 	<option value="ltda">ltda</option>
 	<option value="lu">lu</option>
-	<option value="lundbeck">lundbeck</option>
 	<option value="luxury">luxury</option>
 	<option value="lv">lv</option>
 	<option value="ly">ly</option>
 	<option value="ma">ma</option>
-	<option value="macys">macys</option>
+	<option value="maif">maif</option>
 	<option value="maison">maison</option>
 	<option value="man">man</option>
 	<option value="management">management</option>
@@ -857,6 +853,7 @@ function selectionchange()
 	<option value="rodeo">rodeo</option>
 	<option value="rs">rs</option>
 	<option value="ru">ru</option>
+	<option value="rugby">rugby</option>
 	<option value="ruhr">ruhr</option>
 	<option value="run">run</option>
 	<option value="rw">rw</option>
@@ -1087,6 +1084,7 @@ function selectionchange()
 	<option value="xn--j6w193g"> (xn--j6w193g)</option>
 	<option value="xn--kpry57d"> (xn--kpry57d)</option>
 	<option value="xn--kput3i"> (xn--kput3i)</option>
+	<option value="xn--mgbaam7a8h"> (xn--mgbaam7a8h)</option>
 	<option value="xn--mgbab2bd"> (xn--mgbab2bd)</option>
 	<option value="xn--mgbayh7gpa"> (xn--mgbayh7gpa)</option>
 	<option value="xn--mgbbh1a71e"> (xn--mgbbh1a71e)</option>
@@ -1210,11 +1208,11 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										1									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.men</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.75</b></span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.69</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 83,952<br/>
-									bad domains: 52,191 (<b>62.2%</b>)
+									domains seen: 82,616<br/>
+									bad domains: 51,014 (<b>61.7%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1228,12 +1226,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										2									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.webcam</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.04</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gdn</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.02</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 9,045<br/>
-									bad domains: 6,251 (<b>69.1%</b>)
+									domains seen: 2,063<br/>
+									bad domains: 1,672 (<b>81.0%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1247,12 +1245,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										3									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.work</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.80</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.webcam</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.96</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 49,877<br/>
-									bad domains: 28,211 (<b>56.6%</b>)
+									domains seen: 8,997<br/>
+									bad domains: 6,148 (<b>68.3%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1266,12 +1264,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										4									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gq</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.78</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.work</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.74</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 158,975<br/>
-									bad domains: 81,265 (<b>51.1%</b>)
+									domains seen: 51,228<br/>
+									bad domains: 28,672 (<b>56.0%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1285,12 +1283,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										5									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.cf</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.49</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gq</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.69</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 166,331<br/>
-									bad domains: 80,839 (<b>48.6%</b>)
+									domains seen: 161,451<br/>
+									bad domains: 81,208 (<b>50.3%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1305,11 +1303,11 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										6									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.reise</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.49</b></span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.52</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 1,139<br/>
-									bad domains: 917 (<b>80.5%</b>)
+									domains seen: 1,130<br/>
+									bad domains: 915 (<b>81.0%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1323,12 +1321,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										7									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gdn</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.25</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.cf</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.44</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 1,332<br/>
-									bad domains: 1,010 (<b>75.8%</b>)
+									domains seen: 167,602<br/>
+									bad domains: 80,663 (<b>48.1%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1342,12 +1340,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										8									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.click</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.24</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.jetzt</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.31</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 17,526<br/>
-									bad domains: 9,978 (<b>56.9%</b>)
+									domains seen: 1,613<br/>
+									bad domains: 1,207 (<b>74.8%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1361,12 +1359,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										9									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.jetzt</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.20</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.click</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.22</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 1,646<br/>
-									bad domains: 1,207 (<b>73.3%</b>)
+									domains seen: 17,567<br/>
+									bad domains: 9,969 (<b>56.7%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1381,11 +1379,11 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										10									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.racing</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.12</b></span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.06</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 16,058<br/>
-									bad domains: 9,034 (<b>56.3%</b>)
+									domains seen: 16,123<br/>
+									bad domains: 8,966 (<b>55.6%</b>)
 									</span>
 								</td>
 							</tr>
