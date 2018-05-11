@@ -1,7 +1,7 @@
-; spamhaus asn-drop list 2018/05/10 - (c) 2018 the spamhaus project
+; spamhaus asn-drop list 2018/05/11 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/asndrop.txt
-; last-modified: thu, 10 may 2018 08:33:02 gmt
-; expires: fri, 11 may 2018 08:33:02 gmt
+; last-modified: fri, 11 may 2018 08:48:06 gmt
+; expires: sat, 12 may 2018 08:48:06 gmt
 as612 ; us | precisiontech - precision technology inc,us
 as3266 ; us | poisonix-, de
 as3396 ; us | egg - t g & a
@@ -223,7 +223,7 @@ as58827 ; cn | jilin gosun technology co. ltd
 as58964 ; in | igigle-as-in igigle host,in
 as59344 ; jp | shenzhen-wetrans shenzhen-wetrans,hk
 as59384 ; nl | chinanet-liaoning-shenyang-man chinanet liaoning province network,cn
-as59749 ; ua | cleanmat , bg
+as59749 ; lt | cleanmat, bg
 as59790 ;  | helge sczepanek trading as h3s medien services
 as60262 ; bg | endura-as, bg
 as60318 ; bg | vendeta4-as 4 vendeta ltd.,bg
