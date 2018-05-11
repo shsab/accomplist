@@ -600,6 +600,7 @@ def write_out(whitefile, blackfile, generic):
             with open(whitefile, 'w') as f:
                 f.write('############################################\n')
                 f.write('### ACCOMPLIST GENERATED WHITELIST       ###\n')
+                f.write('### Version: ' + str(int(time.time())) + '                  ###\n')
                 f.write('### Chris Buijs                          ###\n')
                 f.write('### https://github.com/cbuijs/accomplist ###\n')
                 f.write('############################################\n\n')
@@ -651,6 +652,7 @@ def write_out(whitefile, blackfile, generic):
             with open(blackfile, 'w') as f:
                 f.write('############################################\n')
                 f.write('### ACCOMPLIST GENERATED BLACKLIST       ###\n')
+                f.write('### Version: ' + str(int(time.time())) + '                  ###\n')
                 f.write('### Chris Buijs                          ###\n')
                 f.write('### https://github.com/cbuijs/accomplist ###\n')
                 f.write('############################################\n\n')
