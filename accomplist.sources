@@ -149,3 +149,9 @@ Blacklist.DE	black	https://lists.blocklist.de/lists/all.txt	/opt/accomplist/work
 
 #Bogon4	black	https://www.team-cymru.org/Services/Bogons/fullbogons-ipv4.txt	/opt/accomplist/work/bogon4.list	7200	@IP
 #Bogon6	black	https://www.team-cymru.org/Services/Bogons/fullbogons-ipv6.txt	/opt/accomplist/work/bogon6.list	7200	@IP
+
+GMSCS-Chan	black	https://raw.githubusercontent.com/gmscs/hosts/master/chans	/opt/accomplist/work/gmscs-chan.list	7200	HOST0
+GMSCS-Chan	black	https://raw.githubusercontent.com/gmscs/hosts/master/porn	/opt/accomplist/work/gmscs-porn.list	7200	HOST0
+
+#KOCH-Spotify	black	https://raw.githubusercontent.com/CHEF-KOCH/Spotify-Ad-free/master/Spotifynulled.txt	/opt/accomplist/work/koch-spotify.list	7200	HOST0
+
