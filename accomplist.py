@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v0.04-20180508 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v0.05-20180511 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -21,7 +21,7 @@ import sys
 sys.path.append("/usr/local/lib/python2.7/dist-packages/")
 
 # Standard/Included modules
-import os, os.path, datetime
+import os, os.path, time
 from copy import deepcopy
 
 # Use requests module for downloading lists
@@ -598,6 +598,11 @@ def write_out(whitefile, blackfile, generic):
         log_info('Saving processed whitelists to \"' + whitefile + '\"')
         try:
             with open(whitefile, 'w') as f:
+                f.write('############################################\n')
+                f.write('### ACCOMPLIST GENERATED WHITELIST       ###\n')
+                f.write('### Chris Buijs                          ###\n')
+                f.write('### https://github.com/cbuijs/accomplist ###\n')
+                f.write('############################################\n\n')
                 if not generic:
                     f.write('### SAFELIST DOMAINS ###\n')
                     for line in dom_sort(safewhitelist.keys()):
@@ -644,6 +649,11 @@ def write_out(whitefile, blackfile, generic):
         log_info('Saving processed blacklists to \"' + blackfile + '\"')
         try:
             with open(blackfile, 'w') as f:
+                f.write('############################################\n')
+                f.write('### ACCOMPLIST GENERATED BLACKLIST       ###\n')
+                f.write('### Chris Buijs                          ###\n')
+                f.write('### https://github.com/cbuijs/accomplist ###\n')
+                f.write('############################################\n\n')
                 if not generic:
                     f.write('### SAFELIST DOMAINS ###\n')
                     for line in dom_sort(safeblacklist.keys()):
@@ -761,7 +771,7 @@ def file_exist(file):
                 if fsize > 0:
                     fexists = True
                     mtime = int(fstat.st_mtime)
-                    currenttime = int(datetime.datetime.now().strftime("%s"))
+                    currenttime = int(time.time())
                     age = int(currenttime - mtime)
                     return age
         except:
