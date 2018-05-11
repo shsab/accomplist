@@ -1,7 +1,7 @@
 [adblock plus 2.0]
-! version: 201805111737
+! version: 201805111831
 ! title: easylist
-! last modified: 11 may 2018 17:37 utc
+! last modified: 11 may 2018 18:31 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -40497,6 +40497,7 @@ coingamez.com,mangaumaru.com,milfzr.com,pencurimovie.cc#@#div[id^="div-gpt-ad"]
 ||ztioesdyffrr.com^$third-party
 ||ztmwkxvvyoao.com^$third-party
 ||ztorjgyxni.com^$third-party
+||zttlnqce.com^$third-party
 ||ztwfeajx.bid^$third-party
 ||ztyrgxdelngf.com^$third-party
 ||ztzfcmbsycout.bid^$third-party
@@ -69257,4 +69258,4 @@ www.google.com#@##videoads
 @@||tumblr.com^$popup,domain=pornhub.com
 @@||twitter.com^$popup,domain=pornhub.com
 @@||wmtrafficentry.com/cgi-bin/ewm.cgi/*_headertab?$popup,domain=extremetube.com|spankwire.com
-! checksum: jxdegyc1a+swapofofn6ba
+! checksum: yv8ub9ztemdd54fstsvciw
