@@ -59,6 +59,9 @@
 /^(.*\.)*double[-]*clic(k|k[-]*by[-]*google)\./
 /^(google|partner|pub)ad[s]*(api[s]*)*\./
 
+### Youtube ADs
+/^r[0-9]+.*[\.\-]sn-.*[67deklrsyz]\.googlevideo\.com$/
+
 ### Top-N advertisers/trackers domain(parts)
 /^(.*\.)*(atdmt|beget|bango|casalemedia|clickbank|extreme[-]*dm|flurry|krxd|liveadvert|moatads|mookie[1-9]*|nuggad|omtrdc|p2l|quants[e]*rv[e]*|onestat|onthe|pop(cash|check|test|under|up)|revsci|scorecardresearch|sitestat|tacoda|tynt)\./
 /^(.*\.)*(o0bc|2mdn|2o7|302br|51yes|adtech([-]*[a-z]+)*|amazon[-]*adsystem|atwola|bkrtx|bluekai|chartbeat|crwdcntrl|d(e|o)mdex|effectivemeasure|falkag|free|fwmrm|gemius)\./
@@ -94,5 +97,4 @@
 /^.*(facebook|paypal)\..*-/
 /^(bank[-]*of[-]*america|wells[-]*fargo)-/
 /^(.*\.)*g00\./
-#/^.*[67deklrsyz]\.googlevideo\.com$/
 /^.*mackeeper.*$/
