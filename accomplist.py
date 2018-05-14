@@ -1025,7 +1025,7 @@ if __name__ == "__main__":
 
                             if file_exist(listfile) >= 0:
                                 if bw == 'black':
-                                     a2b = Dict()
+                                     a2b = dict()
                                      a2b = read_lists(id, listfile, rblacklist, cblacklist4, cblacklist6, blacklist, asnblacklist, safeblacklist, False, force, bw)
                                      if a2b:
                                          for i in a2b:
