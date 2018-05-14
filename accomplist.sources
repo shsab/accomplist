@@ -152,7 +152,7 @@ GMSCS-Chan	black	https://raw.githubusercontent.com/gmscs/hosts/master/porn	/opt/
 
 #KOCH-Spotify	black	https://raw.githubusercontent.com/CHEF-KOCH/Spotify-Ad-free/master/Spotifynulled.txt	/opt/accomplist/work/koch-spotify.list	7200	HOST0
 
-AnudeepND-Youtube	black	https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt	/opt/accomplist/work/anudeepnd-youtube.list	7200	@DOMAIN
+#AnudeepND-Youtube	black	https://raw.githubusercontent.com/anudeepND/youtubeadsblacklist/master/domainlist.txt	/opt/accomplist/work/anudeepnd-youtube.list	7200	@DOMAIN
 AnudeepND-Ads	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt	/opt/accomplist/work/anudeepnd-ads.list	7200	@HOST0
 AnudeepND-Coin	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt	/opt/accomplist/work/anudeepnd-coin.list	7200	@HOST0
 #Anudeep-Whitelist	white	https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt	/opt/accomplist/work/anudeep-whitelist.list	7200	@DOMAIN
