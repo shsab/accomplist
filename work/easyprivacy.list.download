@@ -1,7 +1,7 @@
 [adblock plus 1.1]
-! version: 201805130457
+! version: 201805140721
 ! title: easyprivacy
-! last modified: 13 may 2018 04:57 utc
+! last modified: 14 may 2018 07:21 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -3674,6 +3674,7 @@
 ?action=tracking_script
 ?ad_played=
 ?affiliate=$third-party
+?args=*&t=
 ?begin_session=*&metrics=
 ?bstat=
 ?criteotrack=
@@ -3957,6 +3958,7 @@ _mongo_stats/
 ||88infra-strat.com^$third-party
 ||99counters.com^$third-party
 ||99stats.com^$third-party
+||9juj88.com^$third-party
 ||9nl.eu^$third-party
 ||a-cast.jp^$third-party
 ||a-counters.com^$third-party
@@ -6205,6 +6207,7 @@ _mongo_stats/
 ||youmetrix.co.uk^$third-party
 ||your-counter.be^$third-party
 ||youramigo.com^$third-party
+||yu987.com^$third-party
 ||z444o.com^$third-party
 ||zanox-affiliate.de^$third-party
 ||zanox.com^$third-party
@@ -6515,6 +6518,7 @@ _mongo_stats/
 ||okeyletsgo.ml^$third-party
 ||onlinereserchstatistics.online^$third-party
 ||open-hive-server-1.pp.ua^$third-party
+||openguid.org^$third-party
 ||p2poolmining.com^$third-party
 ||p2poolmining.net^$third-party
 ||papoto.com^$third-party
@@ -7791,6 +7795,7 @@ _mongo_stats/
 ||audit.303br.net^
 ||audit.median.hu^
 ||autoline-top.com/counter.php?
+||automate-prod.s3.amazonaws.com^$~script
 ||awaps.yandex.net^
 ||awe.sm/conversions/
 ||aweber.com/form/displays.htm?$image
@@ -14815,4 +14820,4 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||ukrposhta.ua/js/tracking.js
 ! anti-adblock
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-! checksum: wad/twax0d71nbvos663dw
+! checksum: bz2vru2rwtehb+tkaot/dw
