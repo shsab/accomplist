@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v0.06-20180512 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v0.061-20180514 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -266,7 +266,7 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                                         if not tld in tldlist:
                                             if (debug >= 2): log_info('Skipped DOMAIN \"' + domain + '\", TLD (' + tld + ') does not exist')
                                             domain = False
-                                            addtolist[tld] = 'Invalid TLD'
+                                            addtolist[tld] = 'Invalid-TLD'
                                             skipped += 1
 
                                     if domain:
