@@ -60,7 +60,7 @@
 /^(google|partner|pub)ad[s]*(api[s]*)*\./
 
 ### Youtube ADs
-/^.*n.[67deklrsyz]\.googlevideo\.com$/
+#/^.*n.[67deklrsyz]\.googlevideo\.com$/
 
 ### Top-N advertisers/trackers domain(parts)
 /^(.*\.)*(atdmt|beget|bango|casalemedia|clickbank|extreme[-]*dm|flurry|krxd|liveadvert|moatads|mookie[1-9]*|nuggad|omtrdc|p2l|quants[e]*rv[e]*|onestat|onthe|pop(cash|check|test|under|up)|revsci|scorecardresearch|sitestat|tacoda|tynt)\./
