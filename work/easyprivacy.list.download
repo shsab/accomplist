@@ -1,7 +1,7 @@
 [adblock plus 1.1]
-! version: 201805140721
+! version: 201805141940
 ! title: easyprivacy
-! last modified: 14 may 2018 07:21 utc
+! last modified: 14 may 2018 19:40 utc
 ! expires: 4 days (update frequency)
 ! homepage: https://easylist.to/
 ! licence: https://easylist.to/pages/licence.html
@@ -1017,6 +1017,7 @@
 /cookietag?
 /coradiant.js
 /core-tracking.js
+/core/log.js
 /coretracking.php?
 /corporatepagetracking.
 /count.cfm?
@@ -2615,6 +2616,7 @@
 /scmetrics.*/b/ss/*
 /script/analytics.
 /script/analytics/*
+/script/track?url=
 /script_log.
 /scriptanalytics.
 /scripts.kissmetrics.com/*
@@ -2669,6 +2671,7 @@
 /servlet/cookie?
 /session-hit.
 /session-tracker/tracking-
+/session.rjs
 /sessioncam.min.$script
 /sessioncam.recorder.js
 /sessioncam/*
@@ -3146,6 +3149,7 @@
 /tracking.php?q=
 /tracking.phtml?
 /tracking.relead.
+/tracking.rjs
 /tracking.vidt
 /tracking/*/agof-
 /tracking/?c_
@@ -6969,6 +6973,7 @@ _mongo_stats/
 ||alkemics.com^$third-party
 ||antvoice.com^$third-party
 ||atraxio.com^$third-party
+||browsiprod.com^$third-party
 ||canalstat.com^$third-party
 ||casualstat.com^$third-party
 ||coll1onf.com^$third-party
@@ -7003,6 +7008,7 @@ _mongo_stats/
 ||ncdnprorogeraie.lol^$third-party
 ||netquattro.com/stats/
 ||phywi.org^$third-party
+||poool.fr^$third-party
 ||reseau-pub.com^$third-party
 ||semiocast.com^$third-party
 ||sk1n.fr^$third-party
@@ -8213,6 +8219,7 @@ _mongo_stats/
 ||dw.cbsimg.net^$script
 ||dw.com.com^$script
 ||dxwgpw0lkcum5.cloudfront.net^
+||dy2xcjk8s1dbz.cloudfront.net^
 ||dymlo6ffhj97l.cloudfront.net^
 ||dzmxze7hxwn6b.cloudfront.net^
 ||dzxxxg6ij9u99.cloudfront.net^
@@ -10825,6 +10832,7 @@ _mongo_stats/
 ||epinions.com/js/stdlauncher.js
 ||epinions.com/js/triggerparams.js
 ||eporner.com/stats/
+||era.easyvoyage.com^
 ||es.puritan.com^
 ||espncdn.com^*.tracking.js
 ||et.nytimes.com^
@@ -11191,6 +11199,7 @@ _mongo_stats/
 ||ipetitions.com/img.php?
 ||irs.gov/js/irs_reporting_cookie.js
 ||issn.org/isens_marker.php?
+||istitutomarangoni.com/tracking/
 ||itp.net/ga.js
 ||itv.com/_app/cmn/js/bcm.js
 ||itweb.co.za/analytics/
@@ -13954,6 +13963,7 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||gardenista.com/media/js/libs/ga_social_tracking.js
 @@||garmin.com/modern/main/js/properties/metrics/metrics$domain=garmin.com
 @@||gatheringmagic.com/wp-content/plugins/bwp-minify/min/*/google-analyticator/$script
+@@||geo.kaloo.ga/json/?$script,domain=telesurtv.net
 @@||geo.query.yahoo.com^$xmlhttprequest,domain=m.flickr.com
 @@||geoplugin.net/javascript.gp$script,domain=christianhouseshare.com.au|gamemazing.com|soundsonline.com|support.netgear.com|support.netgear.de|support.netgear.es|support.netgear.fr|support.netgear.it|support.netgear.ru
 @@||geoplugin.net/json.gp?jsoncallback=$script,domain=worldc.am
@@ -14820,4 +14830,4 @@ $xmlhttprequest,domain=a-o.ninja|adfreetv.ch|alltube.pl|alltube.tv|auroravid.to|
 @@||ukrposhta.ua/js/tracking.js
 ! anti-adblock
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-! checksum: bz2vru2rwtehb+tkaot/dw
+! checksum: bxlyjjql5cy0rjrc5m0vmq
