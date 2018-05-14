@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v0.05-20180511 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v0.06-20180512 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -183,6 +183,8 @@ def add_exclusion(dlist, elist, slist, listname):
 def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safelist, safewlist, force, bw):
     orgid = id
 
+    addtolist = dict()
+
     if (len(name) > 0):
         try:
             with open(name, 'r') as f:
@@ -264,6 +266,7 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                                         if not tld in tldlist:
                                             if (debug >= 2): log_info('Skipped DOMAIN \"' + domain + '\", TLD (' + tld + ') does not exist')
                                             domain = False
+                                            addtolist[tld] = 'Invalid TLD'
                                             skipped += 1
 
                                     if domain:
@@ -295,7 +298,7 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                 if (debug >= 1): log_info('Fetched ' + bw + 'list ' + str(regexcount-orgregexcount) + ' REGEXES, ' + str(ipcount) + ' CIDRs, ' + str(domaincount) + ' DOMAINS and ' + str(asncount) + ' ASNs from ' + bw + '-file/list \"' + name + '\"')
                 if (debug >= 2): log_info('Total ' + bw + 'list ' + str(len(regexlist)/3) + ' REGEXES, ' + str(len(iplist4) + len(iplist6)) + ' CIDRs, ' + str(len(domainlist)) + ' DOMAINS and ' + str(len(asnlist)) + ' ASNs in ' + bw + '-list')
 
-                return True
+                return addtolist
 
         except BaseException as err:
             log_err('Unable to open file \"' + name + '\" (' + orgid + ') - ' + str(err))
@@ -1022,7 +1025,11 @@ if __name__ == "__main__":
 
                             if file_exist(listfile) >= 0:
                                 if bw == 'black':
-                                    read_lists(id, listfile, rblacklist, cblacklist4, cblacklist6, blacklist, asnblacklist, safeblacklist, False, force, bw)
+                                     a2b = Dict()
+                                     a2b = read_lists(id, listfile, rblacklist, cblacklist4, cblacklist6, blacklist, asnblacklist, safeblacklist, False, force, bw)
+                                     if a2b:
+                                         for i in a2b:
+                                             addtoblack[i] = a2b[i]
                                 elif bw == 'white':
                                     read_lists(id, listfile, rwhitelist, cwhitelist4, cblacklist6, whitelist, asnwhitelist, safewhitelist, safeunwhitelist, force, bw)
                                 elif bw == 'exclude':
