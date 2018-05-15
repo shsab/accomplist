@@ -1,7 +1,7 @@
-; spamhaus asn-drop list 2018/05/14 - (c) 2018 the spamhaus project
+; spamhaus asn-drop list 2018/05/15 - (c) 2018 the spamhaus project
 ; https://www.spamhaus.org/drop/asndrop.txt
-; last-modified: mon, 14 may 2018 09:00:29 gmt
-; expires: tue, 15 may 2018 09:00:29 gmt
+; last-modified: tue, 15 may 2018 09:00:33 gmt
+; expires: wed, 16 may 2018 09:00:33 gmt
 as612 ; us | precisiontech - precision technology inc,us
 as3266 ; us | poisonix-, de
 as3396 ; us | egg - t g & a
@@ -212,7 +212,7 @@ as57189 ; ru | unifirm llc
 as57433 ; de | intercolo-as intercolo ip-backbone, de
 as57751 ; kr | drk-alliance-as drk-alliance ltd.,ru
 as57756 ; ru | poly-net-as pe gaftkovich irina valer_evna
-as57858 ; ee | as57858, ee
+as57858 ; se | as57858, ee
 as57972 ; ee | jingyun , ee
 as58014 ; ru | mds-as mds ltd.,ru
 as58099 ; hk | mikima-as mikma ltd.,ua
