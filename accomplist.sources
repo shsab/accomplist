@@ -159,5 +159,5 @@ AnudeepND-Coin	black	https://raw.githubusercontent.com/anudeepND/blacklist/maste
 
 Raumle-Youtube	black	https://raw.githubusercontent.com/HenningVanRaumle/pihole-ytadblock/master/ytadblock.txt	/opt/accomplist/work/raumle-youtube.list	7200	@HOST0
 
-Hackertarget-Youtube	black	https://api.hackertarget.com/hostsearch/?q=googlevideo.com	/opt/accomplist/work/hackertarget-youtube.list	7200	@DOMAIN	^((?!r[0-9]+).)*.*\.googlevideo\.com$
+Hackertarget-Youtube	black	https://api.hackertarget.com/hostsearch/?q=googlevideo.com	/opt/accomplist/work/hackertarget-youtube.list	7200	@DOMAIN	^([a-z]+\.)*googlevideo\.com$
 
