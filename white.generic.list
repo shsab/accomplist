@@ -102,6 +102,7 @@ bankers.asn.au
 adelaidebank.com.au
 advance.com.au
 afma.com.au
+alluremedia.com.au
 americanexpress.com.au
 ampbanking.com.au
 anz.com.au
@@ -237,6 +238,7 @@ petercam.be
 puilaetco.be
 recordbank.be
 vdk.be
+youtu.be
 wallet.best
 acb.bg
 bacb.bg
@@ -338,6 +340,13 @@ ibank.zepterbank.by
 adz.bz
 communitybank.bz
 centralbank.org.bz
+cpms.spop10.ams.plex.bz
+cpms35.spop10.ams.plex.bz
+meta.plex.bz
+proxy02.pop.ord.plex.bz
+proxy.plex.bz
+pubsub.plex.bz
+meta-db-worker02.pop.ric.plex.bz
 agrifinance.ca
 bank-banque-canada.ca
 bankofcanada.ca
@@ -507,6 +516,7 @@ wyler-consulting.ch
 zkb.ch
 zuercherlandbank.ch
 zugerkb.ch
+crisp.chat
 sib.ci
 abif.cl
 bcentral.cl
@@ -517,10 +527,12 @@ pbc.gov.cn
 bancopopular.com.co
 banrep.gov.co
 blocklist.greensnow.co
+t.co
 02bancorp.com
 100x100banco.com
 1822direkt.com
 1ambassador.com
+1drv.com
 1natbanker.com
 1st-annapolis.com
 1stbk.com
@@ -600,6 +612,7 @@ aigpb.com
 aigprivatebank.com
 airbus-group-bank.com
 ajib.com
+akamaitechnologies.com
 akbank.com
 akibabank.com
 aktia.com
@@ -613,6 +626,7 @@ alfa-bank.com
 alfransi.com
 accounts.alibaba.com
 passport.alibaba.com
+login.aliexpress.com
 alignedpartners.com
 alipay.com
 allahabadbank.com
@@ -630,7 +644,7 @@ altajirbank.com
 altbank.com
 amanath-bank.com
 amazon.com
-s3.amazonaws.com
+amazonaws.com
 ambfinancial.com
 amco-bank.com
 amcore.com
@@ -697,6 +711,7 @@ asfc.com
 ashefederal.com
 asianamericanbank.com
 asociacionbancaria.com
+aspnetcdn.com
 assocbank.com
 associatedbank.com
 astoriafederal.com
@@ -712,6 +727,7 @@ auburnbank.com
 audi-bank.com
 audi-bankdirect.com
 audibank.com
+ws.audioscrobbler.com
 ausbanca.com
 austinbank.com
 australiancu.com
@@ -949,6 +965,7 @@ bayportbank.com
 bayshorebank.com
 baystatebank.com
 baystatesavings.com
+display.ugc.bazaarvoice.com
 bbacbank.com
 bbandt.com
 bbcnbank.com
@@ -977,6 +994,7 @@ bicsa.com
 bigskybank.com
 billdesk.com
 binarydefense.com
+bing.com
 homebrew.bintray.com
 biochim.com
 birdislandbank.com
@@ -1031,6 +1049,7 @@ brattbank.com
 brcbank.com
 bremenbank.com
 bridgewatersavings.com
+edge.api.brightcove.com
 broadwayfed.com
 brooklinebank.com
 brooklinecoop.com
@@ -1043,6 +1062,7 @@ bsvnet.com
 btc-e.com
 btrab.com
 buexpress.com
+bufferapp.com
 burgan.com
 burkeandherbertbank.com
 burlbank.com
@@ -1116,6 +1136,7 @@ cboktulsa.com
 cboviedo.com
 cbs-bank.com
 cbsbank.com
+om.cbsi.com
 cbtcnet.com
 cbtks.com
 cbtn.com
@@ -1239,6 +1260,7 @@ clevelandstatebank.com
 mbz19n.accounts.clickbank.com
 clintonnational.com
 clintonsavings.com
+cdnjs.cloudflare.com
 clydesavings.com
 cmba.com
 cmla.com
@@ -1371,6 +1393,7 @@ dairybank.com
 dallasmortgagebankers.com
 damariscottabank.com
 daoheng.com
+dataplicity.com
 db.com
 dbs.com
 dcbl.com
@@ -1409,6 +1432,8 @@ dragon-capital.com
 draperbank.com
 dresdner-bank.com
 dresdnerbank.com
+drift.com
+driftt.com
 dropbox.com
 dropboxapi.com
 dropboxstatic.com
@@ -1466,6 +1491,7 @@ elmirabank.com
 elmirasavingsbank.com
 elsb.com
 emarinebank.com
+cdn.embedly.com
 emiratesbank.com
 emmerossi.com
 empirebank.com
@@ -1858,6 +1884,7 @@ gibslandbank.com
 giffordbank.com
 gilbertbank.com
 gilmercountybank.com
+giphy.com
 github.com
 githubapp.com
 githubusercontent.com
@@ -1873,12 +1900,23 @@ goldfixing.com
 goleta.com
 golfsavingsbank.com
 goodbank.com
+0.client-channel.google.com
+android.clients.google.com
+clients2.google.com
+clients3.google.com
+clients4.google.com
+clients5.google.com
+clients6.google.com
+cse.google.com
 keep.google.com
+video-stats.l.google.com
 tagmanager.google.com
 talkgadget.google.com
-androidpay-users-pa.googleapis.com
+googleapis.com
 googlecode.com
 googleusercontent.com
+manifest.googlevideo.com
+redirector.googlevideo.com
 gorhamsavingsbank.com
 gotocsb.com
 gottardo.com
@@ -1888,6 +1926,7 @@ grabillbank.com
 grandbankflorida.com
 grandbk.com
 granitebank.com
+gravatar.com
 greatbasinbank.com
 greatercommunity.com
 greaterromebank.com
@@ -1905,8 +1944,7 @@ grupobancolombia.com
 webid2.gs.com
 gsbfin.com
 gsha.com
-connectivitycheck.gstatic.com
-play-music.gstatic.com
+gstatic.com
 guarantybankonline.com
 guarantystate.com
 gunaybank.com
@@ -1975,6 +2013,7 @@ hometownbancorp.com
 homf.com
 horizon-bank.com
 horizonbank.com
+m.hotmail.com
 hottinger.com
 houston-mba.com
 hsbc.com
@@ -2088,10 +2127,12 @@ jordan-kuwait-bank.com
 jordanislamicbank.com
 jpmorgan.com
 jpmorganaccess.com
+jquery.com
 juliusbaer.com
 juniper.com
 justcallhome.com
 jvbonline.com
+ssl.p.jwpcdn.com
 dashboard.jwplayer.com
 jyskebank.com
 kabulbank.com
@@ -2180,8 +2221,7 @@ linkedin.com
 linolakesstatebank.com
 liqpay.com
 littleriverbank.com
-login.live.com
-officeapps.live.com
+live.com
 new.livestream.com
 llewellyn-edison.com
 lloydsbank.com
@@ -2240,6 +2280,7 @@ maritimebank.com
 maritimesavings.com
 markaz.com
 marketplacebank.com
+s.marketwatch.com
 marlboroughsavings.com
 marquette.com
 marshallsavings.com
@@ -2306,7 +2347,8 @@ mfsbank.com
 mibank.com
 mibankers.com
 michigannational.com
-officecdn.microsoft.com
+microsoft.com
+microsoftonline.com
 midpennbank.com
 midsouthbank.com
 midstatebank.com
@@ -2352,6 +2394,7 @@ ms-bank.com
 msbankers.com
 msbonline.com
 msftconnecttest.com
+msftncsi.com
 mslandbank.com
 msnb.com
 msnbc.com
@@ -2360,6 +2403,7 @@ mtochka.com
 mutualsavings.com
 mvbankonline.com
 mvsb.com
+keystone.mwbsys.com
 pay.my.com
 mybankcsb.com
 mybankfirstunited.com
@@ -2440,6 +2484,7 @@ nittanybank.com
 njleague.com
 nmbank.com
 nmbankers.com
+no-ip.com
 nordea.com
 noriba.com
 norrybank.com
@@ -2491,6 +2536,7 @@ ocbc.com
 ocbcwhmac.com
 oceansidebank.com
 oevag.com
+office.com
 office365.com
 offshore-bank-list.com
 oficinadirecta.com
@@ -2514,6 +2560,9 @@ opendns.com
 openphish.com
 auth.opera.com
 api.oplata.com
+cdn.optimizely.com
+cdn2.optimizely.com
+cdn3.optimizely.com
 optimumbank.com
 orchardbank.com
 oregonbankers.com
@@ -2606,7 +2655,7 @@ pinecitybank.com
 pineislandbank.com
 pineriverstatebank.com
 pinnbank.com
-passets-cdn.pinterest.com
+pinterest.com
 pioneerbankandtrust.com
 pioneerbankstl.com
 pioneersb.com
@@ -2619,6 +2668,10 @@ plaqbank.com
 plategka.com
 secure.platononline.com
 plazabankillinois.com
+my.plexapp.com
+node.plexapp.com
+nine.plugins.plexapp.com
+tvthemes.plexapp.com
 plimus.com
 pmbank.com
 pnbindia.com
@@ -2697,6 +2750,7 @@ rcbank.com
 rcbc.com
 rcbcsavings.com
 redcent.com
+reddit.com
 redditarchive.com
 reelfootbank.com
 regal-bank.com
@@ -2739,12 +2793,15 @@ royalbank.com
 royalbankpa.com
 track2.royalmail.com
 royaloaksbank.com
+widget-cdn.rpxnow.com
 rrsb.com
 rusnarbank.com
 russlavbank.com
 russobank.com
 rzbgroup.com
 s-b-a.com
+c.s-microsoft.com
+i.s-microsoft.com
 s-nbcnews.com
 saderbank.com
 saferpay.com
@@ -2761,6 +2818,7 @@ santanderbank.com
 saradar.com
 sarasin.com
 saraswatbank.com
+ec-ns.sascdn.com
 gws.sauberbank.com
 savingsinstitute.com
 dove.saymedia.com
@@ -2811,11 +2869,14 @@ severnbank.com
 seviercobank.com
 sfnb.com
 sgcpanel.com
+sharepoint.com
 shelllakestatebank.com
 sherburnestatebank.com
 sheshunoff.com
 shinhanbank.com
 kz.shinhanglobal.com
+s.shopify.com
+v.shopify.com
 shorebank.com
 shorebankcorp.com
 shorecommunitybank.com
@@ -2850,6 +2911,7 @@ sofitasa.com
 static.reverse.softlayer.com
 static.softlayer.com
 developer.softonic.com
+solaredge.com
 solbankspain.com
 solonstatebank.com
 api-secure.solvemedia.com
@@ -2940,6 +3002,7 @@ suntrust.com
 superbiiz.com
 superiorbank.com
 suretybank.com
+surveymonkey.com
 susqbanc.com
 sv-bank.com
 svb.com
@@ -2952,6 +3015,7 @@ swcbank.com
 swissbankaccount.com
 swissnetbank.com
 swissprivatebankers.com
+sa.symcb.com
 syndicatebank.com
 synergybank.com
 synthesisbank.com
@@ -2968,6 +3032,9 @@ tdameritrade.com
 tdbank.com
 tdbanknorth.com
 tdcanadatrust.com
+app-api.ted.com
+hls.ted.com
+tedcdn.com
 tescobank.com
 texasbank.com
 texasbankers.com
@@ -3007,15 +3074,18 @@ thehenrycountybank.com
 theidahobank.com
 theinstapay.com
 thelakebank.com
+themoviedb.com
 thepeoples.com
 player.theplatform.com
 thestatebank.com
 thetrustpeople.com
+thetvdb.com
 thisisyourbank.com
 thsbank.com
 tibbank.com
 tibsite.com
 timberlandbank.com
+tinyurl.com
 tiscoasset.com
 tlnbank.com
 tnbank.com
@@ -3054,7 +3124,9 @@ turkishbanks.com
 esube.turkishcards.com
 adserver.tvcatchup.com
 adverts.cdn.tvcatchup.com
+twimg.com
 twinriverbank.com
+twitter.com
 tworiversstatebank.com
 txbank.com
 txloanstar.com
@@ -3121,6 +3193,7 @@ unitybank.com
 universalbank.com
 university-bank.com
 uno-e.com
+unsplash.com
 uobgroup.com
 dbo1.uralfinance.com
 urlblacklist.com
@@ -3152,6 +3225,7 @@ videoposte.com
 vijayabank.com
 village-bank.com
 villagebankonline.com
+vimeo.com
 vineyardbank.com
 vintagebank.com
 virginiamla.com
@@ -3233,8 +3307,9 @@ woodforest.com
 woodlandbank.com
 wooppay.com
 wooribank.com
+wordpress.com
 worldwidebanking.com
-s1.wp.com
+wp.com
 wsbcbank.com
 wsfsbank.com
 wsnb.com
@@ -3243,11 +3318,15 @@ wvacb.com
 wyomingbank.com
 wyomingbankers.com
 wyzecam.com
+xkms.xbolive.com
 marketplace.xbox.com
+xboxlive.com
 xda-cdn.com
 xda-developers.com
+imgs.xkcd.com
 xmccb.com
 static-hw.xvideos-cdn.com
+yahoo.com
 yalebankiowa.com
 ycbank.com
 yellowstonebank.com
@@ -3255,7 +3334,11 @@ ykb.com
 yolobank.com
 yourhomebank.com
 yourlocalbank.com
+youtube.com
 youtube-nocookie.com
+i.ytimg.com
+i1.ytimg.com
+s.ytimg.com
 zagury.com
 zaim.com
 zenithbank.com
@@ -5394,6 +5477,8 @@ tristateleague.info
 bceao.int
 beac.int
 ecb.int
+filament.io
+intercom.io
 advertising.oriel.io
 sbc.io
 suspect-networks.io
@@ -5589,6 +5674,7 @@ mpsbancapersonale.it
 nlb.it
 osservatoriofinanziario.it
 passbanca.it
+placehold.it
 popcortona.it
 popolarebari.it
 popolarevicenza.it
@@ -5820,6 +5906,7 @@ bnu.com.mo
 amcm.macau.gov.mo
 mcm.gov.mo
 clientis-sparkasse-horgen-niederlassung-hirzel.firmen24.mobi
+j.mp
 auth.gfx.ms
 bom.intnet.mu
 mcb.mu
@@ -5888,6 +5975,8 @@ icloud.com.akadns.net
 itunes-apple.com.akadns.net
 apple.com.edgekey.net.globalredir.akadns.net
 sonos.com.edgekey.net.globalredir.akadns.net
+akamaihd.net
+akamaized.net
 apnic.net
 apple-dns.net
 arin.net
@@ -5908,6 +5997,7 @@ secure.bnpparibas.net
 brb-bi.net
 brh.net
 brickyardbank.net
+brightcove.net
 calbank.net
 canadiabank.net
 carolinabank.net
@@ -5917,7 +6007,9 @@ centralbank.net
 maps.chitika.net
 maps-static.chitika.net
 citizenscommunityfederal.net
-fitbit.com.cdn.cloudflare.net
+cdn.cloudflare.net
+d2c8v52ll5s99u.cloudfront.net
+d2gatte9o95jao.cloudfront.net
 d2qxwxxauf5yxr.cloudfront.net
 d3jdtixm7cvu7y.cloudfront.net
 cpb.net
@@ -5928,6 +6020,7 @@ p13.dynect.net
 apple.com.edgekey.net
 icloud.com.edgekey.net
 sonos.com.edgekey.net
+ax.phobos.apple.com.edgesuite.net
 emergingthreats.net
 fbtonline.net
 fcbweb.net
@@ -5952,12 +6045,14 @@ gcmba.net
 gtld-servers.net
 hkexporter.net
 hosts-file.net
+imgix.net
 infokredit.net
 internetzwerk.net
 intuitcdn.net
 islamic-commerce.net
 ituneslogin.net
 jkbank.net
+jsdelivr.net
 fiddle.jshell.net
 kasbonspecialist.net
 keysbank.net
@@ -5977,10 +6072,12 @@ imgcomic.naver.net
 netflix.net
 nflximg.net
 nflxvideo.net
+office.net
 nbcume.sc.omtrdc.net
 bankofamerica.tt.omtrdc.net
 vodafonelimited.tt.omtrdc.net
 parex.net
+clientconfig.passport.net
 plantersbank.net
 ve1.provinet.net
 prudentbank.net
@@ -5989,6 +6086,7 @@ riversidebank.net
 root-servers.net
 rurbanfinancial.net
 scbt.net
+imagesak.secureserver.net
 securitybank.net
 securityfederal.net
 southportbank.net
@@ -6004,6 +6102,9 @@ ucbank.net
 wget-mirrors.uceprotect.net
 unicreditbanking.net
 unionstate.net
+dev.virtualearth.net
+t0.ssl.ak.tiles.virtualearth.net
+t0.ssl.ak.dynamic.tiles.virtualearth.net
 vobadirekt.net
 washingtonsavings.net
 whatsapp.net
@@ -6187,11 +6288,13 @@ indianbanksassociation.org
 th30nly.indolini.org
 indorebank.org
 ibank2.intercredit.org
+api.ipify.org
 isc.org
 jumpdanceco.org
 lba.org
 lede-project.org
 lineageos.org
+linuxtracker.org
 lsta.org
 macb.org
 marinebankers.org
@@ -6286,6 +6389,7 @@ vystarcu.org
 wib.org
 wicba.org
 widscambridge.org
+wikipedia.org
 wimba.org
 worldbank-bangladesh.org
 wvbankers.org
@@ -7210,6 +7314,7 @@ bct.gov.tn
 apbt.org.tn
 easylist.to
 reservebank.to
+tawk.to
 abank.com.tr
 3dsecure.akbank.com.tr
 online.aktifbank.com.tr
@@ -7270,6 +7375,16 @@ tkbb.org.tr
 app3.takasbank.web.tr
 central-bank.org.tt
 france.tv
+plex.tv
+apt.sonarr.tv
+download.sonarr.tv
+forums.sonarr.tv
+services.sonarr.tv
+skyhook.sonarr.tv
+cdn.vidible.tv
+delivery.vidible.tv
+img.vidible.tv
+videos.vidible.tv
 chb.com.tw
 ctnbank.com.tw
 cbc.gov.tw
