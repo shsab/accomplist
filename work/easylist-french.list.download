@@ -1,6 +1,6 @@
 [adblock plus 2.0]
-! checksum: bn1uzcowlcdyeorumz1xng
-! version: 201805151651
+! checksum: xo6g5hy5nzka85szdlbjeq
+! version: 201805160821
 ! title: liste fr
 ! liste fr ~ filtres francophones complmentaires  easylist
 ! expires: 1 days
@@ -198,6 +198,7 @@
 -emarketplace.
 -gdfp-server.
 -gpt-ads/
+-iframe/?zoneid=
 -immopub.
 -jquery.dfp.
 -load-ads/
@@ -695,6 +696,7 @@
 /ads/gif/*
 /ads/layered_
 /ads/left/*
+/ads/lz_
 /ads/mgid.
 /ads/mgid_
 /ads/overlay.
@@ -928,6 +930,7 @@
 /banlight.*?ref=
 /bann120x600_
 /bann468x60.
+/banner-*?zoneid=
 /banner-ads
 /banner-ads.
 /banner-publi-lateral.
@@ -1079,6 +1082,7 @@
 /cg/proxy.$domain=ecranlarge.com
 /cgi-bin/affiliates/*
 /cgi-bin/banner/*
+/cgi-bin/banners/*
 /choixpubjs.
 /clash/ads/*
 /clash/banner-
@@ -1174,6 +1178,7 @@
 /dynamicads.
 /e/cm?t=*&lt1=$subdocument
 /earn.*?zone=
+/eas/ads/*
 /ec_adalt.
 /ec_adalt/*
 /ec_adalt_
@@ -1417,6 +1422,7 @@
 /olyhdliveextraads-
 /open_pub.
 /openwindow.js?puurl=
+/oreo-ad.
 /origin-ads.
 /otherads/*
 /our_all_pjs.
@@ -1497,9 +1503,12 @@
 /popdesktop.js
 /popdhtml/*
 /popdhtml_
+/pophot.js
 /popox.js
 /pops/*&subid=
 /popun.*&random=
+/popunder03-
+/popunder03.
 /popunder3.
 /popunder6.
 /popunderclic.
@@ -2066,6 +2075,7 @@
 ?target=_blank&mouseover=
 ?tgt=*&zoneid=
 ?type=ad;
+?type=adram.
 ?ucozads^
 ?varpub=
 ?voluumdata=
@@ -2560,6 +2570,9 @@ _frontend_loader.$script
 /promos/popeachclick/*$popup
 /propeller_$popup
 /proxy.php?*/site_id/*$popup
+/pu/?*&site=$popup
+/pu/?*&utm_$popup
+/pu/?*?utm_$popup
 /pu2redirector.$popup
 /pub2/redirect.$popup
 /publicidad.$popup
@@ -2611,6 +2624,7 @@ _frontend_loader.$script
 /zcvisitor/*?campaignid=$popup
 ://aclick.$popup
 ://adn.*/zone/$popup
+://ads2.$popup
 ://adv-mybankai.$popup
 ://adv-mylegend.$popup
 ://adv-myninja.$popup
@@ -10637,6 +10651,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ||jemontremesfesses.com/*.php
 ||jemontremontorse.com/*.php
 ||jemontremontorse.com/images/banners/
+||jeu.info/casino/
 ||jeu.net/pub/
 ||jeux-gratuits.com/images/*/bandeau-
 ||jeux-hentai.com/bg/
@@ -12322,6 +12337,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###bandeau_pub
 ###bandeau_publicite
 ###banner-pub
+###banner970criteo
 ###bannerleaderboard
 ###bannerleaderboardtop
 ###banner_pub
@@ -12349,6 +12365,8 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###bloc_pub_carre
 ###bloc_pub_outer_float
 ###bloc_pub_p4_top
+###block-acp-block-publicite-top
+###block-fcbloc-publicite
 ###block-gc-ad-bloc-centre-1
 ###block-gc-ad-bloc-centre-2
 ###block-gc-ad-bloc-centre-3
@@ -12369,6 +12387,8 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###block_pub
 ###block_pub_article
 ###block_regie_pub_bas
+###block_regie_pub_bas_article
+###bloctopad
 ###bodygoogleannounces
 ###bodypanpub
 ###bonsplansprospect
@@ -12417,6 +12437,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###criteoad
 ###current_side_ad
 ###custom-ad
+###derperd-ad
 ###desktopad
 ###desktopmessagead
 ###dfp-banniere_haute
@@ -12663,6 +12684,8 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###pub300_home
 ###pub300x120
 ###pub300x250
+###pub336criteo
+###pub336bas-criteo
 ###pub468x15
 ###pub468x60
 ###pub468x60_centree
@@ -12734,6 +12757,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###pub_brique
 ###pub_carre
 ###pub_carre_1
+###pub_col_droite
 ###pub_col_right
 ###pub_column
 ###pub_container
@@ -12853,6 +12877,8 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ###roundpub
 ###sagreklam
 ###sbpubregie
+###script-fallback-pub336
+###script-fallback-pub336bas-criteo
 ###section-ad
 ###section-ad2
 ###sg-pub-980x200
@@ -13742,6 +13768,8 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ##.pub300single
 ##.pub300x250
 ##.pub300x250_home
+##.pub336
+##.pub336footer
 ##.pub350x250left
 ##.pub468
 ##.pub468100top
@@ -13759,6 +13787,7 @@ $popup,domain=0zz0.com|35.184.169.188|3movs.com|abcast.net|adca.st|adf.ly|adshor
 ##.pub728c
 ##.pub728x90
 ##.pub950
+##.pub96590
 ##.pub970x90
 ##.pub980x90
 ##.pubbannerscontainer
@@ -14602,8 +14631,6 @@ meteoconsult.fr###bloc_pub_sommaire_terrestre
 algerie360.com###bloc_pub_sprt
 commentcamarche.com,commentcamarche.net###bloc_sponsor
 cap-public.fr,vocationfonctionnaire.fr###blocflottant
-jolpress.com###block-acp-block-publicite-top
-franceculture.fr###block-fcbloc-publicite
 lemouv.fr###block-lemouv_bloc-pub_ftv_right
 lemouv.fr,mouv.fr###block-lemouv_bloc-pub_ftv_top
 manga-news.com###block-up
@@ -14611,8 +14638,6 @@ voyages-sncf.com###block-vsct_vsca-megabanner
 franceinfo.fr###block-zerobloc-pub-ftv-carre
 bricoleurdudimanche.com###block_a_decouvrir
 novaplanet.com###block_novadraganddrop_pub
-femmemag.re###block_regie_pub_bas_article
-cine-media.fr###bloctopad
 explorimmo.com###bob
 soudure.fr###bodytopbanner
 memoclic.com###bom_ban
@@ -14654,12 +14679,12 @@ matchendirect.fr###comparateur
 geny.com###containerbanniere1mois
 caradisiac.com###conteneurpub
 ca-anjou-maine.fr,ca-centrest.fr,ca-sudrhonealpes.fr###conteneur_promo_gauche
+voici.fr###content-right-shopping
 guadeloupe-paradise.fr###content-shadow
 millenium.org###content_pub
 spi0n.com###content_top
 abcbourse.com###ctl00_btmmaster_xforex
 edcom.fr###decouvriractu
-direct-torrents.com###derperd-ad
 papvacances.fr###details-services
 datpiff.com###disqus_thread > div
 kissanime.com###divfloatleft
@@ -14933,7 +14958,6 @@ vo2.fr###pub_background
 entrecoquins.com###pub_boutique
 jeuxvideo.com###pub_carre1
 entrecoquins.com###pub_club
-millenium.org###pub_col_droite
 elwatan.com###pub_habillage_lien
 habibal-tv.tk###pub_header_chaine
 soonnight.com###pub_imu
@@ -15602,9 +15626,6 @@ basketusa.com##.pub-top
 horoscope.fr##.pub-transfo
 lefigaro.fr##.pub-zoom
 rueducommerce.fr##.pub1
-bladi.net,jeux-fille-gratuit.com##.pub336
-bladi.net##.pub336footer
-gaytag.net##.pub96590
 cdiscount.com##.pubbloc
 meilleurmobile.com##.pubcarre
 niooz.fr##.pubdiv

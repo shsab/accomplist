@@ -292,7 +292,6 @@ function selectionchange()
 	<option value="bnpparibas">bnpparibas</option>
 	<option value="bo">bo</option>
 	<option value="boats">boats</option>
-	<option value="bostik">bostik</option>
 	<option value="boston">boston</option>
 	<option value="bot">bot</option>
 	<option value="boutique">boutique</option>
@@ -519,6 +518,7 @@ function selectionchange()
 	<option value="gn">gn</option>
 	<option value="gold">gold</option>
 	<option value="golf">golf</option>
+	<option value="goo">goo</option>
 	<option value="goog">goog</option>
 	<option value="google">google</option>
 	<option value="gop">gop</option>
@@ -1178,7 +1178,7 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 								<td bgcolor="#000066"><span class="pagetitle"><font color="white">the 10 most abused top level domains</font></span></td>
 							</tr>
 							<tr>
-								<td bgcolor="#ffd700"><font size="-1"><span class="body"><span class="body">as of 15 may 2018</span></span></font> <span class="body">the tlds with the worst reputations for spam operations are:</span></td>
+								<td bgcolor="#ffd700"><font size="-1"><span class="body"><span class="body">as of 16 may 2018</span></span></font> <span class="body">the tlds with the worst reputations for spam operations are:</span></td>
 							</tr>
 						</table>
 						<img src="/images/shad02.gif" alt="" width="544" height="15" border="0"/><span class="body"></span>
@@ -1193,8 +1193,8 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.69</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 77,852<br/>
-									bad domains: 48,277 (<b>62.0%</b>)
+									domains seen: 77,372<br/>
+									bad domains: 48,040 (<b>62.1%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1208,12 +1208,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										2									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gdn</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.17</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.link</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.37</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 2,184<br/>
-									bad domains: 1,799 (<b>82.4%</b>)
+									domains seen: 6,133<br/>
+									bad domains: 4,630 (<b>75.5%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1228,11 +1228,11 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										3									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.click</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.08</b></span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.26</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 8,075<br/>
-									bad domains: 5,682 (<b>70.4%</b>)
+									domains seen: 8,265<br/>
+									bad domains: 5,956 (<b>72.1%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1246,12 +1246,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										4									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.link</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.05</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gdn</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 6.15</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 5,858<br/>
-									bad domains: 4,240 (<b>72.4%</b>)
+									domains seen: 2,192<br/>
+									bad domains: 1,799 (<b>82.1%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1265,12 +1265,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										5									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.webcam</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.75</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.work</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.96</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 9,019<br/>
-									bad domains: 5,963 (<b>66.1%</b>)
+									domains seen: 48,186<br/>
+									bad domains: 28,062 (<b>58.2%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1284,12 +1284,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										6									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gq</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.68</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.webcam</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.78</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 164,565<br/>
-									bad domains: 82,530 (<b>50.2%</b>)
+									domains seen: 8,893<br/>
+									bad domains: 5,922 (<b>66.6%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1304,11 +1304,11 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										7									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.jetzt</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.63</b></span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.74</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 1,569<br/>
-									bad domains: 1,241 (<b>79.1%</b>)
+									domains seen: 1,535<br/>
+									bad domains: 1,237 (<b>80.6%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1322,12 +1322,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										8									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.reise</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.55</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.gq</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.63</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 1,080<br/>
-									bad domains: 883 (<b>81.8%</b>)
+									domains seen: 167,244<br/>
+									bad domains: 83,090 (<b>49.7%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1341,12 +1341,12 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										<span class="body"><b>
 										9									</b></span></div>
 								</td>
-								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.work</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.47</b></span></td>
+								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.reise</span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.61</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 45,650<br/>
-									bad domains: 24,684 (<b>54.1%</b>)
+									domains seen: 1,068<br/>
+									bad domains: 883 (<b>82.7%</b>)
 									</span>
 								</td>
 							</tr>
@@ -1361,11 +1361,11 @@ could, if they tried, "keep clean" by turning spammers and other abusers away.
 										10									</b></span></div>
 								</td>
 								<td class="title" valign="middle" bgcolor="#e6e6e6" width="90" align="left"><span class="subtitle">.cf</span></td>
-								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.46</b></span></td>
+								<td valign="middle" bgcolor="#e6e6e6" width="130" align="left"><span class="body"><b>badness index: 5.43</b></span></td>
 								<td valign="middle" bgcolor="#e6e6e6" width="100"  align="left">
 									<span class="body">
-									domains seen: 170,242<br/>
-									bad domains: 82,080 (<b>48.2%</b>)
+									domains seen: 172,375<br/>
+									bad domains: 82,681 (<b>48.0%</b>)
 									</span>
 								</td>
 							</tr>
