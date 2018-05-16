@@ -22,7 +22,6 @@ Shall-UpdateSites	white	https://raw.githubusercontent.com/cbuijs/shallalist/mast
 Shalla-Warez	black	https://github.com/cbuijs/shallalist/raw/master/warez/domains	/opt/accomplist/work/shalla-warez.list	7200	@DOMAIN
 
 UT1-Ads	black	https://raw.githubusercontent.com/cbuijs/ut1/master/publicite/domains	/opt/accomplist/work/ut1-ads.list	7200	@DOMAIN
-UT1-Banking	white	https://raw.githubusercontent.com/cbuijs/ut1/master/financial/domains	/opt/accomplist/work/ut1-banking.list	7200	@DOMAIN
 UT1-Gambling	black	https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains	/opt/accomplist/work/ut1-gambling.list	7200	@DOMAIN
 UT1-Phising	black	https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains	/opt/accomplist/work/ut1-phising.list	7200	@DOMAIN
 UT1-Porn	black	https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains	/opt/accomplist/work/ut1-porn.list	7200	@DOMAIN
