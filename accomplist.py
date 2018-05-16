@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v0.061-20180514 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.0-20180516 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -44,7 +44,12 @@ import unicodedata
 ## Variables/Dictionaries/Etc ...
 
 # Sources file to configure which lists to use
-sources = '/opt/accomplist/accomplist.sources'
+if len(sys.argv) > 1:
+    sources = str(sys.argv[1])
+    outputdir = str(sys.argv[2])
+else:
+    sources = '/opt/accomplist/accomplist.sources'
+    outputdir = '/opt/accomplist/default'
 
 # Lists
 blacklist = dict() # Domains blacklist
@@ -63,10 +68,10 @@ safewhitelist = dict() # Safe whitelist anything is this list will not be touche
 safeunwhitelist = dict() # Keep unwhitelisted entries safe
 
 # Save
-blacksave = '/opt/accomplist/black.list'
-whitesave = '/opt/accomplist/white.list'
-genericblacksave ='/opt/accomplist/black.generic.list'
-genericwhitesave ='/opt/accomplist/white.generic.list'
+blacksave = outputdir + '/black.list'
+whitesave = outputdir + '/white.list'
+genericblacksave = outputdir + '/black.generic.list'
+genericwhitesave = outputdir + '/white.generic.list'
 
 # regexlist
 fileregex = dict()
@@ -791,6 +796,13 @@ if __name__ == "__main__":
  
     # Header/User-Agent to use when downloading lists, some sites block non-browser downloads
     headers = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' }
+
+    # Make sure outputdir exists
+    if not os.path.exists(outputdir):
+        os.makedirs(outputdir)
+
+    log_info('SOURCES: ' + sources)
+    log_info('OUTPUT DIR: ' + outputdir)
 
     # Get top-level-domains
     if tldfile:
