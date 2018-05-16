@@ -43,14 +43,14 @@ Feado-IPs	black	https://feodotracker.abuse.ch/blocklist/?download=ipblocklist	/o
 FireHol1	black	https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level1.netset	/opt/accomplist/work/firehol1.list	7200	@IP
 FireHol2	black	https://raw.githubusercontent.com/firehol/blocklist-ipsets/master/firehol_level2.netset	/opt/accomplist/work/firehol2.list	7200	@IP
 GreenSnow	black	http://blocklist.greensnow.co/greensnow.txt	/opt/accomplist/work/greensnow.list	7200	@IP
-IPDENY-CN4	black	http://www.ipdeny.com/ipblocks/data/aggregated/cn-aggregated.zone	/opt/accomplist/work/ipdeny-cn4.list	7200	@IP
-IPDENY-CN6	black	http://www.ipdeny.com/ipv6/ipaddresses/aggregated/cn-aggregated.zone	/opt/accomplist/work/ipdeny-cn6.list	7200	@IP
+#IPDENY-CN4	black	http://www.ipdeny.com/ipblocks/data/aggregated/cn-aggregated.zone	/opt/accomplist/work/ipdeny-cn4.list	7200	@IP
+#IPDENY-CN6	black	http://www.ipdeny.com/ipv6/ipaddresses/aggregated/cn-aggregated.zone	/opt/accomplist/work/ipdeny-cn6.list	7200	@IP
 IPDENY-PW4	black	http://www.ipdeny.com/ipblocks/data/aggregated/pw-aggregated.zone	/opt/accomplist/work/ipdeny-pw4.list	7200	@IP
 IPDENY-PW6	black	http://www.ipdeny.com/ipv6/ipaddresses/aggregated/pw-aggregated.zone	/opt/accomplist/work/ipdeny-pw6.list	7200	@IP
-IPDENY-RU4	black	http://www.ipdeny.com/ipblocks/data/aggregated/ru-aggregated.zone	/opt/accomplist/work/ipdeny-ru4.list	7200	@IP
-IPDENY-RU6	black	http://www.ipdeny.com/ipv6/ipaddresses/aggregated/ru-aggregated.zone	/opt/accomplist/work/ipdeny-ru6.list	7200	@IP
-IPDENY-UA4		blackhttp://www.ipdeny.com/ipblocks/data/aggregated/ua-aggregated.zone	/opt/accomplist/work/ipdeny-ua4.list	7200	@IP
-IPDENY-UA6		blackhttp://www.ipdeny.com/ipv6/ipaddresses/aggregated/ua-aggregated.zone	/opt/accomplist/work/ipdeny-ua6.list	7200	@IP
+#IPDENY-RU4	black	http://www.ipdeny.com/ipblocks/data/aggregated/ru-aggregated.zone	/opt/accomplist/work/ipdeny-ru4.list	7200	@IP
+#IPDENY-RU6	black	http://www.ipdeny.com/ipv6/ipaddresses/aggregated/ru-aggregated.zone	/opt/accomplist/work/ipdeny-ru6.list	7200	@IP
+#IPDENY-UA4		blackhttp://www.ipdeny.com/ipblocks/data/aggregated/ua-aggregated.zone	/opt/accomplist/work/ipdeny-ua4.list	7200	@IP
+#IPDENY-UA6		blackhttp://www.ipdeny.com/ipv6/ipaddresses/aggregated/ua-aggregated.zone	/opt/accomplist/work/ipdeny-ua6.list	7200	@IP
 MyIP	black	https://www.myip.ms/files/blacklist/csf/latest_blacklist.txt	/opt/accomplist/work/myip.list	7200	@IP
 RansomeWareTracker-IPs	black	https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt	/opt/accomplist/work/ransomewaretracker-ips.list	7200	@IP
 SpamHaus-Drop	black	https://www.spamhaus.org/drop/drop.txt	/opt/accomplist/work/spamhaus-drop.list	7200	@IP
