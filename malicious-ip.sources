@@ -53,7 +53,6 @@ IPDENY-UA4		blackhttp://www.ipdeny.com/ipblocks/data/aggregated/ua-aggregated.zo
 IPDENY-UA6		blackhttp://www.ipdeny.com/ipv6/ipaddresses/aggregated/ua-aggregated.zone	/opt/accomplist/work/ipdeny-ua6.list	7200	@IP
 MyIP	black	https://www.myip.ms/files/blacklist/csf/latest_blacklist.txt	/opt/accomplist/work/myip.list	7200	@IP
 RansomeWareTracker-IPs	black	https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt	/opt/accomplist/work/ransomewaretracker-ips.list	7200	@IP
-SA-BlackList	black	http://www.sa-blacklist.stearns.org/sa-blacklist/sa-blacklist.current.domains	/opt/accomplist/work/sa-blacklist.list	7200	@DOMAIN
 SpamHaus-Drop	black	https://www.spamhaus.org/drop/drop.txt	/opt/accomplist/work/spamhaus-drop.list	7200	@IP
 SpamHaus-DropV6	black	https://www.spamhaus.org/drop/dropv6.txt	/opt/accomplist/work/spamhaus-dropv6.list	7200	@IP
 SpamHaus-Edrop	black	https://www.spamhaus.org/drop/edrop.txt	/opt/accomplist/work/spamhaus-edrop.list	7200	@IP
