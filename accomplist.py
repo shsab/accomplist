@@ -645,6 +645,8 @@ def write_out(whitefile, blackfile, generic):
                 for a in cwhitelist4.keys():
                     f.write(a + '\t' + cwhitelist4[a].split('(')[1].split(')')[0].strip())
                     f.write('\n')
+                    #f.write(IP(a).strNormal(3)) # Write out in range format x.x.x.x-y.y.y.y
+                    #f.write('\n')
 
                 f.write('### WHITELIST IPv6 ###\n')
                 for a in cwhitelist6.keys():
