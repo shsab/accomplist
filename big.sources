@@ -24,7 +24,7 @@ Shalla-Warez	black	https://github.com/cbuijs/shallalist/raw/master/warez/domains
 UT1-Ads	black	https://raw.githubusercontent.com/cbuijs/ut1/master/publicite/domains	/opt/accomplist/work/ut1-ads.list	7200	@DOMAIN
 UT1-Gambling	black	https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains	/opt/accomplist/work/ut1-gambling.list	7200	@DOMAIN
 UT1-Phising	black	https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains	/opt/accomplist/work/ut1-phising.list	7200	@DOMAIN
-UT1-Porn	black	https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains	/opt/accomplist/work/ut1-porn.list	7200	@DOMAIN
+UT1-Porn	black	https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains	/opt/accomplist/work/ut1-porn.list	7200	@DOMAINX	^(.*\.)*((blog|start)spot|tumblr)\.(?!com).*$
 UT1-Whitelist	white	https://raw.githubusercontent.com/cbuijs/ut1/master/liste_blanche/domains	/opt/accomplist/work/ut1-whitelist.list	7200	@DOMAIN
 
 Disconnect-Ads	black	https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt	/opt/accomplist/work/disconnect-ads.list	7200	@DOMAIN
@@ -124,6 +124,7 @@ Feado-IPs	black	https://feodotracker.abuse.ch/blocklist/?download=ipblocklist	/o
 SSL-BL	black	https://sslbl.abuse.ch/blacklist/sslipblacklist.csv	/opt/accomplist/work/ssl-blacklist.list	7200	@IP
 
 SA-BlackList	black	http://www.sa-blacklist.stearns.org/sa-blacklist/sa-blacklist.current.domains	/opt/accomplist/work/sa-blacklist.list	7200	@DOMAIN
+SA-Blacklist-IP	black	http://www.sa-blacklist.stearns.org/sa-blacklist/spamip.current.txt	/opt/accomplist/work/sa-blacklist-ip.list	7200	@SPAMIP
 
 OpenPhish	black	https://openphish.com/feed.txt	/opt/accomplist/work/openphish.list	7200	@URL
 
