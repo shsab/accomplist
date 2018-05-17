@@ -33,9 +33,9 @@ EasyList-French	black	https://easylist-downloads.adblockplus.org/liste_fr.txt	/o
 EasyList-French-Element	black	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-element.list	7200	@ADBLOCK-ELEMENT
 EasyList-French-White	white	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
-Daenoman	black	https://raw.githubusercontent.com/hl2guide/All-in-One-Customized-Adblock-List/master/deanoman-adblocklist.txt	/opt/accomplist/work/daenoman.list	7200	@ADBLOCK-BLACK
-Daenoman	black	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-element.list	7200	@ADBLOCK-ELEMENT
-Daenoman	white	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+#Daenoman	black	https://raw.githubusercontent.com/hl2guide/All-in-One-Customized-Adblock-List/master/deanoman-adblocklist.txt	/opt/accomplist/work/daenoman.list	7200	@ADBLOCK-BLACK
+#Daenoman	black	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-element.list	7200	@ADBLOCK-ELEMENT
+#Daenoman	white	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
 Adguard-Cryptominers	black	https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/cryptominers.txt	/opt/accomplist/work/adguard-cryptominers.list	7200	@ADBLOCK-BLACK
 CoinBlocker	black	https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/list.txt	/opt/accomplist/work/coinblocker.list	7200	@DOMAIN
