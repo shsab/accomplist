@@ -797,7 +797,7 @@ def make_dirs(dir):
     try:
         os.makedirs(dir)
     except BaseException as err:
-        log_err('Unable to create directory \"' + dir + '\" - ' + str(err))
+        #log_err('Unable to create directory \"' + dir + '\" - ' + str(err))
         pass
 
     return True
