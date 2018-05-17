@@ -44,12 +44,14 @@ import unicodedata
 ## Variables/Dictionaries/Etc ...
 
 # Sources file to configure which lists to use
-if len(sys.argv) > 1:
+if len(sys.argv) > 3:
     sources = str(sys.argv[1])
     outputdir = str(sys.argv[2])
+    workdir = str(sys.argv[3])
 else:
     sources = '/opt/accomplist/accomplist.sources'
     outputdir = '/opt/accomplist/default'
+    workdir = '/opt/accomplist/default/work'
 
 # Lists
 blacklist = dict() # Domains blacklist
@@ -797,12 +799,13 @@ if __name__ == "__main__":
     # Header/User-Agent to use when downloading lists, some sites block non-browser downloads
     headers = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' }
 
-    # Make sure outputdir exists
-    if not os.path.exists(outputdir):
-        os.makedirs(outputdir)
+    # Make sure dirs exists
+    os.makedirs(outputdir, exist_ok = True)
+    os.makedirs(workdir, exist_ok = True)
 
     log_info('SOURCES: ' + sources)
     log_info('OUTPUT DIR: ' + outputdir)
+    log_info('WORK DIR: ' + workdir)
 
     # Get top-level-domains
     if tldfile:
