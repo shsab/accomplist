@@ -85,7 +85,7 @@ Blacklist.DE	black	https://lists.blocklist.de/lists/all.txt	/opt/accomplist/work
 GMSCS-Chan	black	https://raw.githubusercontent.com/gmscs/hosts/master/chans	/opt/accomplist/work/gmscs-chan.list	7200	@HOST0
 GMSCS-Porn	black	https://raw.githubusercontent.com/gmscs/hosts/master/porn	/opt/accomplist/work/gmscs-porn.list	7200	@HOST0
 
-AnudeepND-Ads	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt	/opt/accomplist/work/anudeepnd-ads.list	7200	@HOST0
-AnudeepND-Coin	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt	/opt/accomplist/work/anudeepnd-coin.list	7200	@HOST0
-Anudeep-Whitelist	white	https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt	/opt/accomplist/work/anudeep-whitelist.list	7200	@DOMAIN
+#AnudeepND-Ads	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt	/opt/accomplist/work/anudeepnd-ads.list	7200	@HOST0
+#AnudeepND-Coin	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt	/opt/accomplist/work/anudeepnd-coin.list	7200	@HOST0
+#Anudeep-Whitelist	white	https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt	/opt/accomplist/work/anudeep-whitelist.list	7200	@DOMAIN
 
