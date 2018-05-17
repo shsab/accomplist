@@ -800,8 +800,11 @@ if __name__ == "__main__":
     headers = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' }
 
     # Make sure dirs exists
-    os.makedirs(outputdir, exist_ok = True)
-    os.makedirs(workdir, exist_ok = True)
+    try:
+        os.makedirs(outputdir)
+        os.makedirs(workdir)
+    except:
+        pass
 
     log_info('SOURCES: ' + sources)
     log_info('OUTPUT DIR: ' + outputdir)
@@ -927,6 +930,9 @@ if __name__ == "__main__":
                                     listfile = element[3]
                                 else:
                                     listfile = '/etc/unbound/' + id.strip('.').lower() + ".list"
+
+                                if workdir:
+                                    listfile = workdir + '/' + listfile.split('/')[-1]
     
                                 if len(element) > 4:
                                     filettl = int(element[4])
