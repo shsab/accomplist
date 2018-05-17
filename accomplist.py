@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.0-20180516 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.05-20180517 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -44,10 +44,10 @@ import unicodedata
 ## Variables/Dictionaries/Etc ...
 
 # Sources file to configure which lists to use
-if len(sys.argv) > 3:
+if len(sys.argv) > 2:
     sources = str(sys.argv[1])
     outputdir = str(sys.argv[2])
-    workdir = str(sys.argv[3])
+    workdir = outputdir + '/work'
 else:
     sources = '/opt/accomplist/accomplist.sources'
     outputdir = '/opt/accomplist/default'
@@ -792,6 +792,17 @@ def file_exist(file):
     return False
 
 
+# Make directory-structures
+def make_dirs(dir):
+    try:
+        os.makedirs(dir)
+    except BaseException as err:
+        log_err('Unable to create directory \"' + dir + '\" - ' + str(err))
+        pass
+
+    return True
+
+
 ## Main
 if __name__ == "__main__":
     log_info('\n----- ACCOMPLIST STARTED -----\n')
@@ -800,11 +811,8 @@ if __name__ == "__main__":
     headers = { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36' }
 
     # Make sure dirs exists
-    try:
-        os.makedirs(outputdir)
-        os.makedirs(workdir)
-    except:
-        pass
+    make_dirs(outputdir)
+    make_dirs(workdir)
 
     log_info('SOURCES: ' + sources)
     log_info('OUTPUT DIR: ' + outputdir)
