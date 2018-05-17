@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.05-20180517 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.10-20180517 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -602,6 +602,68 @@ def unreg_lists(dlist, rlist, safelist, listname):
     return dlist
 
 
+# Save out generic/plain files
+# !!! TEST - Needs try/except added
+# !!! Maybe use dict and simplyfy in a loop for different lists
+def plain_save(bw):
+    log_info('Creating plain ' + bw + '-lists in ' + outputdir)
+
+    if bw == 'white':
+        domlist = whitelist
+        asnlist = asnwhitelist
+        iplist4 = cwhitelist4
+        iplist6 = cwhitelist6
+        rxlist = rwhitelist
+    else:
+        domlist = blacklist
+        asnlist = asnblacklist
+        iplist4 = cblacklist4
+        iplist6 = cblacklist6
+        rxlist = rblacklist
+
+    if len(domlist) > 0:
+        with open(outputdir + '/plain.' + bw + '.domain.list', 'w') as f:
+            for domain in domlist.keys():
+                f.write(domain)
+                f.write('\n')
+
+    if len(asnlist) > 0:
+        with open(outputdir + '/plain.' + bw + '.asn.list', 'w') as f:
+            for asn in asnlist.keys():
+                f.write(asn)
+                f.write('\n')
+
+    if len(iplist4) > 0:
+        with open(outputdir + '/plain.' + bw + '.ip4cidr.list', 'w') as f:
+            for ip in iplist4.keys():
+                f.write(ip)
+                f.write('\n')
+
+        with open(outputdir + '/plain.' + bw + '.ip4range.list', 'w') as f:
+            for ip in iplist4.keys():
+                f.write(IP(ip).strNormal(3))
+                f.write('\n')
+
+    if len(iplist6) > 0:
+        with open(outputdir + '/plain.' + bw + '.ip6cidr.list', 'w') as f:
+            for ip in iplist6.keys():
+                f.write(ip)
+                f.write('\n')
+
+        with open(outputdir + '/plain.' + bw + '.ip6range.list', 'w') as f:
+            for ip in iplist6.keys():
+                f.write(IP(ip).strNormal(3))
+                f.write('\n')
+
+    if len(rxlist) > 0:
+        with open(outputdir + '/plain.' + bw + '.regex.list', 'w') as f:
+            for rx in range(0,len(rxlist)/3):
+                f.write('/' + rxlist[rx,2] + '/')
+                f.write('\n')
+
+    return True
+
+
 # Save lists to files
 def write_out(whitefile, blackfile, generic):
     if whitefile:
@@ -1121,7 +1183,8 @@ if __name__ == "__main__":
         whitelist = optimize_domlists(whitelist, 'WhiteDoms')
         cwhitelist4 = aggregate_ip(cwhitelist4, 'WhiteIP4s')
         cwhitelist6 = aggregate_ip(cwhitelist6, 'WhiteIP6s')
-        write_out(genericwhitesave, False, True)
+        #write_out(genericwhitesave, False, True)
+        plain_save('white')
         whitelist = unreg_lists(whitelist, rwhitelist, safewhitelist, 'WhiteDoms')
 
     # Optimize/Aggregate black domain lists (remove sub-domains is parent exists and entries matchin regex)
@@ -1129,7 +1192,8 @@ if __name__ == "__main__":
         blacklist = optimize_domlists(blacklist, 'BlackDoms')
         cblacklist4 = aggregate_ip(cblacklist4, 'BlackIP4s')
         cblacklist6 = aggregate_ip(cblacklist6, 'BlackIP6s')
-        write_out(False, genericblacksave, True)
+        #write_out(False, genericblacksave, True)
+        plain_save('black')
         blacklist = unreg_lists(blacklist, rblacklist, safeblacklist, 'BlackDoms')
 
     # Remove whitelisted entries from blacklist
