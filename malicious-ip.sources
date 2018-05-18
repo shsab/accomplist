@@ -53,9 +53,11 @@ IPDENY-PW6	black	http://www.ipdeny.com/ipv6/ipaddresses/aggregated/pw-aggregated
 #IPDENY-UA6		blackhttp://www.ipdeny.com/ipv6/ipaddresses/aggregated/ua-aggregated.zone	/opt/accomplist/work/ipdeny-ua6.list	7200	@IP
 MyIP	black	https://www.myip.ms/files/blacklist/csf/latest_blacklist.txt	/opt/accomplist/work/myip.list	7200	@IP
 RansomeWareTracker-IPs	black	https://ransomwaretracker.abuse.ch/downloads/RW_IPBL.txt	/opt/accomplist/work/ransomewaretracker-ips.list	7200	@IP
+SpamHaus-ASN-Drop	black	https://www.spamhaus.org/drop/asndrop.txt	/opt/accomplist/work/spamhaus-asndrop.list	7200	@ASN
 SpamHaus-Drop	black	https://www.spamhaus.org/drop/drop.txt	/opt/accomplist/work/spamhaus-drop.list	7200	@IP
 SpamHaus-DropV6	black	https://www.spamhaus.org/drop/dropv6.txt	/opt/accomplist/work/spamhaus-dropv6.list	7200	@IP
-SpamHaus-Edrop	black	https://www.spamhaus.org/drop/edrop.txt	/opt/accomplist/work/spamhaus-edrop.list	7200	@IP
+SpamHaus-EDrop	black	https://www.spamhaus.org/drop/edrop.txt	/opt/accomplist/work/spamhaus-edrop.list	7200	@IP
+SpamHaus-Top10-ASN	black	https://www.spamhaus.org/statistics/botnet-asn/	/opt/accomplist/work/spamhaus-top10-asn.list	7200	@SPAMHAUS
 SSL-BL	black	https://sslbl.abuse.ch/blacklist/sslipblacklist.csv	/opt/accomplist/work/ssl-blacklist.list	7200	@IP
 StopForumSpam-Toxic	black	https://www.stopforumspam.com/downloads/toxic_ip_cidr.txt	/opt/accomplist/work/stopforumspam-toxic.list	7200	@IP
 Suspect-Networks	black	https://suspect-networks.io/downloads/suspect_networks.txt	/opt/accomplist/work/suspect-networks.list	7200	@IP
