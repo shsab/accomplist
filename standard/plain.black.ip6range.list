@@ -40,6 +40,7 @@
 2a0a:c00:0:0:0:0:0:0-2a0a:0c07:ffff:ffff:ffff:ffff:ffff:ffff
 2a0a:36c0:0:0:0:0:0:0-2a0a:36c7:ffff:ffff:ffff:ffff:ffff:ffff
 2a0a:6240:0:0:0:0:0:0-2a0a:6247:ffff:ffff:ffff:ffff:ffff:ffff
+2a0a:6f00:0:0:0:0:0:0-2a0a:6f07:ffff:ffff:ffff:ffff:ffff:ffff
 2a0a:a200:0:0:0:0:0:0-2a0a:a207:ffff:ffff:ffff:ffff:ffff:ffff
 2a0a:a6c0:0:0:0:0:0:0-2a0a:a6c7:ffff:ffff:ffff:ffff:ffff:ffff
 2a0a:a840:0:0:0:0:0:0-2a0a:a847:ffff:ffff:ffff:ffff:ffff:ffff
