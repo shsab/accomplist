@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.10-20180517 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.20-20180517 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -52,6 +52,11 @@ else:
     sources = '/opt/accomplist/accomplist.sources'
     outputdir = '/opt/accomplist/default'
     workdir = '/opt/accomplist/default/work'
+
+# IPASN
+ipasn = dict()
+asnip = dict()
+ipasnfile = '/opt/ipasn/ipasn-all.dat'
 
 # Lists
 blacklist = dict() # Domains blacklist
@@ -248,6 +253,16 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                             else:
                                 asnlist[entry] = id
                                 asncount += 1
+
+                            if ipasnfile:
+                                asn = entry[2:]
+                                lst = asnip.get(asn, list())
+                                for ip in lst:
+                                    log_info('Added ' + ip + ' from ASN ' + entry)
+                                    if add_cidr(iplist4, iplist6, ip, id + '-' + entry):
+                                        ipcount += 1
+                                    else:
+                                        skipped += 1
 
                         elif (ipregex.match(entry)):
                             # It is an IP
@@ -881,6 +896,38 @@ if __name__ == "__main__":
     log_info('SOURCES: ' + sources)
     log_info('OUTPUT DIR: ' + outputdir)
     log_info('WORK DIR: ' + workdir)
+
+    # Load IPASN
+    if ipasnfile:
+        age = file_exist(ipasnfile)
+        if age:
+            log_info('Reading IPASN file from \"' + ipasnfile + '\"')
+            try:
+                with open(ipasnfile, 'r') as f:
+                    for line in f:
+                        entry = line.strip()
+                        if not (entry.startswith("#")) and not (len(entry) == 0):
+                            try:
+                                ip, asn = regex.split('\s+', entry)
+                                ipasn[ip] = asn
+
+                                lst = list()
+                                if asn in asnip:
+                                    lst = asnip[asn]
+
+                                lst.append(ip)
+                                asnip[asn] = lst
+
+                            except BaseException as err:
+                                log_err('Invalid line in \"' + ipasnfile + '\": ' + entry + ' - ' + str(err))
+                                pass
+
+                log_info(str(len(ipasn)) + ' IPASN Entries')
+
+            except BaseException as err:
+                log_err('Unable to read from file \"' + ipasnfile + '\": ' + str(err))
+                ipasnfile = False
+
 
     # Get top-level-domains
     if tldfile:
