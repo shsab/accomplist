@@ -15,16 +15,25 @@ Shalla-Ads	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/adv/
 Shalla-Banking	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/finance/banking/domains
 Shalla-CostTraps	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/costtraps/domains	/opt/accomplist/work/shalla-costtraps.list	7200	@DOMAIN
 Shalla-Gamble	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/gamble/domains	/opt/accomplist/work/shalla-gamble.list	7200	@DOMAIN
-Shalla-Porn	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/porn/domains	/opt/accomplist/work/shalla-porn.list	7200	@DOMAINX	^(.*\.)*((blog|start)spot|tumblr)\.(?!com).*$
+Shalla-Porn	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/porn/domains	/opt/accomplist/work/shalla-porn.list	7200	@DOMAINX	@PORNEX
 Shalla-SpyWare	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains	/opt/accomplist/work/shalla-spyware.list	7200	@DOMAIN
 Shalla-Tracker	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/trackers/domains	/opt/accomplist/work/shalla-tracker.list	7200	@DOMAIN
 Shall-UpdateSites	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/updatesites/domains	/opt/accomplist/work/shalla-update.list	7200	@DOMAIN
 Shalla-Warez	black	https://github.com/cbuijs/shallalist/raw/master/warez/domains	/opt/accomplist/work/shalla-warez.list	7200	@DOMAIN
 
+MESD-Ads	black	https://raw.githubusercontent.com/cbuijs/mesd/master/ads/domains	/opt/accomplist/work/mesd-ads.list	7200	@DOMAIN
+MESD-Gambling	black	https://raw.githubusercontent.com/cbuijs/mesd/master/gambling/domains	/opt/accomplist/work/mesd-gambling.list	7200	@DOMAIN
+MESD-Porn	black	https://raw.githubusercontent.com/cbuijs/mesd/master/porn/domains	/opt/accomplist/work/mesd-porn.list	7200	@DOMAINX	@PORNEX
+MESD-Spyware	black	https://raw.githubusercontent.com/cbuijs/mesd/master/spyware/domains	/opt/accomplist/work/mesd-spyware.list	7200	@DOMAIN
+MESD-Warez	black	https://raw.githubusercontent.com/cbuijs/mesd/master/warez/domains	/opt/accomplist/work/mesd-warez.list	7200	@DOMAIN
+
 UT1-Ads	black	https://raw.githubusercontent.com/cbuijs/ut1/master/publicite/domains	/opt/accomplist/work/ut1-ads.list	7200	@DOMAIN
+UT1-AdWare	black	https://raw.githubusercontent.com/cbuijs/ut1/master/marketingware/domains	/opt/accomplist/work/ut1-adware.list	7200	@DOMAIN
 UT1-Gambling	black	https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains	/opt/accomplist/work/ut1-gambling.list	7200	@DOMAIN
+UT1-Malware	black	https://raw.githubusercontent.com/cbuijs/ut1/master/malware/domains	/opt/accomplist/work/ut1-malware.list	7200	@DOMAIN
 UT1-Phising	black	https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains	/opt/accomplist/work/ut1-phising.list	7200	@DOMAIN
-UT1-Porn	black	https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains	/opt/accomplist/work/ut1-porn.list	7200	@DOMAINX	^(.*\.)*((blog|start)spot|tumblr)\.(?!com).*$
+UT1-Porn	black	https://raw.githubusercontent.com/cbuijs/ut1/master/adult/domains	/opt/accomplist/work/ut1-porn.list	7200	@DOMAINX	@PORNEX
+UT1-Warez	black	https://raw.githubusercontent.com/cbuijs/ut1/master/warez/domains	/opt/accomplist/work/ut1-warez.list	7200	@DOMAIN
 UT1-Whitelist	white	https://raw.githubusercontent.com/cbuijs/ut1/master/liste_blanche/domains	/opt/accomplist/work/ut1-whitelist.list	7200	@DOMAIN
 
 Disconnect-Ads	black	https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt	/opt/accomplist/work/disconnect-ads.list	7200	@DOMAIN

@@ -23,7 +23,7 @@ Chris-ASN-White	white	/opt/accomplist/chris/asn.white	/opt/accomplist/work/chris
 Shalla-Banking	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/finance/banking/domains
 #Shalla-CostTraps	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/costtraps/domains	/opt/accomplist/work/shalla-costtraps.list	7200	@DOMAIN
 #Shalla-Gamble	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/gamble/domains	/opt/accomplist/work/shalla-gamble.list	7200	@DOMAIN
-#Shalla-Porn	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/porn/domains	/opt/accomplist/work/shalla-porn.list	7200	@DOMAINX	^(.*\.)*((blog|start)spot|tumblr)\.(?!com).*$
+#Shalla-Porn	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/porn/domains	/opt/accomplist/work/shalla-porn.list	7200	@DOMAINX	@PORNEX
 #Shalla-SpyWare	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/spyware/domains	/opt/accomplist/work/shalla-spyware.list	7200	@DOMAIN
 #Shalla-Tracker	black	https://raw.githubusercontent.com/cbuijs/shallalist/master/trackers/domains	/opt/accomplist/work/shalla-tracker.list	7200	@DOMAIN
 #Shall-UpdateSites	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/updatesites/domains	/opt/accomplist/work/shalla-update.list	7200	@DOMAIN
