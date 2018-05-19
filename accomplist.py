@@ -676,6 +676,37 @@ def plain_save(bw):
                 f.write('/' + rxlist[rx,2] + '/')
                 f.write('\n')
 
+    if bw == 'black':
+        adblock_save()
+        dnsmasq_save()
+
+    return True
+
+
+# Save adblock
+def adblock_save():
+    log_info('Creating adblock.txt in ' + outputdir)
+    with open(outputdir + '/adblock.txt', 'w') as f:
+        f.write('[Adblock Plus 1.1]\n')
+        for domain in blacklist.keys():
+            f.write('||' + domain + '^\n')
+	
+        for domain in whitelist.keys():
+            f.write('@@||' + domain + '^\n')
+
+    return True
+
+
+# Save DNSMasq
+def dnsmasq_save():
+    log_info('Creating dnsmasq-servers.conf` in ' + outputdir)
+    with open(outputdir + '/dnsmasq-servers.conf', 'w') as f:
+        for domain in whitelist.keys():
+            f.write('server=' + domain + '/#\n')
+
+        for domain in blacklist.keys():
+            f.write('server=/' + domain + '/\n')
+
     return True
 
 
