@@ -29,6 +29,7 @@ MESD-Warez	black	https://raw.githubusercontent.com/cbuijs/mesd/master/warez/doma
 
 UT1-Ads	black	https://raw.githubusercontent.com/cbuijs/ut1/master/publicite/domains	/opt/accomplist/work/ut1-ads.list	7200	@DOMAIN
 UT1-AdWare	black	https://raw.githubusercontent.com/cbuijs/ut1/master/marketingware/domains	/opt/accomplist/work/ut1-adware.list	7200	@DOMAIN
+UT1-CryptoJacking	black	https://raw.githubusercontent.com/cbuijs/ut1/master/cryptojacking/domains	/opt/accomplist/work/ut1-cryptojacking	7200	@DOMAIN
 UT1-Gambling	black	https://raw.githubusercontent.com/cbuijs/ut1/master/gambling/domains	/opt/accomplist/work/ut1-gambling.list	7200	@DOMAIN
 UT1-Malware	black	https://raw.githubusercontent.com/cbuijs/ut1/master/malware/domains	/opt/accomplist/work/ut1-malware.list	7200	@DOMAIN
 UT1-Phising	black	https://raw.githubusercontent.com/cbuijs/ut1/master/phishing/domains	/opt/accomplist/work/ut1-phising.list	7200	@DOMAIN

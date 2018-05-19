@@ -41,6 +41,7 @@ Adguard-Cryptominers	black	https://raw.githubusercontent.com/AdguardTeam/Adguard
 CoinBlocker	black	https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/list.txt	/opt/accomplist/work/coinblocker.list	7200	@DOMAIN
 CoinBlocker-IP	black	https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/MiningServerIPList.txt	/opt/accomplist/work/coinblocker-ip.list	7200	@IP
 NoCoin	black	https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt	/opt/accomplist/work/nocoin.list	7200	@HOST0
+UT1-CryptoJacking	black	https://raw.githubusercontent.com/cbuijs/ut1/master/cryptojacking/domains	/opt/accomplist/work/ut1-cryptojacking	7200	@DOMAIN
 
 Dshield-Top10	black	http://feeds.dshield.org/top10-2.txt	/opt/accomplist/work/dshield-top10.list	7200	@HOST	^site$
 Dshield-Suspicious	black	https://www.dshield.org/feeds/suspiciousdomains_High.txt	/opt/accomplist/work/dshield-suspicious.list	7200	@DOMAIN	^site$
