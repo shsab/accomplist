@@ -21,7 +21,7 @@
 /^(.*\.)*double[-]*clic(k|k[-]*by[-]*google)\./
 /^(google|partner|pub)ad[s]*(api[s]*)*\./
 /^(.*\.)*(atdmt|beget|bango|casalemedia|clickbank|extreme[-]*dm|flurry|krxd|liveadvert|moatads|mookie[1-9]*|nuggad|omtrdc|p2l|quants[e]*rv[e]*|onestat|onthe|pop(cash|check|test|under|up)|revsci|scorecardresearch|sitestat|tacoda|tynt)\./
-/^(.*\.)*(o0bc|2mdn|2o7|302br|51yes|adtech([-]*[a-z]+)*|amazon[-]*adsystem|atwola|bkrtx|bluekai|chartbeat|crwdcntrl|d(e|o)mdex|effectivemeasure|falkag|free|fwmrm|gemius)\./
+/^(.*\.)*(o0bc|2mdn|2o7|302br|51yes|adtech([-]*[a-z]+)*|amazon[-]*adsystem|atwola|bkrtx|bluekai|chartbeat|crwdcntrl|d(e|o)mdex|effectivemeasure|falkag|fwmrm|gemius)\./
 /^(.*\.)*(hit(box|tail)|hotjar|imrworldwide|intellitxt|lijit|mixpanel|ms[-]*adcenter|netklix|outbrain|petrovka|pixel|syndicat(e|ion)|rubiconproject|sitemeter|skimresources|smaato|smartadserver|(fast|stat)counter|suprnova|taboola|tradedouble[r]*|xiti|usergrid|visualrevenue|volumetrk)\./
 /[^\.]*xn--[^\.]*/
 /^.*(adult|(adult|ana[a]*l|blowjob|bondage|cam|dildo|date|fetish|free|(hard|soft)core|hentai|hot|live|mature|phone|teen)[-]*(fuck|porn[o]*|se(ks|x))|eroti(c|k|sich)|fuck|gangbang|(hard|soft)core|hentai|neuk|nsfw|piemel|porn[o]*|se(ks|x)[-]*(cam|chat|dat(e|ing)|movie|shop|show|toy|tracker|video)[sz]*[0-9]*|sluts|tieten|xxx).*$/
