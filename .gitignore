@@ -4,3 +4,4 @@ work/
 */work/*
 *.sh
 ./*.list
+*.log
