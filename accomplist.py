@@ -702,7 +702,7 @@ def dnsmasq_save():
     log_info('Creating dnsmasq-servers.conf` in ' + outputdir)
     with open(outputdir + '/dnsmasq-servers.conf', 'w') as f:
         for domain in whitelist.keys():
-            f.write('server=' + domain + '/#\n')
+            f.write('server=/' + domain + '/#\n')
 
         for domain in blacklist.keys():
             f.write('server=/' + domain + '/\n')
