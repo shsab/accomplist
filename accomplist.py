@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.20-20180517 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.27-20180520 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -21,7 +21,7 @@ import sys
 sys.path.append("/usr/local/lib/python2.7/dist-packages/")
 
 # Standard/Included modules
-import os, os.path, time
+import os, os.path, time, shelve
 from copy import deepcopy
 
 # Use requests module for downloading lists
@@ -57,6 +57,7 @@ else:
 ipasn = dict()
 asnip = dict()
 ipasnfile = '/opt/ipasn/ipasn-all.dat'
+ipasnfilecache = '/opt/accomplist/ipasn.cache'
 
 # Lists
 blacklist = dict() # Domains blacklist
@@ -86,7 +87,7 @@ fileregexlist = '/opt/accomplist/accomplist.listregexes'
 
 # TLD file
 tldlist = dict()
-tldfile = '/opt/accomplist/work/iana-tlds.list'
+tldfile = workdir + '/iana-tlds.list'
 
 # Unwhitelist domains, keep in mind this can remove whitelisted entries that are blocked by IP.
 unwhitelist = False
@@ -258,7 +259,7 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                                 asn = entry[2:]
                                 lst = asnip.get(asn, list())
                                 for ip in lst:
-                                    log_info('Added ' + ip + ' from ASN ' + entry)
+                                    if (debug >= 3): log_info('Added ' + ip + ' from ASN ' + entry)
                                     if add_cidr(iplist4, iplist6, ip, id + '-' + entry):
                                         ipcount += 1
                                     else:
@@ -279,7 +280,7 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                                 if wwwregex.match(domain) and domain.count('.') > 1:
                                     label = domain.split('.')[0]
                                     newdomain = '.'.join(domain.split('.')[1:])
-                                    if (debug >= 2): log_info('Stripped \"' + label + '\" from \"' + domain + '\" (' + newdomain + ')')
+                                    if (debug >= 3): log_info('Stripped \"' + label + '\" from \"' + domain + '\" (' + newdomain + ')')
                                     domain = newdomain
 
                                 if domain:
@@ -930,8 +931,19 @@ if __name__ == "__main__":
 
     # Load IPASN
     if ipasnfile:
-        age = file_exist(ipasnfile)
-        if age:
+        age = file_exist(ipasnfilecache)
+        if age and age < maxlistage:
+            log_info('Reading ASNs from cache \"' + ipasnfilecache + '\"')
+            try:
+                s = shelve.open(ipasnfilecache, flag = 'r', protocol = 2)
+                ipasn = s['ipasn']
+                asnip = s['asnip']
+                s.close()
+
+            except BaseException as err:
+                log_err('ERROR: Unable to open/read file \"' + ipasnfile + '\" - ' + str(err))
+
+        elif file_exist(ipasnfile):
             log_info('Reading IPASN file from \"' + ipasnfile + '\"')
             try:
                 with open(ipasnfile, 'r') as f:
@@ -953,11 +965,22 @@ if __name__ == "__main__":
                                 log_err('Invalid line in \"' + ipasnfile + '\": ' + entry + ' - ' + str(err))
                                 pass
 
-                log_info(str(len(ipasn)) + ' IPASN Entries')
-
             except BaseException as err:
                 log_err('Unable to read from file \"' + ipasnfile + '\": ' + str(err))
                 ipasnfile = False
+
+            if ipasnfilecache:
+                log_info('Shelving ASN entries to \"' + ipasnfilecache + '\"')
+                try:
+                    s = shelve.open(ipasnfilecache, flag = 'n', protocol = 2)
+                    s['ipasn'] = ipasn
+                    s['asnip'] = asnip
+                    s.close()
+
+                except BaseException as err:
+                    log_err('Cannot Shelve ASN entries to \"' + ipasnfilecache + '\" - ' + str(err))
+
+        log_info(str(len(ipasn)) + ' IPASN Entries')
 
 
     # Get top-level-domains
