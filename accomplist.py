@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.27-20180520 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.30-20180521 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -54,9 +54,9 @@ else:
     workdir = '/opt/accomplist/default/work'
 
 # IPASN
-ipasn = dict()
 asnip = dict()
 ipasnfile = '/opt/ipasn/ipasn-all.dat'
+ipasnoutfile = '/opt/accomplist/ipasn-all-cidr-aggregated.dat'
 ipasnfilecache = '/opt/accomplist/ipasn.cache'
 
 # Lists
@@ -857,15 +857,8 @@ def aggregate_ip(iplist, listname):
 
     # Phase 2 - aggregate
     if aggregate:
-        ipundupped = list()
-        for ip in undupped:
-             ipundupped.append(IP(ip))
-
-        ipset = IPSet(ipundupped) # Here is the magic
-
+        ipset = ip_sort(undupped)
         for ip in ipset:
-            ip = ip.strNormal(1)
-
             if ip in iplist:
                 new[ip] = iplist[ip]
             else:
@@ -874,7 +867,7 @@ def aggregate_ip(iplist, listname):
     else:
         for ip in undupped:
             new[ip] = iplist[ip]
-
+ 
     before = len(iplist)
     after = len(new)
     count = after - before
@@ -882,6 +875,21 @@ def aggregate_ip(iplist, listname):
     if (debug >= 2): log_info('\"' + listname + '\": Number of IP-Entries went from ' + str(before) + ' to ' + str(after) + ' (' + str(count) + ')')
 
     return new
+
+
+# IP Sort/Aggregate
+def ip_sort(iplist):
+    ips = list()
+    for ip in iplist:
+        ips.append(IP(ip))
+
+    ipset = IPSet(ips) # Here is the magic
+
+    newlist = list()
+    for ip in ipset:
+        newlist.append(ip.strNormal(1))
+
+    return newlist
 
 
 # Check if file exists and return age (in seconds) if so
@@ -936,7 +944,6 @@ if __name__ == "__main__":
             log_info('Reading ASNs from cache \"' + ipasnfilecache + '\"')
             try:
                 s = shelve.open(ipasnfilecache, flag = 'r', protocol = 2)
-                ipasn = s['ipasn']
                 asnip = s['asnip']
                 s.close()
 
@@ -952,7 +959,6 @@ if __name__ == "__main__":
                         if not (entry.startswith("#")) and not (len(entry) == 0):
                             try:
                                 ip, asn = regex.split('\s+', entry)
-                                ipasn[ip] = asn
 
                                 lst = list()
                                 if asn in asnip:
@@ -969,18 +975,39 @@ if __name__ == "__main__":
                 log_err('Unable to read from file \"' + ipasnfile + '\": ' + str(err))
                 ipasnfile = False
 
+            # Sort/Aggregate
+            log_info('Sorting/Aggregating ' + str(len(asnip)) + ' IPASNs')
+            before = 0
+            after = 0
+            for asn in asnip.keys():
+                lst = asnip[asn]
+                before = before + len(lst)
+                asnip[asn] = ip_sort(lst)
+                after = after + len(asnip[asn])
+            log_info('Sorted/Aggregated IPASNs from ' + str(before) + ' to ' + str(after) + ' CIDR entries')
+
+            if ipasnoutfile:
+                log_info('Writing aggregated ASN entries to \"' + ipasnoutfile + '\"')
+                try:
+                    with open(ipasnoutfile, 'w') as f:
+                        for asn in sorted(asnip.keys(), key = int):
+                            for ip in asnip[asn]:
+                                f.write(ip + '\t' + asn + '\n')
+
+                except BaseException as err:
+                    log_err('Cannot open/write to \"' + ipasnoutfile + '\" - ' + str(err))
+
             if ipasnfilecache:
                 log_info('Shelving ASN entries to \"' + ipasnfilecache + '\"')
                 try:
                     s = shelve.open(ipasnfilecache, flag = 'n', protocol = 2)
-                    s['ipasn'] = ipasn
                     s['asnip'] = asnip
                     s.close()
 
                 except BaseException as err:
                     log_err('Cannot Shelve ASN entries to \"' + ipasnfilecache + '\" - ' + str(err))
 
-        log_info(str(len(ipasn)) + ' IPASN Entries')
+        log_info(str(len(asnip)) + ' IPASN Entries')
 
 
     # Get top-level-domains
