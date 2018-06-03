@@ -680,6 +680,23 @@ def plain_save(bw):
     if bw == 'black':
         adblock_save()
         dnsmasq_save()
+        hosts_save()
+
+    return True
+
+
+# Save HostsFile
+def hosts_save():
+    log_info('Creating plain.hosts in ' + outputdir)
+    with open(outputdir + '/plain.black.hosts.list', 'w') as f:
+        for domain in blacklist.keys():
+            f.write('0.0.0.0\t' + domain + '\n')
+            f.write('::\t' + domain + '\n')
+	
+    with open(outputdir + '/plain.white.hosts.list', 'w') as f:
+        for domain in whitelist.keys():
+            f.write('0.0.0.0\t' + domain + '\n')
+            f.write('::\t' + domain + '\n')
 
     return True
 
