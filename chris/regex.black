@@ -3,13 +3,13 @@
 
 ### Invalid chars
 
-#/^.*[^a-zA-Z0-9\.\-\:].*$/
+#/^.*[^a-zA-Z0-9\.\:\_\-].*$/
 
-### More then 36 labels in hostname
-#/^([^\.]+\.){37,}$/
+### More then 10 labels in hostname
+#/^([^\.]+\.){10,}$/
 
 ### Label longer then 63 positions
-#/^([^\.]+){64,}$/
+#/^.*([^\.]+){64,}$/
 
 ### Hostname longer then 253 positions
 #/^.{254,}$/
