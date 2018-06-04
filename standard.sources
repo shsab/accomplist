@@ -90,3 +90,9 @@ GMSCS-Porn	black	https://raw.githubusercontent.com/gmscs/hosts/master/porn	/opt/
 #AnudeepND-Coin	black	https://raw.githubusercontent.com/anudeepND/blacklist/master/CoinMiner.txt	/opt/accomplist/work/anudeepnd-coin.list	7200	@HOST0
 #Anudeep-Whitelist	white	https://raw.githubusercontent.com/anudeepND/whitelist/master/domains/whitelist.txt	/opt/accomplist/work/anudeep-whitelist.list	7200	@DOMAIN
 
+#WebTap-Canvas-FP	black	https://webtransparency.cs.princeton.edu/webcensus/canvas_fingerprinting.tsv	/opt/accomplist/work/webtap-canvas-fp.list	7200	@URL
+#WebTap-Audio-FP	black	https://webtransparency.cs.princeton.edu/webcensus/audio_fingerprinting.tsv	/opt/accomplist/work/webtap-audio-fp.list	7200	@URL
+#WebTap-WebRTC-IP	black	https://webtransparency.cs.princeton.edu/webcensus/webrtc_ip_retrieval.tsv	/opt/accomplist/work/webtap-webrtc-ip.list	7200	@URL
+#WebTap-Font-FP	black	https://webtransparency.cs.princeton.edu/webcensus/font_fingerprinting.tsv	/opt/accomplist/work/webtap-font-fp.list	7200	@URL
+#WebTap-Autofill	black	https://webtransparency.cs.princeton.edu/no_boundaries/autofill_sites.html	/opt/accomplist/work/webtap-autofill.list	7200	^.*<td><b>(?P<domain>[a-zA-Z0-9\.\-]+)</b>
+
