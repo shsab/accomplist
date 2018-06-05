@@ -11,3 +11,4 @@
 /^(.*\.)*netflix$/
 /^(.*\.)*slack(-(edge|files|(im|ms)gs|redir))*\.(com|net)$/
 /^account\..*$/
+/^.*brew(ery|ing)\..*$/

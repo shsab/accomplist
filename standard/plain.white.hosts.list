@@ -1314,8 +1314,6 @@
 ::	vobabm.de
 0.0.0.0	fnb-beatrice.com
 ::	fnb-beatrice.com
-0.0.0.0	virtualbank.com
-::	virtualbank.com
 0.0.0.0	pinnbank.com
 ::	pinnbank.com
 0.0.0.0	bankkansas.com
@@ -5052,8 +5050,6 @@
 ::	botwodessa.com
 0.0.0.0	antonveneta.it
 ::	antonveneta.it
-0.0.0.0	sparda-a.de
-::	sparda-a.de
 0.0.0.0	elliptica.de
 ::	elliptica.de
 0.0.0.0	paycard.beeline.ru
@@ -6996,6 +6992,8 @@
 ::	ibercaja.es
 0.0.0.0	homesteadbank.com
 ::	homesteadbank.com
+0.0.0.0	bbank.ru
+::	bbank.ru
 0.0.0.0	personalbank.ru
 ::	personalbank.ru
 0.0.0.0	cdm24.pl
@@ -7994,6 +7992,8 @@
 ::	amco-bank.com
 0.0.0.0	fidelitybank.com.gh
 ::	fidelitybank.com.gh
+0.0.0.0	virtualbank.com
+::	virtualbank.com
 0.0.0.0	piraeusbank.gr
 ::	piraeusbank.gr
 0.0.0.0	bank34.ua
@@ -8278,8 +8278,8 @@
 ::	hnb.hr
 0.0.0.0	vb-aw.de
 ::	vb-aw.de
-0.0.0.0	bbank.ru
-::	bbank.ru
+0.0.0.0	sparda-a.de
+::	sparda-a.de
 0.0.0.0	bankofhollysprings.com
 ::	bankofhollysprings.com
 0.0.0.0	agtrust.com
@@ -9134,8 +9134,8 @@
 ::	iyobank.co.jp
 0.0.0.0	allgaeuer-volksbank.de
 ::	allgaeuer-volksbank.de
-0.0.0.0	ifobs.bankcenter.com.ua
-::	ifobs.bankcenter.com.ua
+0.0.0.0	fitbitdevelopercontent.com
+::	fitbitdevelopercontent.com
 0.0.0.0	info.metib.ru
 ::	info.metib.ru
 0.0.0.0	webbanking.bgl.lu
@@ -10278,6 +10278,8 @@
 ::	bsnb.com
 0.0.0.0	bccpaceco.it
 ::	bccpaceco.it
+0.0.0.0	ifobs.bankcenter.com.ua
+::	ifobs.bankcenter.com.ua
 0.0.0.0	bankdirect.com
 ::	bankdirect.com
 0.0.0.0	berenberg.de
@@ -11606,6 +11608,8 @@
 ::	bmcebank.ma
 0.0.0.0	sparkasse-gelsenkirchen.de
 ::	sparkasse-gelsenkirchen.de
+0.0.0.0	christianliljeberg.se
+::	christianliljeberg.se
 0.0.0.0	biv.com.ve
 ::	biv.com.ve
 0.0.0.0	ibank.forusbank.ru
