@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.30-20180521 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.31-201801 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -182,7 +182,7 @@ def add_exclusion(dlist, elist, slist, listname):
         else:
             dlist[domain] = id
 
-        slist[domain] = dlist[domain]
+        slist[domain] = id
 
     after = len(dlist)
     count = after - before
@@ -289,7 +289,7 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                                         if not tld in tldlist:
                                             if (debug >= 2): log_info('Skipped DOMAIN \"' + domain + '\", TLD (' + tld + ') does not exist')
                                             domain = False
-                                            addtolist[tld] = 'Invalid-TLD'
+                                            addtolist[tld] = 'Invalid-TLD-' + id
                                             skipped += 1
 
                                     if domain:
@@ -758,8 +758,16 @@ def write_out(whitefile, blackfile, generic):
 
                 f.write('### WHITELIST DOMAINS ###\n')
                 for line in dom_sort(whitelist.keys()):
-                    f.write(line + '\t' + whitelist[line])
-                    f.write('\n')
+                    doit = False
+                    if not generic:
+                        if (line not in safewhitelist) and (line not in safeunwhitelist):
+                            doit = True
+                    else:
+                        doit = True
+
+                    if doit:
+                        f.write(line + '\t' + whitelist[line])
+                        f.write('\n')
 
                 if not generic:
                     f.write('### WHITELIST ASN ###\n')
@@ -807,8 +815,16 @@ def write_out(whitefile, blackfile, generic):
 
                 f.write('### BLACKLIST DOMAINS ###\n')
                 for line in dom_sort(blacklist.keys()):
-                    f.write(line + '\t' + blacklist[line])
-                    f.write('\n')
+                    doit = False
+                    if not generic:
+                        if line not in safeblacklist:
+                            doit = True
+                    else:
+                        doit = True
+
+                    if doit:
+                        f.write(line + '\t' + blacklist[line])
+                        f.write('\n')
 
                 if not generic:
                     f.write('### BLACKLIST ASN ###\n')
@@ -1287,7 +1303,6 @@ if __name__ == "__main__":
                                                         addtoblack[entry] = id
                                                     elif action == 'white':
                                                         addtowhite[entry] = id
-
                                                     excludelist[entry] = id
                                                     excount += 1
 
