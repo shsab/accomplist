@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.31-201801 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.32-20180611 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -46,7 +46,7 @@ import unicodedata
 # Sources file to configure which lists to use
 if len(sys.argv) > 2:
     sources = str(sys.argv[1])
-    outputdir = str(sys.argv[2])
+    outputdir = str(sys.argv[2]).rstrip('/')
     workdir = outputdir + '/work'
 else:
     sources = '/opt/accomplist/accomplist.sources'
@@ -790,7 +790,7 @@ def write_out(whitefile, blackfile, generic):
                 f.write('### WHITELIST EOF ###\n')
 
         except BaseException as err:
-            log_err('Unable to write to file \"' + whitefile + '\" (' + str(err) + ')')
+            log_err('Unable to write to file \"' + whitefile + '\" - ' + str(err))
 
     if blackfile:
         log_info('Saving processed blacklists to \"' + blackfile + '\"')
@@ -845,7 +845,7 @@ def write_out(whitefile, blackfile, generic):
                 f.write('### BLACKLIST EOF ###\n')
 
         except BaseException as err:
-            log_err('Unable to write to file \"' + blackfile + '\" (' + str(err) + ')')
+            log_err('Unable to write to file \"' + blackfile + '\" - ' + str(err))
 
     return True
 
@@ -1005,7 +1005,7 @@ if __name__ == "__main__":
                                 pass
 
             except BaseException as err:
-                log_err('Unable to read from file \"' + ipasnfile + '\": ' + str(err))
+                log_err('Unable to read from file \"' + ipasnfile + '\" - ' + str(err))
                 ipasnfile = False
 
             # Sort/Aggregate
@@ -1048,8 +1048,8 @@ if __name__ == "__main__":
         tldlist.clear()
         age = file_exist(tldfile)
         if not age or age > maxlistage:
-            log_info('Downloading IANA TLD list to \"' + tldfile + '\"')
-            r = requests.get('https://data.iana.org/TLD/tlds-alpha-by-domain.txt', headers=headers, allow_redirects=True)
+            log_info('\nDownloading IANA TLD list to \"' + tldfile + '\"')
+            r = requests.get('https://data.iana.org/TLD/tlds-alpha-by-domain.txt', timeout=10, headers=headers, allow_redirects=True)
             if r.status_code == 200:
                 try:
                     with open(tldfile, 'w') as f:
@@ -1058,6 +1058,9 @@ if __name__ == "__main__":
                 except BaseException as err:
                     log_err('Unable to write to file \"' + tldfile + '\": ' + str(err))
                     tldfile = False
+            else:
+                log_err('Error during downloading TLDs (' + str(r.status_code) + ' - ' + str(r.reason) + ')')
+                tldfile = False
 
         if tldfile:
             log_info('Fetching TLD list from \"' + tldfile + '\"')
@@ -1093,10 +1096,10 @@ if __name__ == "__main__":
                     tldlist['workgroup'] = True
 
             log_info('fetched ' + str(len(tldlist)) +  ' TLDs')
-
+            tldlist = optimize_domlists(tldlist, 'TLD-Doms')
 
     if fileregexlist:
-            log_info('Fetching list-regexes from \"' + fileregexlist + '\"')
+            log_info('\nFetching list-regexes from \"' + fileregexlist + '\"')
             try:
                 with open(fileregexlist, 'r') as f:
                     for line in f:
@@ -1157,6 +1160,10 @@ if __name__ == "__main__":
                                 if (debug >= 2): log_info('Source for \"' + id + '\" is an URL: \"' + url + '\"')
                             else:
                                 if (debug >= 2): log_info('Source for \"' + id + '\" is a FILE: \"' + source + '\"')
+                                if source.endswith('!'):
+                                    source = source[:-1]
+                                elif workdir:
+                                    source = workdir + "/" + source.split('/')[-1]
                                 
                             if source:
                                 if len(element) > 3:
@@ -1207,7 +1214,7 @@ if __name__ == "__main__":
                                         downloadfile = listfile + '.download'
                                         log_info('Downloading \"' + id + '\" from \"' + url + '\" to \"' + downloadfile + '\"')
                                         try:
-                                            r = requests.get(url, headers=headers, allow_redirects=True)
+                                            r = requests.get(url, timeout=10, headers=headers, allow_redirects=True)
                                             if r.status_code == 200:
                                                 try:
                                                     with open(downloadfile, 'w') as f:
@@ -1217,10 +1224,12 @@ if __name__ == "__main__":
                                                     log_err('Unable to write to file \"' + downloadfile + '\": ' + str(err))
 
                                             else:
-                                                log_err('Error during downloading from \"' + url + '\"')
+                                                log_err('Error during downloading from \"' + url + '\" (' + str(r.status_code) + ' - ' + str(r.reason) + ')')
+                                                source = False
 
                                         except BaseException as err:
-                                            log_err('Error downloading from \"' + url + '\": ' + str(err))
+                                            log_err('Error downloading from \"' + url + '\" - ' + str(err))
+                                            source = False
 
                                     else:
                                         log_info('Skipped download \"' + id + '\" previous list \"' + listfile + '\" is only ' + str(age) + ' seconds old')
@@ -1231,7 +1240,7 @@ if __name__ == "__main__":
                                 else:
                                     sourcefile = source
 
-                                if file_exist(sourcefile) >= 0:
+                                if sourcefile and file_exist(sourcefile) >= 0:
                                     if sourcefile != listfile:
                                         try:
                                             log_info('Creating \"' + id + '\" file \"' + listfile + '\" from \"' + sourcefile + '\"')
@@ -1265,10 +1274,10 @@ if __name__ == "__main__":
                                                                     if (debug >= 3): log_info(id +': Skipping excluded line \"' + line + '\"')
 
                                                 except BaseException as err:
-                                                    log_err('Unable to write to file \"' + listfile + '\" (' + str(err) + ')')
+                                                    log_err('Unable to write to file \"' + listfile + '\" - ' + str(err))
 
                                         except BaseException as err:
-                                            log_err('Unable to read source-file \"' + sourcefile + '\" (' + str(err) + ')')
+                                            log_err('Unable to read source-file \"' + sourcefile + ' - ' + str(err))
 
                                     else:
                                         log_info('Skipped processing of \"' + id + '\", source-file \"' + sourcefile + '\" same as list-file')
@@ -1309,7 +1318,7 @@ if __name__ == "__main__":
                                         log_info('Fetched ' + str(excount) + ' exclude entries from \"' + listfile + '\" (' + id + ')')
 
                                     except BaseException as err:
-                                        log_err('Unable to read list-file \"' + listfile + '\" (' + str(err) + ')')
+                                        log_err('Unable to read list-file \"' + listfile + '\" - ' + str(err))
 
                                 else:
                                     log_err('Unknow type \"' + bw + '\" for file \"' + listfile + '\"')
@@ -1321,7 +1330,7 @@ if __name__ == "__main__":
                         log_err('Not enough arguments: \"' + entry + '\"')
 
     except BaseException as err:
-        log_err('Unable to open file \"' + sources + '\": ' + str(err))
+        log_err('Unable to open file \"' + sources + '\" - ' + str(err))
 
     log_info('\n----- OPTIMIZING PHASE -----')
 
