@@ -1,15 +1,15 @@
-Chris-Regex-Black	black	/opt/accomplist/chris/regex.black	/opt/accomplist/work/chris-regex-black.list	7200	@REGEX
-Chris-Regex-White	white	/opt/accomplist/chris/regex.white	/opt/accomplist/work/chris-regex-white.list	7200	@REGEX
+Chris-Regex-Black	black	/opt/accomplist/chris/regex.black!	/opt/accomplist/work/chris-regex-black.list	7200	@REGEX
+Chris-Regex-White	white	/opt/accomplist/chris/regex.white!	/opt/accomplist/work/chris-regex-white.list	7200	@REGEX
 
-Chris-Black	black	/opt/accomplist/chris/black	/opt/accomplist/work/chris-black.list	7200	@DOMAINIP
-Chris-White	white	/opt/accomplist/chris/white	/opt/accomplist/work/chris-white.list	7200	@DOMAINIP
+Chris-Black	black	/opt/accomplist/chris/black!	/opt/accomplist/work/chris-black.list	7200	@DOMAINIP
+Chris-White	white	/opt/accomplist/chris/white!	/opt/accomplist/work/chris-white.list	7200	@DOMAINIP
 
-Chris-Exclude	exclude	/opt/accomplist/chris/exclude	/opt/accomplist/work/chris-exclude.list	7200	@DEFAULT
+Chris-Exclude	exclude	/opt/accomplist/chris/exclude!	/opt/accomplist/work/chris-exclude.list	7200	@DEFAULT
 
-Chris-TLDS	black	/opt/accomplist/chris/tlds.black	/opt/accomplist/work/chris-tlds.list	7200	@DOMAIN
+Chris-TLDS	black	/opt/accomplist/chris/tlds.black!	/opt/accomplist/work/chris-tlds.list	7200	@DOMAIN
 
-Chris-ASN-Black	black	/opt/accomplist/chris/asn.black	/opt/accomplist/work/chris-asn-black.list	7200	@ASN
-Chris-ASN-White	white	/opt/accomplist/chris/asn.white	/opt/accomplist/work/chris-asn-white.list	7200	@ASN
+Chris-ASN-Black	black	/opt/accomplist/chris/asn.black!	/opt/accomplist/work/chris-asn-black.list	7200	@ASN
+Chris-ASN-White	white	/opt/accomplist/chris/asn.white!	/opt/accomplist/work/chris-asn-white.list	7200	@ASN
 
 Shalla-Banking	white	https://raw.githubusercontent.com/cbuijs/shallalist/master/finance/banking/domains
 
@@ -21,21 +21,21 @@ Disconnect-Malvertising	black	https://s3.amazonaws.com/lists.disconnect.me/simpl
 Adguard-Banks	white	https://raw.githubusercontent.com/AdguardTeam/HttpsExclusions/master/banks.txt	/opt/accomplist/work/adguard-banks.list	7200	@DOMAIN
 
 EasyList	black	https://easylist.to/easylist/easylist.txt	/opt/accomplist/work/easylist.list	7200	@ADBLOCK-BLACK
-EasyList-Element	black	/opt/accomplist/work/easylist.list.download	/opt/accomplist/work/easylist-element.list	7200	@ADBLOCK-ELEMENT
-EasyList-White	white	/opt/accomplist/work/easylist.list.download	/opt/accomplist/work/easylist-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+EasyList-Element	black	/opt/accomplist/standard/work/easylist.list.download	/opt/accomplist/work/easylist-element.list	7200	@ADBLOCK-ELEMENT
+EasyList-White	white	/opt/accomplist/standard/work/easylist.list.download	/opt/accomplist/work/easylist-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 EasyPrivacy	black	https://easylist.to/easylist/easyprivacy.txt	/opt/accomplist/work/easyprivacy.list	7200	@ADBLOCK-BLACK
-EasyPrivacy-Element	black	/opt/accomplist/work/easyprivacy.list.download	/opt/accomplist/work/easyprivacy-element.list	7200	@ADBLOCK-ELEMENT
-EasyPrivacy-White	white	/opt/accomplist/work/easyprivacy.list.download	/opt/accomplist/work/easyprivacy-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+EasyPrivacy-Element	black	/opt/accomplist/standard/work/easyprivacy.list.download	/opt/accomplist/work/easyprivacy-element.list	7200	@ADBLOCK-ELEMENT
+EasyPrivacy-White	white	/opt/accomplist/standard/work/easyprivacy.list.download	/opt/accomplist/work/easyprivacy-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 EasyList-Dutch	black	https://easylist-downloads.adblockplus.org/easylistdutch.txt	/opt/accomplist/work/easylist-dutch.list	7200	@ADBLOCK-BLACK
-EasyList-Dutch-Element	black	/opt/accomplist/work/easylist-dutch.list.download	/opt/accomplist/work/easylist-dutch-element.list	7200	@ADBLOCK-ELEMENT
-EasyList-Dutch-White	white	/opt/accomplist/work/easylist-dutch.list.download	/opt/accomplist/work/easylist-dutch-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+EasyList-Dutch-Element	black	/opt/accomplist/standard/work/easylist-dutch.list.download	/opt/accomplist/work/easylist-dutch-element.list	7200	@ADBLOCK-ELEMENT
+EasyList-Dutch-White	white	/opt/accomplist/standard/work/easylist-dutch.list.download	/opt/accomplist/work/easylist-dutch-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 EasyList-French	black	https://easylist-downloads.adblockplus.org/liste_fr.txt	/opt/accomplist/work/easylist-french.list	7200	@ADBLOCK-BLACK
-EasyList-French-Element	black	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-element.list	7200	@ADBLOCK-ELEMENT
-EasyList-French-White	white	/opt/accomplist/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+EasyList-French-Element	black	/opt/accomplist/standard/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-element.list	7200	@ADBLOCK-ELEMENT
+EasyList-French-White	white	/opt/accomplist/standard/work/easylist-french.list.download	/opt/accomplist/work/easylist-french-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
 #Daenoman	black	https://raw.githubusercontent.com/hl2guide/All-in-One-Customized-Adblock-List/master/deanoman-adblocklist.txt	/opt/accomplist/work/daenoman.list	7200	@ADBLOCK-BLACK
-#Daenoman	black	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-element.list	7200	@ADBLOCK-ELEMENT
-#Daenoman	white	/opt/accomplist/work/daenoman.list.download	/opt/accomplist/work/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+#Daenoman-Element	black	/opt/accomplist/standard/work/daenoman.list.download	/opt/accomplist/work/daenoman-element.list	7200	@ADBLOCK-ELEMENT
+#Daenoman-White	white	/opt/accomplist/standard/work/daenoman.list.download	/opt/accomplist/work/daenoman-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
 
 Adguard-Cryptominers	black	https://raw.githubusercontent.com/AdguardTeam/AdguardFilters/master/EnglishFilter/sections/cryptominers.txt	/opt/accomplist/work/adguard-cryptominers.list	7200	@ADBLOCK-BLACK
 CoinBlocker	black	https://raw.githubusercontent.com/ZeroDot1/CoinBlockerLists/master/list.txt	/opt/accomplist/work/coinblocker.list	7200	@DOMAIN
