@@ -1225,13 +1225,9 @@ if __name__ == "__main__":
 
                                             else:
                                                 log_err('Error during downloading from \"' + url + '\" (' + str(r.status_code) + ' - ' + str(r.reason) + ')')
-                                                source = False
-                                                downloadfile = False
 
                                         except BaseException as err:
                                             log_err('Error downloading from \"' + url + '\" - ' + str(err))
-                                            source = False
-                                            downloadfile = False
 
                                     else:
                                         log_info('Skipped download \"' + id + '\" previous list \"' + listfile + '\" is only ' + str(age) + ' seconds old')
@@ -1242,7 +1238,7 @@ if __name__ == "__main__":
                                 else:
                                     sourcefile = source
 
-                                if sourcefile and file_exist(sourcefile) >= 0:
+                                if file_exist(sourcefile) >= 0:
                                     if sourcefile != listfile:
                                         try:
                                             log_info('Creating \"' + id + '\" file \"' + listfile + '\" from \"' + sourcefile + '\"')
