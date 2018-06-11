@@ -10,8 +10,8 @@
 ::	indusind.com
 0.0.0.0	statefinancialbank.com
 ::	statefinancialbank.com
-0.0.0.0	msbonline.com
-::	msbonline.com
+0.0.0.0	videosxml.mobileads.indiatimes.com
+::	videosxml.mobileads.indiatimes.com
 0.0.0.0	ridgewoodbank.com
 ::	ridgewoodbank.com
 0.0.0.0	interfin.fi.cr
@@ -66,6 +66,8 @@
 ::	unionplanters.com
 0.0.0.0	acs-education.com
 ::	acs-education.com
+0.0.0.0	msbonline.com
+::	msbonline.com
 0.0.0.0	sparkasse-gunzenhausen.de
 ::	sparkasse-gunzenhausen.de
 0.0.0.0	banque-solidarites.com
@@ -80,8 +82,6 @@
 ::	volksbank-ulm-biberach.de
 0.0.0.0	nbe.gov.et
 ::	nbe.gov.et
-0.0.0.0	zapsibkombank.ru
-::	zapsibkombank.ru
 0.0.0.0	2checkout.com
 ::	2checkout.com
 0.0.0.0	banguat.gob.gt
@@ -742,8 +742,8 @@
 ::	fsbperkasie.com
 0.0.0.0	bancodeoro.com.ph
 ::	bancodeoro.com.ph
-0.0.0.0	jpmorganaccess.com
-::	jpmorganaccess.com
+0.0.0.0	oas.theguardian.com
+::	oas.theguardian.com
 0.0.0.0	societegenerale.com
 ::	societegenerale.com
 0.0.0.0	zkb.ru
@@ -886,6 +886,8 @@
 ::	bnymellon.com
 0.0.0.0	oldflbank.com
 ::	oldflbank.com
+0.0.0.0	advertising.scoop.co.nz
+::	advertising.scoop.co.nz
 0.0.0.0	kvarnerbanka.hr
 ::	kvarnerbanka.hr
 0.0.0.0	sparkasse-unna.de
@@ -1546,8 +1548,8 @@
 ::	kbc123.com
 0.0.0.0	centea.be
 ::	centea.be
-0.0.0.0	vb-reutlingen.de
-::	vb-reutlingen.de
+0.0.0.0	wellsfargo.com
+::	wellsfargo.com
 0.0.0.0	vr-bank-nordrhoen.de
 ::	vr-bank-nordrhoen.de
 0.0.0.0	iberiabank.com
@@ -1568,6 +1570,8 @@
 ::	stadtsparkasse-lippstadt.de
 0.0.0.0	rocketbank.ru
 ::	rocketbank.ru
+0.0.0.0	dove.saymedia.com
+::	dove.saymedia.com
 0.0.0.0	ibc.orgbank.ru
 ::	ibc.orgbank.ru
 0.0.0.0	nbcuas.com
@@ -1648,10 +1652,14 @@
 ::	online.binbankcards.ru
 0.0.0.0	ibank2.newtimebank.ru
 ::	ibank2.newtimebank.ru
+0.0.0.0	adserver.bworldonline.com
+::	adserver.bworldonline.com
 0.0.0.0	ca-charente-perigord.fr
 ::	ca-charente-perigord.fr
 0.0.0.0	bankcnb.com
 ::	bankcnb.com
+0.0.0.0	xpanama.net
+::	xpanama.net
 0.0.0.0	sbsu.com
 ::	sbsu.com
 0.0.0.0	raiffeisenbank-gmund.de
@@ -2092,6 +2100,8 @@
 ::	cboviedo.com
 0.0.0.0	rb-ehekirchen.de
 ::	rb-ehekirchen.de
+0.0.0.0	api-merchants.skimlinks.com
+::	api-merchants.skimlinks.com
 0.0.0.0	bealbank.com
 ::	bealbank.com
 0.0.0.0	bangente.com.ve
@@ -2714,8 +2724,8 @@
 ::	mslandbank.com
 0.0.0.0	lcf-rothschild.fr
 ::	lcf-rothschild.fr
-0.0.0.0	wellsfargo.com
-::	wellsfargo.com
+0.0.0.0	vb-reutlingen.de
+::	vb-reutlingen.de
 0.0.0.0	businessbankmn.com
 ::	businessbankmn.com
 0.0.0.0	vbheiden.de
@@ -3822,6 +3832,8 @@
 ::	karafarinbank.com
 0.0.0.0	dyndns.org
 ::	dyndns.org
+0.0.0.0	query.petametrics.com
+::	query.petametrics.com
 0.0.0.0	gnbbank.com
 ::	gnbbank.com
 0.0.0.0	nordea.ee
@@ -5054,6 +5066,8 @@
 ::	citynb.com
 0.0.0.0	encoremanagement.com
 ::	encoremanagement.com
+0.0.0.0	i-vtb.by
+::	i-vtb.by
 0.0.0.0	auxmoney.com
 ::	auxmoney.com
 0.0.0.0	ibank2.krossinv.ru
@@ -5148,6 +5162,8 @@
 ::	chase.com
 0.0.0.0	bankmeridian.com
 ::	bankmeridian.com
+0.0.0.0	advertising.oriel.io
+::	advertising.oriel.io
 0.0.0.0	nospa.de
 ::	nospa.de
 0.0.0.0	alpharheintalbank.ch
@@ -5392,6 +5408,8 @@
 ::	vrbank-untertaunus.de
 0.0.0.0	forex.se
 ::	forex.se
+0.0.0.0	logging.apache.org
+::	logging.apache.org
 0.0.0.0	rb-onw.de
 ::	rb-onw.de
 0.0.0.0	postbank.bg
@@ -5412,6 +5430,8 @@
 ::	lppm.org.uk
 0.0.0.0	fsbwabasha.com
 ::	fsbwabasha.com
+0.0.0.0	jpmorganaccess.com
+::	jpmorganaccess.com
 0.0.0.0	ib.solidar.ru
 ::	ib.solidar.ru
 0.0.0.0	atbank.com.tr
@@ -5848,6 +5868,8 @@
 ::	mpsbancapersonale.it
 0.0.0.0	anadolubank.com.tr
 ::	anadolubank.com.tr
+0.0.0.0	metrics.torproject.org
+::	metrics.torproject.org
 0.0.0.0	vr-bank-ehh.de
 ::	vr-bank-ehh.de
 0.0.0.0	agvbanken.de
@@ -7152,6 +7174,8 @@
 ::	bv-activebanking.de
 0.0.0.0	banking-gefa-bank.de
 ::	banking-gefa-bank.de
+0.0.0.0	authentication-api.skimlinks.com
+::	authentication-api.skimlinks.com
 0.0.0.0	simpletax.ca
 ::	simpletax.ca
 0.0.0.0	beac.ru
@@ -7600,6 +7624,8 @@
 ::	societegenerale.fr
 0.0.0.0	volksbankgelderland.de
 ::	volksbankgelderland.de
+0.0.0.0	maps.chitika.net
+::	maps.chitika.net
 0.0.0.0	obk.be
 ::	obk.be
 0.0.0.0	fnb.com
@@ -7836,6 +7862,8 @@
 ::	bancagenerali.it
 0.0.0.0	kfh.com
 ::	kfh.com
+0.0.0.0	webtrack.dhlglobalmail.com
+::	webtrack.dhlglobalmail.com
 0.0.0.0	secure.platononline.com
 ::	secure.platononline.com
 0.0.0.0	fnbchix.com
@@ -9544,6 +9572,8 @@
 ::	scbankers.org
 0.0.0.0	banksouthwest.com
 ::	banksouthwest.com
+0.0.0.0	adverts.cdn.tvcatchup.com
+::	adverts.cdn.tvcatchup.com
 0.0.0.0	vblh.de
 ::	vblh.de
 0.0.0.0	bank-direct.ru
@@ -9582,8 +9612,8 @@
 ::	handelsbanken.fi
 0.0.0.0	fnbrochelle.com
 ::	fnbrochelle.com
-0.0.0.0	blz.nifox.de
-::	blz.nifox.de
+0.0.0.0	zapsibkombank.ru
+::	zapsibkombank.ru
 0.0.0.0	kreissparkasse-boerde.de
 ::	kreissparkasse-boerde.de
 0.0.0.0	raiffeisenbank-neudenau.de
@@ -9592,8 +9622,8 @@
 ::	volksbank-neckartal.de
 0.0.0.0	greatfallsbank.com
 ::	greatfallsbank.com
-0.0.0.0	bccaquara.it
-::	bccaquara.it
+0.0.0.0	vrbank-geo.de
+::	vrbank-geo.de
 0.0.0.0	cbak.com
 ::	cbak.com
 0.0.0.0	vrbank.de
@@ -11844,6 +11874,8 @@
 ::	profit-team.de
 0.0.0.0	wivoba.de
 ::	wivoba.de
+0.0.0.0	img.travidia.com
+::	img.travidia.com
 0.0.0.0	pelco.org
 ::	pelco.org
 0.0.0.0	hesab.az
@@ -11888,6 +11920,8 @@
 ::	profinium.com
 0.0.0.0	ibank.bkbank.ru
 ::	ibank.bkbank.ru
+0.0.0.0	maps-static.chitika.net
+::	maps-static.chitika.net
 0.0.0.0	demirbank.ro
 ::	demirbank.ro
 0.0.0.0	donner-reuschel.de
@@ -12476,6 +12510,8 @@
 ::	cvw-privatbank-ag.de
 0.0.0.0	scotbanks.co.uk
 ::	scotbanks.co.uk
+0.0.0.0	banners.gametracker.rs
+::	banners.gametracker.rs
 0.0.0.0	kasbonspecialist.net
 ::	kasbonspecialist.net
 0.0.0.0	canadiabank.net
@@ -12878,6 +12914,8 @@
 ::	unitedcommunitybanks.com
 0.0.0.0	socgenyu.com
 ::	socgenyu.com
+0.0.0.0	screenshot3.bid
+::	screenshot3.bid
 0.0.0.0	fpb.ru
 ::	fpb.ru
 0.0.0.0	bankgeschichte.de
@@ -12922,6 +12960,8 @@
 ::	griffonbank.com
 0.0.0.0	eb.de
 ::	eb.de
+0.0.0.0	blz.nifox.de
+::	blz.nifox.de
 0.0.0.0	royaloaksbank.com
 ::	royaloaksbank.com
 0.0.0.0	raiffeisen.hu
@@ -12976,6 +13016,8 @@
 ::	casg.ch
 0.0.0.0	meliorbanca.it
 ::	meliorbanca.it
+0.0.0.0	banners.wunderground.com
+::	banners.wunderground.com
 0.0.0.0	legbank.kiev.ua
 ::	legbank.kiev.ua
 0.0.0.0	mnb.hu
@@ -13030,6 +13072,8 @@
 ::	ibank.dvbank.ru
 0.0.0.0	rsb.ru
 ::	rsb.ru
+0.0.0.0	funniermoments.com
+::	funniermoments.com
 0.0.0.0	rsb.ro
 ::	rsb.ro
 0.0.0.0	volksbank-boppard.de
@@ -13166,6 +13210,8 @@
 ::	bank.postil.com
 0.0.0.0	svcbank.com
 ::	svcbank.com
+0.0.0.0	nytimes.perfectmarket.com
+::	nytimes.perfectmarket.com
 0.0.0.0	hkbc.com
 ::	hkbc.com
 0.0.0.0	citizensbank.com
@@ -13292,6 +13338,8 @@
 ::	netbankinc.com
 0.0.0.0	valleynationalbank.com
 ::	valleynationalbank.com
+0.0.0.0	player.sundaysky.com
+::	player.sundaysky.com
 0.0.0.0	fnbnet.com
 ::	fnbnet.com
 0.0.0.0	ebanking-hoernerbank.de
@@ -13806,6 +13854,8 @@
 ::	citibank.com
 0.0.0.0	bankatcommerce.com
 ::	bankatcommerce.com
+0.0.0.0	adserver.tvcatchup.com
+::	adserver.tvcatchup.com
 0.0.0.0	dohabank.com.qa
 ::	dohabank.com.qa
 0.0.0.0	finprombank.ru
@@ -13860,6 +13910,8 @@
 ::	ufscla.org
 0.0.0.0	ksk-loebau-zittau.de
 ::	ksk-loebau-zittau.de
+0.0.0.0	track2.royalmail.com
+::	track2.royalmail.com
 0.0.0.0	lansforsakringar.se
 ::	lansforsakringar.se
 0.0.0.0	rbborken.de
@@ -13978,8 +14030,8 @@
 ::	fsbshallowater.com
 0.0.0.0	fnbt.com
 ::	fnbt.com
-0.0.0.0	vrbank-geo.de
-::	vrbank-geo.de
+0.0.0.0	bccaquara.it
+::	bccaquara.it
 0.0.0.0	acs-visa.norvik.eu
 ::	acs-visa.norvik.eu
 0.0.0.0	bankkaufmann.com
@@ -14054,6 +14106,8 @@
 ::	bankforeningen.se
 0.0.0.0	expobank.ru
 ::	expobank.ru
+0.0.0.0	media.cargocollective.com
+::	media.cargocollective.com
 0.0.0.0	caribefederal.com
 ::	caribefederal.com
 0.0.0.0	darierhentsch.ch
@@ -14354,8 +14408,8 @@
 ::	bankpacific.com
 0.0.0.0	communitybankofnaples.com
 ::	communitybankofnaples.com
-0.0.0.0	i-vtb.by
-::	i-vtb.by
+0.0.0.0	tvn.adocean.pl
+::	tvn.adocean.pl
 0.0.0.0	ebrd.com
 ::	ebrd.com
 0.0.0.0	volksbank-hellweg.de
@@ -14752,6 +14806,8 @@
 ::	leipziger-volksbank.de
 0.0.0.0	ib.btrl.ro
 ::	ib.btrl.ro
+0.0.0.0	ads.memo2.nl
+::	ads.memo2.nl
 0.0.0.0	bimantara.co.id
 ::	bimantara.co.id
 0.0.0.0	rjbank.com
