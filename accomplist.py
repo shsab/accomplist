@@ -704,8 +704,8 @@ def ls_save(bw):
 
     with open(outputdir + '/litte-snitch.' + bw + '.lsrules', 'w') as f:
         f.write('{\n')
-        f.write('\t\"description\" : \"Accomplist ' + bw + 'list, see https://github.com/cbuijs/accomplist\"\n')
-        f.write('\t\"name\" : \"Accomplist ' + bw + 'list\"\n')
+        f.write('\t\"description\" : \"Accomplist ' + bw + 'list, see https://github.com/cbuijs/accomplist\",\n')
+        f.write('\t\"name\" : \"Accomplist ' + bw + 'list\",\n')
         f.write('\t\"rules\" : [\n')
 
         if len(domlist) > 0:
