@@ -1,6 +1,6 @@
 {
-	"description" : "Accomplist whitelist, see https://github.com/cbuijs/accomplist"
-	"name" : "Accomplist whitelist"
+	"description" : "Accomplist whitelist, see https://github.com/cbuijs/accomplist",
+	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
 			"action" : "allow",
