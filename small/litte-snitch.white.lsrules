@@ -1,0 +1,156 @@
+{
+	"description" : "Accomplist whitelist (1528907763.75). See: https://github.com/cbuijs/accomplist",
+	"name" : "Accomplist whitelist",
+	"rules" : [
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "logging.apache.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "advertising.oriel.io"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "xpanama.net"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "dove.saymedia.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "nytimes.perfectmarket.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "videosxml.mobileads.indiatimes.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "query.petametrics.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "player.sundaysky.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "media.cargocollective.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "sprites.pornxs.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "adverts.cdn.tvcatchup.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "metrics.torproject.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "track2.royalmail.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "advertising.scoop.co.nz"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "tvn.adocean.pl"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "maps.chitika.net"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "maps-static.chitika.net"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "banners.wunderground.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "adserver.tvcatchup.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "funniermoments.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "webtrack.dhlglobalmail.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "authentication-api.skimlinks.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "oas.theguardian.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "ads.memo2.nl"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "api-merchants.skimlinks.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "screenshot3.bid"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "img.travidia.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "banners.gametracker.rs"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "adserver.bworldonline.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-hosts" : "white.sinkhole"
+		}
+	]
+}
