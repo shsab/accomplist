@@ -1,11 +1,11 @@
 {
-	"description" : "Accomplist whitelist (1528904046.05). See: https://github.com/cbuijs/accomplist",
-	"name" : "Accomplist whitelist",
+	"description" : "Accomplist Blacklist, see https://github.com/cbuijs/accomplist"
+	"name" : "Accomplist Blacklist"
 	"rules" : [
 		{
-			"action" : "allow",
+			"action" : "deny",
 			"process" : "any",
-			"remote-hosts" : "white.sinkhole"
+			"remote-hosts" : "sinkhole"
 		}
 	]
 }

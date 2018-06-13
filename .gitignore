@@ -1,7 +1,6 @@
 __pycache__/
 default/
 work/
-big/
 */work/*
 *.sh
 ./*.list
