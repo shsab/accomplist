@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.32-20180611 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.35-20180613 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -677,10 +677,68 @@ def plain_save(bw):
                 f.write('/' + rxlist[rx,2] + '/')
                 f.write('\n')
 
+    ls_save(bw)
+
     if bw == 'black':
         adblock_save()
         dnsmasq_save()
         hosts_save()
+
+    return True
+
+
+# Little Snitch
+def ls_save(bw):
+    log_info('Creating little-snitch ' + bw + '-config in ' + outputdir)
+
+    if bw == 'white':
+        action = "allow"
+        domlist = whitelist
+        iplist4 = cwhitelist4
+        iplist6 = cwhitelist6
+    else:
+        action = "deny"
+        domlist = blacklist
+        iplist4 = cblacklist4
+        iplist6 = cblacklist6
+
+    with open(outputdir + '/litte-snitch.' + bw + '.lsrules', 'w') as f:
+        f.write('{\n')
+        f.write('\t\"description\" : \"Accomplist ' + bw + 'list, see https://github.com/cbuijs/accomplist\"\n')
+        f.write('\t\"name\" : \"Accomplist ' + bw + 'list\"\n')
+        f.write('\t\"rules\" : [\n')
+
+        if len(domlist) > 0:
+            for domain in domlist.keys():
+                f.write('\t\t{\n')
+                f.write('\t\t\t\"action\" : \"' + action + '\",\n')
+                f.write('\t\t\t\"process\" : \"any\",\n')
+                f.write('\t\t\t\"remote-domains\" : \"' + domain + '\"\n')
+                f.write('\t\t},\n')
+
+        if len(iplist4) > 0:
+            for ip in iplist4.keys():
+                f.write('\t\t{\n')
+                f.write('\t\t\t\"action\" : \"' + action + '\",\n')
+                f.write('\t\t\t\"process\" : \"any\",\n')
+                f.write('\t\t\t\"remote-addresses\" : \"' + IP(ip).strNormal(3) + '\"\n')
+                f.write('\t\t},\n')
+
+        if len(iplist6) > 0:
+            for ip in iplist6.keys():
+                f.write('\t\t{\n')
+                f.write('\t\t\t\"action\" : \"' + action + '\",\n')
+                f.write('\t\t\t\"process\" : \"any\",\n')
+                f.write('\t\t\t\"remote-addresses\" : \"' + IP(ip).strNormal(3) + '\"\n')
+                f.write('\t\t},\n')
+
+        f.write('\t\t{\n')
+        f.write('\t\t\t\"action\" : \"' + action + '\",\n')
+        f.write('\t\t\t\"process\" : \"any\",\n')
+        f.write('\t\t\t\"remote-hosts\" : \"' + bw + '.sinkhole\"\n')
+        f.write('\t\t}\n')
+        f.write('\t]\n')
+        f.write('}\n')
 
     return True
 
