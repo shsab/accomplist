@@ -1,0 +1,44 @@
+############################################
+### ACCOMPLIST GENERATED WHITELIST       ###
+### Version: 1528904176                  ###
+### Chris Buijs                          ###
+### https://github.com/cbuijs/accomplist ###
+############################################
+
+### SAFELIST DOMAINS ###
+### SAFEUNWHITELIST DOMAINS ###
+### WHITELIST REGEXES ###
+### WHITELIST DOMAINS ###
+screenshot3.bid	EasyList-White
+adserver.bworldonline.com	EasyList-White
+media.cargocollective.com	EasyList-White
+webtrack.dhlglobalmail.com	EasyPrivacy-White
+funniermoments.com	EasyList-White
+videosxml.mobileads.indiatimes.com	EasyList-White
+nytimes.perfectmarket.com	EasyList-White
+query.petametrics.com	EasyPrivacy-White
+sprites.pornxs.com	EasyList-White
+track2.royalmail.com	EasyPrivacy-White
+dove.saymedia.com	EasyList-White
+api-merchants.skimlinks.com	EasyList-White
+authentication-api.skimlinks.com	EasyList-White
+player.sundaysky.com	EasyPrivacy-White
+oas.theguardian.com	EasyList-White
+img.travidia.com	EasyList-White
+adserver.tvcatchup.com	EasyList-White
+adverts.cdn.tvcatchup.com	EasyList-White
+banners.wunderground.com	EasyList-White
+advertising.oriel.io	EasyList-White
+maps.chitika.net	EasyList-White
+maps-static.chitika.net	EasyList-White
+xpanama.net	EasyList-White
+ads.memo2.nl	EasyList-White
+advertising.scoop.co.nz	EasyList-White
+logging.apache.org	EasyPrivacy-White
+metrics.torproject.org	EasyPrivacy-White
+tvn.adocean.pl	EasyList-White
+banners.gametracker.rs	EasyList-White
+### WHITELIST ASN ###
+### WHITELIST IPv4 ###
+### WHITELIST IPv6 ###
+### WHITELIST EOF ###
