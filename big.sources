@@ -175,3 +175,8 @@ WebTap-Autofill	black	https://webtransparency.cs.princeton.edu/no_boundaries/aut
 DeathByBandAid-Black	black	https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedBlacklists/CombinedBlackLists.txt	/opt/accomplist/work/dbb-black.list	7200	@DOMAIN
 DeathByBandAid-White	white	https://raw.githubusercontent.com/deathbybandaid/piholeparser/master/Subscribable-Lists/CombinedWhitelists/CombinedWhiteLists.txt	/opt/accomplist/work/dbb-white.list	7200	@DOMAIN
 
+LightSwitch05-Ads	black	https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking.txt	/opt/accomplist/work/lightswitch05-ads.list	7200	@HOST0
+LightSwitch05-Ads-Extended	black	https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking-extended.txt	/opt/accomplist/work/lightswitch05-ads-ext.list	7200	@HOST0
+
+MetaMask-Eth-Phish	black	https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt	/opt/accomplist/work/metamask-eth.list	7200	@HOST0
+
