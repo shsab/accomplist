@@ -1,0 +1,11 @@
+{
+	"description" : "Accomplist Blacklist, see https://github.com/cbuijs/accomplist"
+	"name" : "Accomplist Blacklist"
+	"rules" : [
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-hosts" : "sinkhole"
+		}
+	]
+}
