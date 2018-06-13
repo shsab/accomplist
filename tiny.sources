@@ -1,0 +1,6 @@
+EasyList	black	https://easylist.to/easylist/easylist.txt	/opt/accomplist/work/easylist.list	7200	@ADBLOCK-BLACK
+EasyList-Element	black	/opt/accomplist/work/easylist.list.download	/opt/accomplist/work/easylist-element.list	7200	@ADBLOCK-ELEMENT
+EasyList-White	white	/opt/accomplist/work/easylist.list.download	/opt/accomplist/work/easylist-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
+EasyPrivacy	black	https://easylist.to/easylist/easyprivacy.txt	/opt/accomplist/work/easyprivacy.list	7200	@ADBLOCK-BLACK
+EasyPrivacy-Element	black	/opt/accomplist/work/easyprivacy.list.download	/opt/accomplist/work/easyprivacy-element.list	7200	@ADBLOCK-ELEMENT
+EasyPrivacy-White	white	/opt/accomplist/work/easyprivacy.list.download	/opt/accomplist/work/easyprivacy-white.list	7200	@ADBLOCK-WHITE	@ADBLOCK-EXCLUDE
