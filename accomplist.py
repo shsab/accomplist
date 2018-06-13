@@ -1,8 +1,8 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python2 -u
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.35-20180613 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.37-20180613 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -144,12 +144,14 @@ wwwregex = regex.compile('^(https*|ftps*|www*)[0-9]*\..*$', regex.I)
 # Info messages
 def log_info(msg):
     print(msg)
+    sys.stdout.flush()
     return
 
 
 # Error messages
 def log_err(msg):
     print(msg)
+    sys.stdout.flush()
     return
 
 
@@ -704,7 +706,7 @@ def ls_save(bw):
 
     with open(outputdir + '/litte-snitch.' + bw + '.lsrules', 'w') as f:
         f.write('{\n')
-        f.write('\t\"description\" : \"Accomplist ' + bw + 'list, see https://github.com/cbuijs/accomplist\",\n')
+        f.write('\t\"description\" : \"Accomplist ' + bw + 'list (' + str(time.time()) + '). See: https://github.com/cbuijs/accomplist\",\n')
         f.write('\t\"name\" : \"Accomplist ' + bw + 'list\",\n')
         f.write('\t\"rules\" : [\n')
 
