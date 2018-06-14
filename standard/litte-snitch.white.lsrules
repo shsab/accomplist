@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1528964322.48). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529011354.12). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -37485,7 +37485,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "2.16.132.0-2.16.135.255"
+			"remote-addresses" : "2.16.132.0-2.16.133.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "2.16.135.0-2.16.135.255"
 		},
 		{
 			"action" : "allow",
@@ -44490,6 +44495,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "45.58.64.0-45.58.79.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "59.151.128.0-59.151.131.255"
 		},
 		{
@@ -49570,6 +49580,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "108.160.160.0-108.160.175.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "108.175.32.0-108.175.47.255"
 		},
 		{
@@ -49821,6 +49836,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "157.238.91.0-157.238.91.127"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "162.125.0.0-162.125.255.255"
 		},
 		{
 			"action" : "allow",
@@ -51535,6 +51555,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "185.45.8.0-185.45.11.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "186.211.197.0-186.211.197.255"
 		},
 		{
@@ -51641,6 +51666,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "198.64.174.0-198.64.174.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "199.47.216.0-199.47.219.255"
 		},
 		{
 			"action" : "allow",
