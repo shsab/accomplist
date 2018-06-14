@@ -8,7 +8,7 @@ Chris-White	white	/opt/accomplist/chris/white!	/opt/accomplist/work/chris-white.
 
 Chris-Exclude	exclude	/opt/accomplist/chris/exclude!	/opt/accomplist/work/chris-exclude.list	7200	@DEFAULT
 
-Chris-TLDS	black	/opt/accomplist/chris/tlds.black!	/opt/accomplist/work/chris-tlds.list	7200	@DOMAIN
+Chris-TLDS	black!	/opt/accomplist/chris/tlds.black!	/opt/accomplist/work/chris-tlds.list	7200	@DOMAIN
 
 Chris-ASN-Black	black	/opt/accomplist/chris/asn.black!	/opt/accomplist/work/chris-asn-black.list	7200	@ASN
 Chris-ASN-White	white	/opt/accomplist/chris/asn.white!	/opt/accomplist/work/chris-asn-white.list	7200	@ASN
@@ -53,7 +53,7 @@ FireHol1	black	https://raw.githubusercontent.com/firehol/blocklist-ipsets/master
 Notracking-Hosts	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt	/opt/accomplist/work/notracking-hosts.list	7200	@HOST0	^::\s
 Notracking-Domains	black	https://raw.githubusercontent.com/notracking/hosts-blocklists/master/domains.txt	/opt/accomplist/work/notracking-domains.list	7200	@DNSMASQ-ADDRESS	/::$
 
-SpamHaus-Top10-TLD	black	https://www.spamhaus.org/statistics/tlds/	/opt/accomplist/work/spamhaus-top10-tld.list	7200	@SPAMHAUS
+SpamHaus-Top10-TLD	black!	https://www.spamhaus.org/statistics/tlds/	/opt/accomplist/work/spamhaus-top10-tld.list	7200	@SPAMHAUS
 SpamHaus-Top10-BotNet	black	https://www.spamhaus.org/statistics/botnet-isp/	/opt/accomplist/work/spamhaus-top10-botnet.list	7200	@SPAMHAUS
 SpamHaus-Top10-ASN	black	https://www.spamhaus.org/statistics/botnet-asn/	/opt/accomplist/work/spamhaus-top10-asn.list	7200	@SPAMHAUS
 SpamHaus-Drop	black	https://www.spamhaus.org/drop/drop.txt	/opt/accomplist/work/spamhaus-drop.list	7200	@IP
