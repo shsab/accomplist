@@ -1,3 +1,5 @@
+Chris-Stats	black	/opt/instigator/stats.dat!	/opt/accomplist/work/chris-stats.list	7200	@DOMAIN
+
 Chris-Regex-Black	black	/opt/accomplist/chris/regex.black!	/opt/accomplist/work/chris-regex-black.list	7200	@REGEX
 Chris-Regex-White	white	/opt/accomplist/chris/regex.white!	/opt/accomplist/work/chris-regex-white.list	7200	@REGEX
 
