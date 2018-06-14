@@ -1,8 +1,8 @@
-#!/usr/bin/env python2 -u
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.37-20180613 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.38-20180613 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
