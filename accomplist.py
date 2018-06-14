@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 '''
 =========================================================================================
- accomplist.py: v1.38-20180613 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
+ accomplist.py: v1.41-20180614 Copyright (C) 2018 Chris Buijs <cbuijs@chrisbuijs.com>
 =========================================================================================
 
 Blocklist (Black/Whitelist) compiler/optimizer.
@@ -225,12 +225,12 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
 
                         safed = False
                         if (safelist != False) and entry.endswith('!'):
-                            entry = entry[:-1]
+                            entry = entry.rstrip('!')
                             safed = True
 
                         unwhite = False
                         if (not safed) and (unwhitelist != False) and entry.endswith('&'):
-                            entry = entry[:-1]
+                            entry = entry.rstrip('&')
                             unwhite = True
 
                         total += 1
@@ -303,7 +303,11 @@ def read_lists(id, name, regexlist, iplist4, iplist6, domainlist, asnlist, safel
                                         else:
                                             if safed:
                                                 if (debug >= 2): log_info('Added \"' + domain + '\" to ' + bw + '-safelist')
-                                                safelist[domain] = 'Safelist'
+                                                if domain in safelist:
+                                                    if safelist[domain].find('Safelist-' + id) == -1:
+                                                        safelist[domain] = safelist[domain] + ', Safelist-' + id
+                                                else:
+                                                    safelist[domain] = 'Safelist-' + id
 
                                             if domain in domainlist:
                                                 if domainlist[domain].find(id) == -1:
@@ -1204,9 +1208,14 @@ if __name__ == "__main__":
                     element = entry.split('\t')
                     if len(element) > 2:
                         id = element[0]
-                        bw = element[1].lower()
-
                         log_info('\n----- ' + id.upper() + ' -----')
+
+                        forced = False
+                        bw = element[1].lower()
+                        if bw.endswith('!'):
+                            bw = bw.rstrip('!')
+                            if (debug > 1): log_info('The ' + bw + 'list \"' + id + '\" will be FORCED!')
+                            forced = True
 
                         if (bw == 'black' and readblack) or (bw == 'white' and readwhite) or (bw == 'exclude' and (readwhite or readblack)):
                             source = element[2]
@@ -1217,11 +1226,13 @@ if __name__ == "__main__":
 
                             if source.startswith('http://') or source.startswith('https://'):
                                 url = source
-                                if (debug >= 2): log_info('Source for \"' + id + '\" is an URL: \"' + url + '\"')
+                                dom = url.split('/')[2]
+                                whitelist[dom] = 'Source'
+                                if (debug >= 2): log_info('Source for \"' + id + '\" is a ' + bw + 'list URL: \"' + url + '\" (Whitelist: ' + dom + ')')
                             else:
-                                if (debug >= 2): log_info('Source for \"' + id + '\" is a FILE: \"' + source + '\"')
+                                if (debug >= 2): log_info('Source for \"' + id + '\" is a ' + bw + 'list FILE: \"' + source + '\"')
                                 if source.endswith('!'):
-                                    source = source[:-1]
+                                    source = source.rstrip('!')
                                 elif workdir:
                                     source = workdir + "/" + source.split('/')[-1]
                                 
@@ -1320,7 +1331,9 @@ if __name__ == "__main__":
                                                                             if entry and len(entry) > 0:
                                                                                 if not exclude.match(entry):
                                                                                     # !!! To do: use placholder to pre-process/validate/error-check type of entry via regex
-                                                                                    g.write(entry)
+                                                                                    g.write(entry.rstrip('!'))
+                                                                                    if forced:
+                                                                                        g.write('!')
                                                                                     g.write('\n')
                                                                                 else:
                                                                                     if (debug >= 3): log_info(id +': Skipping excluded entry \"' + line + '\" (' + entry + ')')
