@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist blacklist (1528907772.3). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist blacklist (1528964543.54). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist blacklist",
 	"rules" : [
 		{
@@ -6711,6 +6711,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "t.dgm-au.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "fmoihhvbehopc.com"
 		},
 		{
 			"action" : "deny",
@@ -18421,6 +18426,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "flooaiaubf.bid"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "webcounter.ws"
 		},
 		{
 			"action" : "deny",
@@ -31070,7 +31080,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "certified-apps.com"
+			"remote-domains" : "adtology2.com"
 		},
 		{
 			"action" : "deny",
@@ -49990,6 +50000,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "ghjwogfexch.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "namjixxurjam.com"
 		},
 		{
@@ -54470,6 +54485,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "esfqqfqagkkbrl.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "ueosdjscxucj.com"
 		},
 		{
@@ -54846,6 +54866,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "mxtcafifuufp.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "ketqqygdh.com"
 		},
 		{
 			"action" : "deny",
@@ -75950,7 +75975,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "webcounter.ws"
+			"remote-domains" : "certified-apps.com"
 		},
 		{
 			"action" : "deny",
@@ -82576,6 +82601,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "pudswlbzob.bid"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "vsicchyqydlwb.com"
 		},
 		{
 			"action" : "deny",
@@ -90376,11 +90406,6 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "widgetsurvey.biz"
-		},
-		{
-			"action" : "deny",
-			"process" : "any",
-			"remote-domains" : "adtology2.com"
 		},
 		{
 			"action" : "deny",

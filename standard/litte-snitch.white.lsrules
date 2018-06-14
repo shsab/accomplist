@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1528907557.69). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1528964322.48). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -40610,6 +40610,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "23.52.224.0-23.52.255.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "23.53.3.0-23.53.3.255"
 		},
 		{
@@ -41116,6 +41121,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.59.160.0-23.59.160.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.59.163.0-23.59.163.255"
 		},
 		{
 			"action" : "allow",
@@ -41671,11 +41681,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.67.56.0-23.67.56.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.67.59.0-23.67.59.255"
 		},
 		{
 			"action" : "allow",
@@ -46370,7 +46375,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "96.17.72.0-96.17.75.255"
+			"remote-addresses" : "96.17.72.0-96.17.79.255"
 		},
 		{
 			"action" : "allow",
@@ -48176,11 +48181,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "104.94.112.0-104.94.127.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "104.94.128.0-104.94.143.255"
 		},
 		{
 			"action" : "allow",
@@ -50610,6 +50610,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "184.27.130.0-184.27.131.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "184.27.160.0-184.27.175.255"
 		},
 		{
@@ -51651,11 +51656,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "200.136.36.0-200.136.36.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "201.16.50.0-201.16.50.255"
 		},
 		{
 			"action" : "allow",
