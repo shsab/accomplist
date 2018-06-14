@@ -8,6 +8,11 @@ analytic!
 analytics!
 asia!
 auction!
+badalg!
+badkey!
+badmode!
+badname!
+badtime!
 bar!
 bat!
 bet!
@@ -51,6 +56,7 @@ example!
 exe!
 exit!
 faith!
+formerr!
 frutch!
 fun!
 ga!
@@ -90,7 +96,13 @@ nagoya!
 name!
 nf!
 ninja!
+nodata!
+noerror!
+notauth!
+notimp!
+notzone!
 nxdomain!
+nxrrset!
 nxt!
 office!
 onion!
@@ -111,6 +123,7 @@ promo!
 pw!
 racing!
 realtor!
+refused!
 reise!
 rejected!
 ren!
@@ -122,6 +135,7 @@ ru!
 ryukyu!
 schule!
 science!
+servfail!
 services!
 sex!
 sh!
@@ -166,5 +180,7 @@ xxx!
 xyz!
 yandex!
 yokohama!
+yxdomain!
+yxrrset!
 zip!
 zone!
