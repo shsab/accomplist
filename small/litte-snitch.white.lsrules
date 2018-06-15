@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1528964535.04). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529050940.39). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -25,6 +25,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "adserver.tvcatchup.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "nytimes.perfectmarket.com"
 		},
 		{
@@ -40,6 +45,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "s3.amazonaws.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "player.sundaysky.com"
 		},
 		{
@@ -51,6 +61,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "sprites.pornxs.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "easylist.to"
 		},
 		{
 			"action" : "allow",
@@ -80,7 +95,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "maps.chitika.net"
+			"remote-domains" : "raw.githubusercontent.com"
 		},
 		{
 			"action" : "allow",
@@ -95,7 +110,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "adserver.tvcatchup.com"
+			"remote-domains" : "api-merchants.skimlinks.com"
 		},
 		{
 			"action" : "allow",
@@ -125,7 +140,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "api-merchants.skimlinks.com"
+			"remote-domains" : "maps.chitika.net"
 		},
 		{
 			"action" : "allow",

@@ -1,6 +1,6 @@
 ############################################
 ### ACCOMPLIST GENERATED WHITELIST       ###
-### Version: 1528964543                  ###
+### Version: 1529050949                  ###
 ### Chris Buijs                          ###
 ### https://github.com/cbuijs/accomplist ###
 ############################################
@@ -38,6 +38,7 @@ logging.apache.org	EasyPrivacy-White
 metrics.torproject.org	EasyPrivacy-White
 tvn.adocean.pl	EasyList-White
 banners.gametracker.rs	EasyList-White
+easylist.to	Source
 ### WHITELIST ASN ###
 ### WHITELIST IPv4 ###
 ### WHITELIST IPv6 ###

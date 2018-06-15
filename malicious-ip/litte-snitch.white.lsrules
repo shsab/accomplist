@@ -1,7 +1,132 @@
 {
-	"description" : "Accomplist whitelist (1528964405.88). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529050806.9). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "zeustracker.abuse.ch"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "talosintel.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "feodotracker.abuse.ch"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "rules.emergingthreats.net"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "suspect-networks.io"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.spamhaus.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.team-cymru.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.myip.ms"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.stopforumspam.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "lists.blocklist.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "blocklist.greensnow.co"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.autoshun.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.binarydefense.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "raw.githubusercontent.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "osint.bambenekconsulting.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.botvrij.eu"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "reputation.alienvault.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "feeds.dshield.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "ransomwaretracker.abuse.ch"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "check.torproject.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.ipdeny.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "project.turris.cz"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "danger.rulez.sk"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "www.badips.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "sslbl.abuse.ch"
+		},
 		{
 			"action" : "allow",
 			"process" : "any",

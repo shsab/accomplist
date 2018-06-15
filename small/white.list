@@ -1,6 +1,6 @@
 ############################################
 ### ACCOMPLIST GENERATED WHITELIST       ###
-### Version: 1528964539                  ###
+### Version: 1529050944                  ###
 ### Chris Buijs                          ###
 ### https://github.com/cbuijs/accomplist ###
 ############################################
@@ -10,10 +10,12 @@
 ### WHITELIST REGEXES ###
 ### WHITELIST DOMAINS ###
 screenshot3.bid	EasyList-White
+s3.amazonaws.com	Source
 adserver.bworldonline.com	EasyList-White
 media.cargocollective.com	EasyList-White
 webtrack.dhlglobalmail.com	EasyPrivacy-White
 funniermoments.com	EasyList-White
+raw.githubusercontent.com	Source
 videosxml.mobileads.indiatimes.com	EasyList-White
 nytimes.perfectmarket.com	EasyList-White
 query.petametrics.com	EasyPrivacy-White
@@ -38,6 +40,7 @@ logging.apache.org	EasyPrivacy-White
 metrics.torproject.org	EasyPrivacy-White
 tvn.adocean.pl	EasyList-White
 banners.gametracker.rs	EasyList-White
+easylist.to	Source
 ### WHITELIST ASN ###
 ### WHITELIST IPv4 ###
 ### WHITELIST IPv6 ###

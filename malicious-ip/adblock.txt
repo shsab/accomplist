@@ -1,1 +1,26 @@
 [Adblock Plus 1.1]
+@@||zeustracker.abuse.ch^
+@@||talosintel.com^
+@@||feodotracker.abuse.ch^
+@@||rules.emergingthreats.net^
+@@||suspect-networks.io^
+@@||www.spamhaus.org^
+@@||www.team-cymru.org^
+@@||www.myip.ms^
+@@||www.stopforumspam.com^
+@@||lists.blocklist.de^
+@@||blocklist.greensnow.co^
+@@||www.autoshun.org^
+@@||www.binarydefense.com^
+@@||raw.githubusercontent.com^
+@@||osint.bambenekconsulting.com^
+@@||www.botvrij.eu^
+@@||reputation.alienvault.com^
+@@||feeds.dshield.org^
+@@||ransomwaretracker.abuse.ch^
+@@||check.torproject.org^
+@@||www.ipdeny.com^
+@@||project.turris.cz^
+@@||danger.rulez.sk^
+@@||www.badips.com^
+@@||sslbl.abuse.ch^

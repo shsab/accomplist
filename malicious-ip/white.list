@@ -1,6 +1,6 @@
 ############################################
 ### ACCOMPLIST GENERATED WHITELIST       ###
-### Version: 1528964522                  ###
+### Version: 1529050927                  ###
 ### Chris Buijs                          ###
 ### https://github.com/cbuijs/accomplist ###
 ############################################
@@ -9,6 +9,31 @@
 ### SAFEUNWHITELIST DOMAINS ###
 ### WHITELIST REGEXES ###
 ### WHITELIST DOMAINS ###
+feodotracker.abuse.ch	Source
+ransomwaretracker.abuse.ch	Source
+sslbl.abuse.ch	Source
+zeustracker.abuse.ch	Source
+blocklist.greensnow.co	Source
+reputation.alienvault.com	Source
+www.badips.com	Source
+osint.bambenekconsulting.com	Source
+www.binarydefense.com	Source
+raw.githubusercontent.com	Source
+www.ipdeny.com	Source
+www.stopforumspam.com	Source
+talosintel.com	Source
+project.turris.cz	Source
+lists.blocklist.de	Source
+www.botvrij.eu	Source
+suspect-networks.io	Source
+www.myip.ms	Source
+rules.emergingthreats.net	Source
+www.autoshun.org	Source
+feeds.dshield.org	Source
+www.spamhaus.org	Source
+www.team-cymru.org	Source
+check.torproject.org	Source
+danger.rulez.sk	Source
 ### WHITELIST ASN ###
 ### WHITELIST IPv4 ###
 ### WHITELIST IPv6 ###
