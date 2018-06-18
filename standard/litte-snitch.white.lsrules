@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1529223516.63). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529309913.52). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -39565,7 +39565,27 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.35.96.0-23.35.127.255"
+			"remote-addresses" : "23.35.98.0-23.35.99.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.35.100.0-23.35.103.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.35.104.0-23.35.107.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.35.108.0-23.35.109.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.35.112.0-23.35.127.255"
 		},
 		{
 			"action" : "allow",
@@ -41665,7 +41685,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.67.44.0-23.67.45.255"
+			"remote-addresses" : "23.67.44.0-23.67.44.255"
 		},
 		{
 			"action" : "allow",
@@ -42005,7 +42025,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.77.224.0-23.77.231.255"
+			"remote-addresses" : "23.77.224.0-23.77.227.255"
 		},
 		{
 			"action" : "allow",
@@ -42225,7 +42245,17 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.193.32.0-23.193.47.255"
+			"remote-addresses" : "23.193.32.0-23.193.35.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.193.44.0-23.193.44.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.193.46.0-23.193.46.255"
 		},
 		{
 			"action" : "allow",
@@ -42890,7 +42920,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.204.64.0-23.204.95.255"
+			"remote-addresses" : "23.204.64.0-23.204.79.255"
 		},
 		{
 			"action" : "allow",
@@ -44431,11 +44461,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.222.192.0-23.222.223.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.223.48.0-23.223.63.255"
 		},
 		{
 			"action" : "allow",
@@ -50805,7 +50830,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "184.28.152.0-184.28.159.255"
+			"remote-addresses" : "184.28.152.0-184.28.155.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "184.28.158.0-184.28.159.255"
 		},
 		{
 			"action" : "allow",
