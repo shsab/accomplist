@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist blacklist (1529396562.1). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist blacklist (1529482964.14). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist blacklist",
 	"rules" : [
 		{
@@ -5451,6 +5451,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "adplus.goo.mx"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "wzfxaqhiapptsz.com"
 		},
 		{
 			"action" : "deny",
@@ -20305,6 +20310,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "bewcmime.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "qenafbvgmoci.com"
 		},
 		{
@@ -21176,6 +21186,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "mellowads.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "ygkovmqdty.com"
 		},
 		{
 			"action" : "deny",
@@ -41225,6 +41240,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "vhuhrhowm.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "affiliates.mozy.com"
 		},
 		{
@@ -48621,6 +48641,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "yx7xgi4d.site"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "quadran.eu"
 		},
 		{
 			"action" : "deny",
@@ -75685,6 +75710,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "cuecxgwkjtan.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "uiadserver.com"
 		},
 		{
@@ -101780,6 +101810,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "ytbpmzbabph.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "ixznwuxokydz.com"
 		},
 		{
@@ -105010,7 +105045,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "stats.break.com"
+			"remote-domains" : "zhkziiaajuad.com"
 		},
 		{
 			"action" : "deny",
@@ -109205,7 +109240,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "zhkziiaajuad.com"
+			"remote-domains" : "stats.break.com"
 		},
 		{
 			"action" : "deny",

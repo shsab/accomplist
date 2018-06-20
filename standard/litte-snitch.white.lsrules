@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1529396312.6). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529482715.79). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -37385,7 +37385,17 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "2.16.56.0-2.16.63.255"
+			"remote-addresses" : "2.16.56.0-2.16.59.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "2.16.60.0-2.16.61.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "2.16.62.0-2.16.62.255"
 		},
 		{
 			"action" : "allow",
@@ -40275,6 +40285,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "23.46.240.0-23.46.255.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "23.47.0.0-23.47.31.255"
 		},
 		{
@@ -41555,7 +41570,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.65.28.0-23.65.29.255"
+			"remote-addresses" : "23.65.28.0-23.65.28.255"
 		},
 		{
 			"action" : "allow",
@@ -42005,7 +42020,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.77.196.0-23.77.199.255"
+			"remote-addresses" : "23.77.196.0-23.77.197.255"
 		},
 		{
 			"action" : "allow",
@@ -42046,16 +42061,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.77.244.0-23.77.247.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.77.248.0-23.77.251.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.78.32.0-23.78.63.255"
 		},
 		{
 			"action" : "allow",
@@ -44795,6 +44800,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "69.192.48.0-69.192.63.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "69.192.64.0-69.192.79.255"
 		},
 		{
@@ -45590,7 +45600,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "92.122.160.0-92.122.175.255"
+			"remote-addresses" : "92.122.160.0-92.122.167.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "92.122.168.0-92.122.171.255"
 		},
 		{
 			"action" : "allow",
@@ -45900,7 +45915,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "95.100.152.0-95.100.155.255"
+			"remote-addresses" : "95.100.152.0-95.100.153.255"
 		},
 		{
 			"action" : "allow",
@@ -50840,6 +50855,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "184.28.164.0-184.28.165.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "184.28.168.0-184.28.169.255"
 		},
 		{
@@ -51430,6 +51450,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "184.85.254.0-184.85.255.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "184.86.0.0-184.86.15.255"
 		},
 		{
@@ -51461,6 +51486,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "184.86.114.0-184.86.115.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "184.86.120.0-184.86.121.255"
 		},
 		{
 			"action" : "allow",
