@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1529482715.79). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529569122.08). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -5020,6 +5020,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "netbank.takarek.hu"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "swcbank.com"
 		},
 		{
@@ -8100,7 +8105,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "vb-darup-rorup.de"
+			"remote-domains" : "bancasangiorgio.it"
 		},
 		{
 			"action" : "allow",
@@ -11486,6 +11491,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "schwaebisch-hall.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "netbank.kdb.hu"
 		},
 		{
 			"action" : "allow",
@@ -26225,7 +26235,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "bancasangiorgio.it"
+			"remote-domains" : "vb-darup-rorup.de"
 		},
 		{
 			"action" : "allow",
@@ -37385,17 +37395,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "2.16.56.0-2.16.59.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "2.16.60.0-2.16.61.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "2.16.62.0-2.16.62.255"
+			"remote-addresses" : "2.16.56.0-2.16.63.255"
 		},
 		{
 			"action" : "allow",
@@ -38760,7 +38760,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.4.0.0-23.4.15.255"
+			"remote-addresses" : "23.4.0.0-23.4.31.255"
 		},
 		{
 			"action" : "allow",
@@ -39351,11 +39351,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.32.28.0-23.32.29.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.32.31.0-23.32.31.255"
 		},
 		{
 			"action" : "allow",
@@ -40370,7 +40365,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.48.37.0-23.48.37.255"
+			"remote-addresses" : "23.48.36.0-23.48.37.255"
 		},
 		{
 			"action" : "allow",
@@ -40866,6 +40861,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.54.192.0-23.54.223.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.54.240.0-23.54.255.255"
 		},
 		{
 			"action" : "allow",
@@ -41570,7 +41570,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.65.28.0-23.65.28.255"
+			"remote-addresses" : "23.65.28.0-23.65.29.255"
 		},
 		{
 			"action" : "allow",
@@ -42020,7 +42020,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.77.196.0-23.77.197.255"
+			"remote-addresses" : "23.77.196.0-23.77.199.255"
 		},
 		{
 			"action" : "allow",
@@ -42061,6 +42061,16 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.77.244.0-23.77.247.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.77.248.0-23.77.251.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.78.32.0-23.78.63.255"
 		},
 		{
 			"action" : "allow",
@@ -42640,7 +42650,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.199.32.0-23.199.35.255"
+			"remote-addresses" : "23.199.32.0-23.199.39.255"
 		},
 		{
 			"action" : "allow",
@@ -42661,6 +42671,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.199.80.0-23.199.87.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.199.96.0-23.199.127.255"
 		},
 		{
 			"action" : "allow",
@@ -42750,7 +42765,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.201.0.0-23.201.7.255"
+			"remote-addresses" : "23.201.0.0-23.201.15.255"
 		},
 		{
 			"action" : "allow",
@@ -42851,6 +42866,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.202.240.0-23.202.255.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.203.0.0-23.203.15.255"
 		},
 		{
 			"action" : "allow",
@@ -43370,6 +43390,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "23.209.176.0-23.209.179.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "23.209.180.0-23.209.180.255"
 		},
 		{
@@ -43580,7 +43605,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.211.232.0-23.211.233.255"
+			"remote-addresses" : "23.211.232.0-23.211.239.255"
 		},
 		{
 			"action" : "allow",
@@ -43611,6 +43636,16 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.212.12.0-23.212.15.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.212.16.0-23.212.31.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.212.32.0-23.212.47.255"
 		},
 		{
 			"action" : "allow",
@@ -44585,6 +44620,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "63.151.137.0-63.151.137.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "63.217.232.0-63.217.232.255"
 		},
 		{
@@ -44606,6 +44646,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "63.233.126.0-63.233.126.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "63.233.224.0-63.233.224.255"
 		},
 		{
 			"action" : "allow",
@@ -44651,6 +44696,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "64.145.87.0-64.145.87.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "65.116.164.0-65.116.165.255"
 		},
 		{
 			"action" : "allow",
@@ -45600,12 +45650,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "92.122.160.0-92.122.167.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "92.122.168.0-92.122.171.255"
+			"remote-addresses" : "92.122.160.0-92.122.175.255"
 		},
 		{
 			"action" : "allow",
@@ -45915,7 +45960,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "95.100.152.0-95.100.153.255"
+			"remote-addresses" : "95.100.152.0-95.100.155.255"
 		},
 		{
 			"action" : "allow",
@@ -48360,6 +48405,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "104.97.160.0-104.97.175.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "104.97.188.0-104.97.191.255"
 		},
 		{
@@ -48905,17 +48955,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "104.109.56.0-104.109.63.255"
+			"remote-addresses" : "104.109.56.0-104.109.59.255"
 		},
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "104.109.64.0-104.109.127.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "104.109.128.0-104.109.129.255"
+			"remote-addresses" : "104.109.64.0-104.109.95.255"
 		},
 		{
 			"action" : "allow",
@@ -50765,6 +50810,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "184.28.30.0-184.28.31.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "184.28.32.0-184.28.39.255"
 		},
 		{
@@ -50960,7 +51010,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "184.29.40.0-184.29.43.255"
+			"remote-addresses" : "184.29.40.0-184.29.47.255"
 		},
 		{
 			"action" : "allow",

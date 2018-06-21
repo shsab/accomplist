@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist blacklist (1529482964.14). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist blacklist (1529569372.22). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist blacklist",
 	"rules" : [
 		{
@@ -11065,6 +11065,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "jackettrain.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "detailtoothteam.com"
 		},
 		{
@@ -11540,7 +11545,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "springmetrics.com"
+			"remote-domains" : "sumokoin.com"
 		},
 		{
 			"action" : "deny",
@@ -14540,6 +14545,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "rxjlimrpfziuqh.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "exponential.com"
 		},
 		{
@@ -14715,7 +14725,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "webserviceaward.com"
+			"remote-domains" : "cisgbirj.website"
 		},
 		{
 			"action" : "deny",
@@ -40590,6 +40600,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "laborates.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "ouannxwziw.bid"
 		},
 		{
@@ -59870,6 +59885,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "lqrlhmdwy.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "tuzutvisi.com"
 		},
 		{
@@ -68140,7 +68160,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "sumokoin.com"
+			"remote-domains" : "springmetrics.com"
 		},
 		{
 			"action" : "deny",
@@ -87285,7 +87305,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "cisgbirj.website"
+			"remote-domains" : "webserviceaward.com"
 		},
 		{
 			"action" : "deny",
@@ -88556,6 +88576,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "adparlor.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "sumo.com"
 		},
 		{
 			"action" : "deny",
@@ -89876,6 +89901,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "advertise.twitpic.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "xexklpgrsg.com"
 		},
 		{
 			"action" : "deny",
@@ -99221,6 +99251,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "secretmedia.s3.amazonaws.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "dc08i221b0n8a.cloudfront.net"
 		},
 		{
 			"action" : "deny",
