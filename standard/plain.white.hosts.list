@@ -646,6 +646,8 @@
 ::	payments.chronopay.ru
 0.0.0.0	eckernfoerder-bank.de
 ::	eckernfoerder-bank.de
+0.0.0.0	volksbank-dettenhausen.de
+::	volksbank-dettenhausen.de
 0.0.0.0	enter.unicredit.ru
 ::	enter.unicredit.ru
 0.0.0.0	nispa.de
@@ -982,6 +984,8 @@
 ::	ubt.com
 0.0.0.0	bancado.com
 ::	bancado.com
+0.0.0.0	volksbank-dueren.de
+::	volksbank-dueren.de
 0.0.0.0	onlinebanking-schroederbank.de
 ::	onlinebanking-schroederbank.de
 0.0.0.0	spk-schrobenhausen.de
@@ -1130,6 +1134,8 @@
 ::	metropolitanbank.com
 0.0.0.0	metcalfbank.com
 ::	metcalfbank.com
+0.0.0.0	voba-deisslingen.de
+::	voba-deisslingen.de
 0.0.0.0	spktw.de
 ::	spktw.de
 0.0.0.0	ksk-reutlingen.de
@@ -1450,6 +1456,8 @@
 ::	maharashtrabank.com
 0.0.0.0	cbanys.org
 ::	cbanys.org
+0.0.0.0	volksbank-ammerbuch.de
+::	volksbank-ammerbuch.de
 0.0.0.0	plategka.com
 ::	plategka.com
 0.0.0.0	mazobank.com
@@ -2402,8 +2410,8 @@
 ::	portalino.it
 0.0.0.0	discountbank.co.il
 ::	discountbank.co.il
-0.0.0.0	bancaditalia.it
-::	bancaditalia.it
+0.0.0.0	scb-bc.com
+::	scb-bc.com
 0.0.0.0	raiba-suedhardt.de
 ::	raiba-suedhardt.de
 0.0.0.0	banktecgroup.com
@@ -3412,6 +3420,8 @@
 ::	banksanjuans.com
 0.0.0.0	bankukoopspilka.kiev.ua
 ::	bankukoopspilka.kiev.ua
+0.0.0.0	vobadin.de
+::	vobadin.de
 0.0.0.0	rb-wug.de
 ::	rb-wug.de
 0.0.0.0	ciobs.org.uk
@@ -3546,6 +3556,8 @@
 ::	hudsonvalleybank.com
 0.0.0.0	cua.com.au
 ::	cua.com.au
+0.0.0.0	voba-rnh.de
+::	voba-rnh.de
 0.0.0.0	rvbvarelnordenham.de
 ::	rvbvarelnordenham.de
 0.0.0.0	vtb.at
@@ -4282,6 +4294,8 @@
 ::	santanderconsumer.it
 0.0.0.0	raibawiesedermeer.de
 ::	raibawiesedermeer.de
+0.0.0.0	volksbank-boenen.de
+::	volksbank-boenen.de
 0.0.0.0	civicbank.com
 ::	civicbank.com
 0.0.0.0	icon25-bank.com
@@ -4488,6 +4502,8 @@
 ::	abi.it
 0.0.0.0	sparkasse-witten.de
 ::	sparkasse-witten.de
+0.0.0.0	volksbank-anroechte.de
+::	volksbank-anroechte.de
 0.0.0.0	clientis.ch
 ::	clientis.ch
 0.0.0.0	static.siteheart.com
@@ -4652,6 +4668,8 @@
 ::	unitedbank-va.com
 0.0.0.0	discover.com
 ::	discover.com
+0.0.0.0	volksbank-kirnau.de
+::	volksbank-kirnau.de
 0.0.0.0	terminal.ecommpay.com
 ::	terminal.ecommpay.com
 0.0.0.0	skb-dauchingen.de
@@ -5018,8 +5036,8 @@
 ::	retail.nrb.ru
 0.0.0.0	mizuhobank.co.jp
 ::	mizuhobank.co.jp
-0.0.0.0	card.uplati.ru
-::	card.uplati.ru
+0.0.0.0	eaglenational.com
+::	eaglenational.com
 0.0.0.0	greatercommunity.com
 ::	greatercommunity.com
 0.0.0.0	homeonline.com.au
@@ -5042,8 +5060,8 @@
 ::	vb-marl-recklinghausen.de
 0.0.0.0	spk-salem.de
 ::	spk-salem.de
-0.0.0.0	fnb.co.za
-::	fnb.co.za
+0.0.0.0	corusbank.com
+::	corusbank.com
 0.0.0.0	arabbank.com.lb
 ::	arabbank.com.lb
 0.0.0.0	bpo.be
@@ -5974,6 +5992,8 @@
 ::	aba.com
 0.0.0.0	fineco.it
 ::	fineco.it
+0.0.0.0	volksbank-baumberge.de
+::	volksbank-baumberge.de
 0.0.0.0	spk-suedholstein.de
 ::	spk-suedholstein.de
 0.0.0.0	americantrust.com
@@ -6000,6 +6020,8 @@
 ::	ozkmtnbank.com
 0.0.0.0	providentnj.com
 ::	providentnj.com
+0.0.0.0	ca-aquitaine.fr
+::	ca-aquitaine.fr
 0.0.0.0	tkbb.org.tr
 ::	tkbb.org.tr
 0.0.0.0	bradesco.com
@@ -6032,6 +6054,8 @@
 ::	bpfondi.it
 0.0.0.0	capitalbank.at
 ::	capitalbank.at
+0.0.0.0	vobadirekt.de
+::	vobadirekt.de
 0.0.0.0	foxborobank.com
 ::	foxborobank.com
 0.0.0.0	volksbank-lahr.de
@@ -6510,6 +6534,8 @@
 ::	nbbank.com
 0.0.0.0	partnersbank.com
 ::	partnersbank.com
+0.0.0.0	volksbank-dh.de
+::	volksbank-dh.de
 0.0.0.0	pnbindia.com
 ::	pnbindia.com
 0.0.0.0	agtexas.com
@@ -6744,6 +6770,8 @@
 ::	volksbank-westrhauderfehn.de
 0.0.0.0	lu.ca-indosuez.com
 ::	lu.ca-indosuez.com
+0.0.0.0	volksbank-eifel.de
+::	volksbank-eifel.de
 0.0.0.0	bremenbank.com
 ::	bremenbank.com
 0.0.0.0	citibank.com.ve
@@ -6780,8 +6808,8 @@
 ::	indymacbank.com
 0.0.0.0	dresdner-bank.ch
 ::	dresdner-bank.ch
-0.0.0.0	bjd.ch
-::	bjd.ch
+0.0.0.0	abuse.ch
+::	abuse.ch
 0.0.0.0	1stsource.com
 ::	1stsource.com
 0.0.0.0	integrabank.de
@@ -7114,6 +7142,8 @@
 ::	libertypay.ge
 0.0.0.0	ferrierlullin.com
 ::	ferrierlullin.com
+0.0.0.0	vobadhk.de
+::	vobadhk.de
 0.0.0.0	nmbankers.com
 ::	nmbankers.com
 0.0.0.0	fnbashford.com
@@ -7192,6 +7222,8 @@
 ::	eaglebankmn.com
 0.0.0.0	bny-imb.com
 ::	bny-imb.com
+0.0.0.0	volksbank-erle.de
+::	volksbank-erle.de
 0.0.0.0	autobank.at
 ::	autobank.at
 0.0.0.0	sparkasse-detmold.de
@@ -7426,6 +7458,8 @@
 ::	birlaglobal.com
 0.0.0.0	rbuv.de
 ::	rbuv.de
+0.0.0.0	volksbank-heinsberg.de
+::	volksbank-heinsberg.de
 0.0.0.0	onlinebanking-rb-beuerberg.de
 ::	onlinebanking-rb-beuerberg.de
 0.0.0.0	afdb.org
@@ -7522,6 +7556,8 @@
 ::	santanderbank.com
 0.0.0.0	csbloyal.com
 ::	csbloyal.com
+0.0.0.0	voba-rheinboellen.de
+::	voba-rheinboellen.de
 0.0.0.0	sparkasse-einbeck.de
 ::	sparkasse-einbeck.de
 0.0.0.0	tnmbonline.com
@@ -7792,6 +7828,8 @@
 ::	msmba.org
 0.0.0.0	bss.novahovcb.ru
 ::	bss.novahovcb.ru
+0.0.0.0	volksbank-hunsrueck-nahe.de
+::	volksbank-hunsrueck-nahe.de
 0.0.0.0	northwestfederal.com
 ::	northwestfederal.com
 0.0.0.0	vkb.at
@@ -8850,6 +8888,8 @@
 ::	wvacb.com
 0.0.0.0	delta-online.kz
 ::	delta-online.kz
+0.0.0.0	voba-schwanewede.de
+::	voba-schwanewede.de
 0.0.0.0	ebsb.com
 ::	ebsb.com
 0.0.0.0	kreissparkasse-nordhausen.de
@@ -9792,6 +9832,8 @@
 ::	mlb.de
 0.0.0.0	leomoney.com
 ::	leomoney.com
+0.0.0.0	voba-bl.de
+::	voba-bl.de
 0.0.0.0	fitd.it
 ::	fitd.it
 0.0.0.0	online.transstroybank.ru
@@ -10106,6 +10148,8 @@
 ::	priovtb.com
 0.0.0.0	syzbank.ch
 ::	syzbank.ch
+0.0.0.0	voba-sh.de
+::	voba-sh.de
 0.0.0.0	iwbank.fr
 ::	iwbank.fr
 0.0.0.0	interbanka.com
@@ -10154,6 +10198,8 @@
 ::	vb-ascheberg-herbern.de
 0.0.0.0	onlinebanking-raiffeisenbank-hiltenfingen.de
 ::	onlinebanking-raiffeisenbank-hiltenfingen.de
+0.0.0.0	volksbank-eg.de
+::	volksbank-eg.de
 0.0.0.0	midwaybank.com
 ::	midwaybank.com
 0.0.0.0	raiffeisendirect.ch
@@ -10576,6 +10622,8 @@
 ::	chinatrust.com.ph
 0.0.0.0	ccb.com
 ::	ccb.com
+0.0.0.0	voba-mg.de
+::	voba-mg.de
 0.0.0.0	swissbankaccount.com
 ::	swissbankaccount.com
 0.0.0.0	citibank.be
@@ -10798,18 +10846,18 @@
 ::	principal.com
 0.0.0.0	huemmlinger-volksbank.de
 ::	huemmlinger-volksbank.de
-0.0.0.0	eaglenational.com
-::	eaglenational.com
-0.0.0.0	abuse.ch
-::	abuse.ch
+0.0.0.0	card.uplati.ru
+::	card.uplati.ru
+0.0.0.0	bjd.ch
+::	bjd.ch
 0.0.0.0	afcmerchantbank.com
 ::	afcmerchantbank.com
 0.0.0.0	virginiamla.com
 ::	virginiamla.com
 0.0.0.0	cnbtxk.com
 ::	cnbtxk.com
-0.0.0.0	corusbank.com
-::	corusbank.com
+0.0.0.0	fnb.co.za
+::	fnb.co.za
 0.0.0.0	ugbi.ro
 ::	ugbi.ro
 0.0.0.0	drydenbank.com
@@ -10826,8 +10874,8 @@
 ::	volksbank-deggingen.de
 0.0.0.0	akf.de
 ::	akf.de
-0.0.0.0	ca-aquitaine.fr
-::	ca-aquitaine.fr
+0.0.0.0	sparkasse-tauberfranken.de
+::	sparkasse-tauberfranken.de
 0.0.0.0	my-volksbank.de
 ::	my-volksbank.de
 0.0.0.0	spotify.com
@@ -11046,6 +11094,8 @@
 ::	mkbnetbankar.hu
 0.0.0.0	nordea.fi
 ::	nordea.fi
+0.0.0.0	centralcaliforniabank.com
+::	centralcaliforniabank.com
 0.0.0.0	creditplus.ru
 ::	creditplus.ru
 0.0.0.0	home.bancadellarete.it
@@ -11772,6 +11822,8 @@
 ::	uob.com.ph
 0.0.0.0	volksbank-boerde-bernburg.de
 ::	volksbank-boerde-bernburg.de
+0.0.0.0	llb.at
+::	llb.at
 0.0.0.0	arabbank.com.cy
 ::	arabbank.com.cy
 0.0.0.0	swissprivatebankers.com
@@ -11980,6 +12032,8 @@
 ::	wsnb.com
 0.0.0.0	cr-ledro.net
 ::	cr-ledro.net
+0.0.0.0	volksbank-kierspe.de
+::	volksbank-kierspe.de
 0.0.0.0	btrab.com
 ::	btrab.com
 0.0.0.0	ub-t.com
@@ -12058,8 +12112,8 @@
 ::	citibank.com.br
 0.0.0.0	banquedevizille.fr
 ::	banquedevizille.fr
-0.0.0.0	sparkasse-tauberfranken.de
-::	sparkasse-tauberfranken.de
+0.0.0.0	online.expressbank.az
+::	online.expressbank.az
 0.0.0.0	centralnational.com
 ::	centralnational.com
 0.0.0.0	fsround.org
@@ -12234,6 +12288,8 @@
 ::	volksbank-krp.de
 0.0.0.0	ctbi.com
 ::	ctbi.com
+0.0.0.0	volksbank-immenstadt.de
+::	volksbank-immenstadt.de
 0.0.0.0	mbalou.org
 ::	mbalou.org
 0.0.0.0	clearcreeknationalbank.com
@@ -12314,8 +12370,8 @@
 ::	ppfbanka.cz
 0.0.0.0	vbdh.de
 ::	vbdh.de
-0.0.0.0	bancadicascina.it
-::	bancadicascina.it
+0.0.0.0	ecitizensnationalbank.com
+::	ecitizensnationalbank.com
 0.0.0.0	crcento.it
 ::	crcento.it
 0.0.0.0	juniper.com
@@ -12400,6 +12456,8 @@
 ::	dropbox.net
 0.0.0.0	banktech.com
 ::	banktech.com
+0.0.0.0	voba-owd.de
+::	voba-owd.de
 0.0.0.0	billdesk.com
 ::	billdesk.com
 0.0.0.0	alphabank.com.cy
@@ -12446,6 +12504,8 @@
 ::	sparkasse-bank-malta.com
 0.0.0.0	santanderconsumer.se
 ::	santanderconsumer.se
+0.0.0.0	voba-si.de
+::	voba-si.de
 0.0.0.0	abs.org.sg
 ::	abs.org.sg
 0.0.0.0	ibc.com
@@ -12686,8 +12746,6 @@
 ::	bancasintesi.it
 0.0.0.0	rb-tofk.de
 ::	rb-tofk.de
-0.0.0.0	online.expressbank.az
-::	online.expressbank.az
 0.0.0.0	santander-serfin.com
 ::	santander-serfin.com
 0.0.0.0	communitynationalbank.com
@@ -12880,8 +12938,8 @@
 ::	sparkasse-gruenberg.de
 0.0.0.0	raiba-parsberg-velburg.de
 ::	raiba-parsberg-velburg.de
-0.0.0.0	centralcaliforniabank.com
-::	centralcaliforniabank.com
+0.0.0.0	bancaditalia.it
+::	bancaditalia.it
 0.0.0.0	ibank.mpbbank.ru
 ::	ibank.mpbbank.ru
 0.0.0.0	hbtbank.com
@@ -13208,6 +13266,8 @@
 ::	bancalombarda.it
 0.0.0.0	bank.postil.com
 ::	bank.postil.com
+0.0.0.0	volksbank-erft.de
+::	volksbank-erft.de
 0.0.0.0	svcbank.com
 ::	svcbank.com
 0.0.0.0	nytimes.perfectmarket.com
@@ -13428,6 +13488,8 @@
 ::	robokassa.ru
 0.0.0.0	bna.com.ar
 ::	bna.com.ar
+0.0.0.0	banklinth.ch
+::	banklinth.ch
 0.0.0.0	instagram.com
 ::	instagram.com
 0.0.0.0	kybanks.com
@@ -13500,6 +13562,8 @@
 ::	acs2.rosbank.modirum.com
 0.0.0.0	scharnhauserbank.de
 ::	scharnhauserbank.de
+0.0.0.0	voba-worpswede.de
+::	voba-worpswede.de
 0.0.0.0	aachener-bank.de
 ::	aachener-bank.de
 0.0.0.0	kiupbank.co.kr
@@ -13728,6 +13792,8 @@
 ::	onlinebanking-rsb-bank.de
 0.0.0.0	roendespar.dk
 ::	roendespar.dk
+0.0.0.0	voba-bigge-lenne.de
+::	voba-bigge-lenne.de
 0.0.0.0	ibank.viking.spb.ru
 ::	ibank.viking.spb.ru
 0.0.0.0	licb.com
@@ -14210,10 +14276,12 @@
 ::	volksbank-lingen.de
 0.0.0.0	sparkasse-schongau.de
 ::	sparkasse-schongau.de
+0.0.0.0	volksbank-greven.de
+::	volksbank-greven.de
 0.0.0.0	1.elecsnet.ru
 ::	1.elecsnet.ru
-0.0.0.0	ecitizensnationalbank.com
-::	ecitizensnationalbank.com
+0.0.0.0	bancadicascina.it
+::	bancadicascina.it
 0.0.0.0	login.bsczarnkow.pl
 ::	login.bsczarnkow.pl
 0.0.0.0	client.texbank.ru
@@ -14422,8 +14490,6 @@
 ::	eki.ch
 0.0.0.0	raibahandewitt.de
 ::	raibahandewitt.de
-0.0.0.0	scb-bc.com
-::	scb-bc.com
 0.0.0.0	cbai.com
 ::	cbai.com
 0.0.0.0	cardhouse.ncc-uc.ru
@@ -14646,6 +14712,8 @@
 ::	postbank.co.ke
 0.0.0.0	busey.com
 ::	busey.com
+0.0.0.0	volksbank-jever.de
+::	volksbank-jever.de
 0.0.0.0	martinmaurel.com
 ::	martinmaurel.com
 0.0.0.0	agrocombank.com.ua

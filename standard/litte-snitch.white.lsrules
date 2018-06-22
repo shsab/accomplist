@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1529569122.08). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529655511.9). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -1625,6 +1625,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-dettenhausen.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "enter.unicredit.ru"
 		},
 		{
@@ -2475,6 +2480,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-dueren.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "onlinebanking-schroederbank.de"
 		},
 		{
@@ -2841,6 +2851,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "metcalfbank.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "voba-deisslingen.de"
 		},
 		{
 			"action" : "allow",
@@ -3646,6 +3661,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "cbanys.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "volksbank-ammerbuch.de"
 		},
 		{
 			"action" : "allow",
@@ -6040,7 +6060,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "bancaditalia.it"
+			"remote-domains" : "scb-bc.com"
 		},
 		{
 			"action" : "allow",
@@ -8565,6 +8585,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "vobadin.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "rb-wug.de"
 		},
 		{
@@ -8896,6 +8921,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "cua.com.au"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "voba-rnh.de"
 		},
 		{
 			"action" : "allow",
@@ -10740,6 +10770,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-boenen.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "civicbank.com"
 		},
 		{
@@ -11260,6 +11295,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-anroechte.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "clientis.ch"
 		},
 		{
@@ -11676,6 +11716,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "discover.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "volksbank-kirnau.de"
 		},
 		{
 			"action" : "allow",
@@ -12595,7 +12640,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "card.uplati.ru"
+			"remote-domains" : "eaglenational.com"
 		},
 		{
 			"action" : "allow",
@@ -12660,7 +12705,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "fnb.co.za"
+			"remote-domains" : "corusbank.com"
 		},
 		{
 			"action" : "allow",
@@ -15000,6 +15045,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-baumberge.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "spk-suedholstein.de"
 		},
 		{
@@ -15061,6 +15111,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "providentnj.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "ca-aquitaine.fr"
 		},
 		{
 			"action" : "allow",
@@ -15141,6 +15196,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "capitalbank.at"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "vobadirekt.de"
 		},
 		{
 			"action" : "allow",
@@ -16340,6 +16400,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-dh.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "pnbindia.com"
 		},
 		{
@@ -16925,6 +16990,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-eifel.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "bremenbank.com"
 		},
 		{
@@ -17015,7 +17085,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "bjd.ch"
+			"remote-domains" : "abuse.ch"
 		},
 		{
 			"action" : "allow",
@@ -17855,6 +17925,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "vobadhk.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "nmbankers.com"
 		},
 		{
@@ -18046,6 +18121,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "bny-imb.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "volksbank-erle.de"
 		},
 		{
 			"action" : "allow",
@@ -18635,6 +18715,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-heinsberg.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "onlinebanking-rb-beuerberg.de"
 		},
 		{
@@ -18871,6 +18956,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "csbloyal.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "voba-rheinboellen.de"
 		},
 		{
 			"action" : "allow",
@@ -19546,6 +19636,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "bss.novahovcb.ru"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "volksbank-hunsrueck-nahe.de"
 		},
 		{
 			"action" : "allow",
@@ -22200,6 +22295,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "voba-schwanewede.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "ebsb.com"
 		},
 		{
@@ -24555,6 +24655,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "voba-bl.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "fitd.it"
 		},
 		{
@@ -25340,6 +25445,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "voba-sh.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "iwbank.fr"
 		},
 		{
@@ -25456,6 +25566,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "onlinebanking-raiffeisenbank-hiltenfingen.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "volksbank-eg.de"
 		},
 		{
 			"action" : "allow",
@@ -26520,6 +26635,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "voba-mg.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "swissbankaccount.com"
 		},
 		{
@@ -27075,12 +27195,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "eaglenational.com"
+			"remote-domains" : "card.uplati.ru"
 		},
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "abuse.ch"
+			"remote-domains" : "bjd.ch"
 		},
 		{
 			"action" : "allow",
@@ -27100,7 +27220,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "corusbank.com"
+			"remote-domains" : "fnb.co.za"
 		},
 		{
 			"action" : "allow",
@@ -27145,7 +27265,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "ca-aquitaine.fr"
+			"remote-domains" : "sparkasse-tauberfranken.de"
 		},
 		{
 			"action" : "allow",
@@ -27691,6 +27811,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "nordea.fi"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "centralcaliforniabank.com"
 		},
 		{
 			"action" : "allow",
@@ -29515,6 +29640,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "llb.at"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "arabbank.com.cy"
 		},
 		{
@@ -30050,6 +30180,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-kierspe.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "btrab.com"
 		},
 		{
@@ -30245,7 +30380,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "sparkasse-tauberfranken.de"
+			"remote-domains" : "online.expressbank.az"
 		},
 		{
 			"action" : "allow",
@@ -30685,6 +30820,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-immenstadt.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "mbalou.org"
 		},
 		{
@@ -30885,7 +31025,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "bancadicascina.it"
+			"remote-domains" : "ecitizensnationalbank.com"
 		},
 		{
 			"action" : "allow",
@@ -31100,6 +31240,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "voba-owd.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "billdesk.com"
 		},
 		{
@@ -31211,6 +31356,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "santanderconsumer.se"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "voba-si.de"
 		},
 		{
 			"action" : "allow",
@@ -31815,11 +31965,6 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "online.expressbank.az"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
 			"remote-domains" : "santander-serfin.com"
 		},
 		{
@@ -32300,7 +32445,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "centralcaliforniabank.com"
+			"remote-domains" : "bancaditalia.it"
 		},
 		{
 			"action" : "allow",
@@ -33120,6 +33265,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-erft.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "svcbank.com"
 		},
 		{
@@ -33675,6 +33825,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "banklinth.ch"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "instagram.com"
 		},
 		{
@@ -33856,6 +34011,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "scharnhauserbank.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "voba-worpswede.de"
 		},
 		{
 			"action" : "allow",
@@ -34426,6 +34586,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "roendespar.dk"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "voba-bigge-lenne.de"
 		},
 		{
 			"action" : "allow",
@@ -35640,12 +35805,17 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "volksbank-greven.de"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "1.elecsnet.ru"
 		},
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "ecitizensnationalbank.com"
+			"remote-domains" : "bancadicascina.it"
 		},
 		{
 			"action" : "allow",
@@ -36166,11 +36336,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "raibahandewitt.de"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-domains" : "scb-bc.com"
 		},
 		{
 			"action" : "allow",
@@ -36726,6 +36891,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "busey.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-domains" : "volksbank-jever.de"
 		},
 		{
 			"action" : "allow",
@@ -42695,7 +42865,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.199.232.0-23.199.239.255"
+			"remote-addresses" : "23.199.232.0-23.199.235.255"
 		},
 		{
 			"action" : "allow",
@@ -42705,17 +42875,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.200.0.0-23.200.63.255"
+			"remote-addresses" : "23.200.0.0-23.200.31.255"
 		},
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.200.64.0-23.200.79.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.200.80.0-23.200.81.255"
+			"remote-addresses" : "23.200.32.0-23.200.47.255"
 		},
 		{
 			"action" : "allow",
