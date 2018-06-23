@@ -12344,8 +12344,8 @@
 ::	ksk-koeln.de
 0.0.0.0	picena.bcc.it
 ::	picena.bcc.it
-0.0.0.0	foncier-international.com
-::	foncier-international.com
+0.0.0.0	secure.payza.eu
+::	secure.payza.eu
 0.0.0.0	sparkasse-odenwaldkreis.de
 ::	sparkasse-odenwaldkreis.de
 0.0.0.0	sparda-n.de
@@ -14112,6 +14112,8 @@
 ::	danskebank.dk
 0.0.0.0	kombank.com
 ::	kombank.com
+0.0.0.0	foncier-international.com
+::	foncier-international.com
 0.0.0.0	mahaskabank.com
 ::	mahaskabank.com
 0.0.0.0	fnb-columbia.com

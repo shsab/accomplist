@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1529655511.9). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1529741911.75). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -30960,7 +30960,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "foncier-international.com"
+			"remote-domains" : "secure.payza.eu"
 		},
 		{
 			"action" : "allow",
@@ -35395,6 +35395,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "foncier-international.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "mahaskabank.com"
 		},
 		{
@@ -39750,12 +39755,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.35.104.0-23.35.107.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "23.35.108.0-23.35.109.255"
+			"remote-addresses" : "23.35.104.0-23.35.111.255"
 		},
 		{
 			"action" : "allow",
@@ -41485,7 +41485,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "23.61.245.0-23.61.245.255"
+			"remote-addresses" : "23.61.244.0-23.61.245.255"
 		},
 		{
 			"action" : "allow",
