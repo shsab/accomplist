@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist blacklist (1529828559.27). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist blacklist (1529914989.32). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist blacklist",
 	"rules" : [
 		{
@@ -1845,6 +1845,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "mastertag.effiliation.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "lypn.net"
 		},
 		{
@@ -1880,7 +1885,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "4d28ae0e559c1ba.webcam"
+			"remote-domains" : "jackettrain.com"
 		},
 		{
 			"action" : "deny",
@@ -2386,6 +2391,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "referforex.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "pushbaddy.com"
 		},
 		{
 			"action" : "deny",
@@ -6155,6 +6165,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "sekajiwqmym.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "tusno.com"
 		},
 		{
@@ -8276,6 +8291,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "upstats.ru"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "constintptr.com"
 		},
 		{
 			"action" : "deny",
@@ -11080,7 +11100,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "jackettrain.com"
+			"remote-domains" : "4d28ae0e559c1ba.webcam"
 		},
 		{
 			"action" : "deny",
@@ -13835,7 +13855,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "8iaxbnbk.accountant"
+			"remote-domains" : "oneopenclose.click"
 		},
 		{
 			"action" : "deny",
@@ -22715,6 +22735,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "8iaxbnbk.accountant"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "admedit.net"
 		},
 		{
@@ -25936,6 +25961,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "gkkfirgzrfoxkx.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "xarnvfthbye.com"
 		},
 		{
 			"action" : "deny",
@@ -31345,6 +31375,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "pushame.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "filestube.com"
 		},
 		{
@@ -32851,6 +32886,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "godhat.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "fengrtnoxuwwe.com"
 		},
 		{
 			"action" : "deny",
@@ -37125,7 +37165,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "mastertag.effiliation.com"
+			"remote-domains" : "hwcgnavycq.com"
 		},
 		{
 			"action" : "deny",
@@ -41761,6 +41801,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "delidatax.net"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "crzojmwnnq.com"
 		},
 		{
 			"action" : "deny",
@@ -49270,6 +49315,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "webmasterspub.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "rad.microsoft.com"
 		},
 		{
@@ -52305,7 +52355,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "redrosesisleornsay.com"
+			"remote-domains" : "gostats.vn"
 		},
 		{
 			"action" : "deny",
@@ -54585,6 +54635,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "xurokykjwum.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "mdn2015x5.com"
 		},
 		{
@@ -56655,6 +56710,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "overhaps.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "gotjs.xyz"
 		},
 		{
@@ -58241,6 +58301,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "bmxufcsmxcfwao.bid"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "pushimer.com"
 		},
 		{
 			"action" : "deny",
@@ -61530,6 +61595,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "cdnproviders.net"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "puogotzrsvtg.com"
 		},
 		{
@@ -63370,11 +63440,6 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "oneopenclose.click"
-		},
-		{
-			"action" : "deny",
-			"process" : "any",
 			"remote-domains" : "luxbetaffiliates.com.au"
 		},
 		{
@@ -63930,6 +63995,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "artucripkzu.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "nzssjqjv.bid"
 		},
 		{
@@ -64195,7 +64265,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "overhaps.com"
+			"remote-domains" : "jogrgddvb.com"
 		},
 		{
 			"action" : "deny",
@@ -65550,6 +65620,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "pushbasic.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "whysoserius.club"
 		},
 		{
@@ -65775,7 +65850,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "doublepimp.com"
+			"remote-domains" : "trkn.us"
 		},
 		{
 			"action" : "deny",
@@ -78385,7 +78460,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "fqnabpbdljzq.bid"
+			"remote-domains" : "ad4989.co.kr"
 		},
 		{
 			"action" : "deny",
@@ -86690,7 +86765,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "ad4989.co.kr"
+			"remote-domains" : "fqnabpbdljzq.bid"
 		},
 		{
 			"action" : "deny",
@@ -91690,6 +91765,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "gqmrdezduagsqi.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "mbww.com"
 		},
 		{
@@ -95060,6 +95140,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "pushdusk.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "qotwtnckqrke.com"
 		},
 		{
@@ -95616,6 +95701,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "skyactivate.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "bdotqoqzxauf.com"
 		},
 		{
 			"action" : "deny",
@@ -97831,6 +97921,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "mobgold.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "dtrwlquawlp.com"
 		},
 		{
 			"action" : "deny",
@@ -100970,7 +101065,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "gostats.vn"
+			"remote-domains" : "redrosesisleornsay.com"
 		},
 		{
 			"action" : "deny",
@@ -103135,7 +103230,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "trkn.us"
+			"remote-domains" : "doublepimp.com"
 		},
 		{
 			"action" : "deny",
@@ -103966,6 +104061,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "gamevui24.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "omshdahhtt.com"
 		},
 		{
 			"action" : "deny",
