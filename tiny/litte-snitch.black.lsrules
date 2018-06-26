@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist blacklist (1529914989.32). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist blacklist (1530001370.49). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist blacklist",
 	"rules" : [
 		{
@@ -2245,7 +2245,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "play24.us"
+			"remote-domains" : "ydqcdaqbmfedv.bid"
 		},
 		{
 			"action" : "deny",
@@ -3366,6 +3366,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "anatid3.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "iaxxhqwaig.com"
 		},
 		{
 			"action" : "deny",
@@ -4950,7 +4955,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "realdatechat.com"
+			"remote-domains" : "inisvnawtzevnx.com"
 		},
 		{
 			"action" : "deny",
@@ -7991,6 +7996,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "qvrfxlskqr.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "fvgfcotnmj.com"
 		},
 		{
 			"action" : "deny",
@@ -13095,7 +13105,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "ydqcdaqbmfedv.bid"
+			"remote-domains" : "play24.us"
 		},
 		{
 			"action" : "deny",
@@ -14025,7 +14035,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "qupycbhfvqtj.bid"
+			"remote-domains" : "retono42.us"
 		},
 		{
 			"action" : "deny",
@@ -15691,6 +15701,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "banners.expressindia.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "xgpijbqair.com"
 		},
 		{
 			"action" : "deny",
@@ -20755,6 +20770,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "akbiokbinnzh.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "pvx.xcar.com.cn"
 		},
 		{
@@ -23965,6 +23985,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "dlpgebxqq.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "flashgamestats.com"
 		},
 		{
@@ -24966,6 +24991,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "click.kink.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "nnhuvmftitju.com"
 		},
 		{
 			"action" : "deny",
@@ -29795,6 +29825,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "realdatechat.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "bznclicks.com"
 		},
 		{
@@ -32316,6 +32351,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "consciouscabbage.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "tmcvwyrqwyp.com"
 		},
 		{
 			"action" : "deny",
@@ -38745,6 +38785,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "idfybbol.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "live-audience.dailymotion.com"
 		},
 		{
@@ -44450,11 +44495,6 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "casterpretic.com"
-		},
-		{
-			"action" : "deny",
-			"process" : "any",
 			"remote-domains" : "dotmetrics.net"
 		},
 		{
@@ -45531,6 +45571,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "eblastengine.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "ohprlushvz.com"
 		},
 		{
 			"action" : "deny",
@@ -53010,7 +53055,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "acint.net"
+			"remote-domains" : "arllvzkoh.com"
 		},
 		{
 			"action" : "deny",
@@ -53866,6 +53911,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "bektvxxfv.bid"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "klqnukgo.com"
 		},
 		{
 			"action" : "deny",
@@ -61721,6 +61771,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "ivism.org"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "hkyykkerrp.com"
 		},
 		{
 			"action" : "deny",
@@ -69925,6 +69980,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "tzelsvxtjvy.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "scfkfridulshkd.com"
 		},
 		{
@@ -72025,6 +72085,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "zwxaraxq.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "s.360.cn"
 		},
 		{
@@ -72041,6 +72106,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "track.sprinklecontent.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "yvmosixxo.com"
 		},
 		{
 			"action" : "deny",
@@ -72965,7 +73035,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "tongji.mafengwo.cn"
+			"remote-domains" : "simplycast.us"
 		},
 		{
 			"action" : "deny",
@@ -73381,6 +73451,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "dtzlgtmqoj.bid"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "fqgqosvpodxn.com"
 		},
 		{
 			"action" : "deny",
@@ -74375,6 +74450,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "oqvzugnitr.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "ptp.lolco.net"
 		},
 		{
@@ -75336,6 +75416,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "skencituer.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "elekted.com"
 		},
 		{
 			"action" : "deny",
@@ -82780,7 +82865,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "retono42.us"
+			"remote-domains" : "qupycbhfvqtj.bid"
 		},
 		{
 			"action" : "deny",
@@ -82876,6 +82961,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "rstg.io"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "bcgcvepi.com"
 		},
 		{
 			"action" : "deny",
@@ -90685,6 +90775,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "koofysojwb.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "videohube.eu"
 		},
 		{
@@ -92210,6 +92305,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "zqouofoilmqfje.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "mediaplex.com"
 		},
 		{
@@ -92750,6 +92850,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "icdkqyeydxpjmw.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "iqsqqyoqry.com"
 		},
 		{
@@ -92976,6 +93081,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "fbooksluts.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "shhrbeffgz.com"
 		},
 		{
 			"action" : "deny",
@@ -94821,6 +94931,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "espnrlezwzvd.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "xkgitcod.com"
 		},
 		{
 			"action" : "deny",
@@ -99375,6 +99490,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "acint.net"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "bzclk.baidu.com"
 		},
 		{
@@ -99411,6 +99531,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "answerscloud.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "tdrmwnjwnccws.com"
 		},
 		{
 			"action" : "deny",
@@ -101545,7 +101670,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "elekted.com"
+			"remote-domains" : "casterpretic.com"
 		},
 		{
 			"action" : "deny",
@@ -101631,6 +101756,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "altabold1.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "tvesvlvse.com"
 		},
 		{
 			"action" : "deny",
@@ -103810,7 +103940,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "cfyvrgvopaejx.com"
+			"remote-domains" : "rcurn.com"
 		},
 		{
 			"action" : "deny",
@@ -104260,7 +104390,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "simplycast.us"
+			"remote-domains" : "tongji.mafengwo.cn"
 		},
 		{
 			"action" : "deny",
@@ -105151,6 +105281,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "retargeter.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "cbsfcpciitwcky.com"
 		},
 		{
 			"action" : "deny",
@@ -107425,6 +107560,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "cbyjjheawrcfq.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "eyjuwcrnu.bid"
 		},
 		{
@@ -109175,7 +109315,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "rcurn.com"
+			"remote-domains" : "cfyvrgvopaejx.com"
 		},
 		{
 			"action" : "deny",
@@ -109836,6 +109976,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "osrto.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "vegiqjbranp.com"
 		},
 		{
 			"action" : "deny",

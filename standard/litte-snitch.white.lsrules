@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1529914727.62). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1530001111.66). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -40540,6 +40540,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-addresses" : "23.48.38.0-23.48.38.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-addresses" : "23.48.48.0-23.48.63.255"
 		},
 		{
@@ -48696,11 +48701,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "104.100.176.0-104.100.191.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "104.100.192.0-104.100.207.255"
 		},
 		{
 			"action" : "allow",
