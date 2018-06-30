@@ -1614,8 +1614,8 @@
 ::	spartrelleborg.dk
 0.0.0.0	ccso.fr
 ::	ccso.fr
-0.0.0.0	macb.org
-::	macb.org
+0.0.0.0	indorebank.org
+::	indorebank.org
 0.0.0.0	fortisbank.com
 ::	fortisbank.com
 0.0.0.0	vrbank-fl-sl.de
@@ -4948,8 +4948,8 @@
 ::	centrumbank.com
 0.0.0.0	ibanking.vtb.am
 ::	ibanking.vtb.am
-0.0.0.0	safewayselectbank.com
-::	safewayselectbank.com
+0.0.0.0	sparkasse-nienburg.de
+::	sparkasse-nienburg.de
 0.0.0.0	andbanc.com
 ::	andbanc.com
 0.0.0.0	alide.org.pe
@@ -8820,6 +8820,8 @@
 ::	fnbonline.com
 0.0.0.0	bem.md
 ::	bem.md
+0.0.0.0	docfcu.org
+::	docfcu.org
 0.0.0.0	qcsb.com
 ::	qcsb.com
 0.0.0.0	swbanktx.com
@@ -9468,6 +9470,8 @@
 ::	ibank.roscap.ru
 0.0.0.0	onlinetsb.kz
 ::	onlinetsb.kz
+0.0.0.0	campuscu.com
+::	campuscu.com
 0.0.0.0	shorelinebank.com
 ::	shorelinebank.com
 0.0.0.0	skodabank.de
@@ -9570,8 +9574,8 @@
 ::	onlinebanking-psd-koblenz.de
 0.0.0.0	volksbank-detmold.de
 ::	volksbank-detmold.de
-0.0.0.0	indorebank.org
-::	indorebank.org
+0.0.0.0	macb.org
+::	macb.org
 0.0.0.0	sparda-ms.de
 ::	sparda-ms.de
 0.0.0.0	dbo.rublev.ru
@@ -10832,8 +10836,8 @@
 ::	kib-banka.com.ba
 0.0.0.0	aba-argentina.com
 ::	aba-argentina.com
-0.0.0.0	sparkasse-nienburg.de
-::	sparkasse-nienburg.de
+0.0.0.0	safewayselectbank.com
+::	safewayselectbank.com
 0.0.0.0	hsbc.ca
 ::	hsbc.ca
 0.0.0.0	rb-waischenfeld.de

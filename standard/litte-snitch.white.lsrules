@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1530260311.7). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1530346707.85). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -4060,7 +4060,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "macb.org"
+			"remote-domains" : "indorebank.org"
 		},
 		{
 			"action" : "allow",
@@ -12420,7 +12420,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "safewayselectbank.com"
+			"remote-domains" : "sparkasse-nienburg.de"
 		},
 		{
 			"action" : "allow",
@@ -22125,6 +22125,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "docfcu.org"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "qcsb.com"
 		},
 		{
@@ -23745,6 +23750,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "campuscu.com"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "shorelinebank.com"
 		},
 		{
@@ -24000,7 +24010,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "indorebank.org"
+			"remote-domains" : "macb.org"
 		},
 		{
 			"action" : "allow",
@@ -27160,7 +27170,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "sparkasse-nienburg.de"
+			"remote-domains" : "safewayselectbank.com"
 		},
 		{
 			"action" : "allow",
@@ -37985,7 +37995,12 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "2.18.224.0-2.18.239.255"
+			"remote-addresses" : "2.18.224.0-2.18.231.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "2.18.232.0-2.18.235.255"
 		},
 		{
 			"action" : "allow",
