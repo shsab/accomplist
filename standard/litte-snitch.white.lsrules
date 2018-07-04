@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1530605909.89). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1530692312.18). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -27135,6 +27135,11 @@
 		{
 			"action" : "allow",
 			"process" : "any",
+			"remote-domains" : "gov.pl"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
 			"remote-domains" : "minavardkontakter.se"
 		},
 		{
@@ -37710,7 +37715,17 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-addresses" : "2.16.160.0-2.16.167.255"
+			"remote-addresses" : "2.16.160.0-2.16.163.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "2.16.165.0-2.16.165.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "2.16.166.0-2.16.167.255"
 		},
 		{
 			"action" : "allow",
@@ -38391,11 +38406,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "2.21.240.0-2.21.243.255"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-addresses" : "2.21.246.0-2.21.246.255"
 		},
 		{
 			"action" : "allow",
@@ -41891,6 +41901,11 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-addresses" : "23.67.56.0-23.67.56.255"
+		},
+		{
+			"action" : "allow",
+			"process" : "any",
+			"remote-addresses" : "23.67.59.0-23.67.59.255"
 		},
 		{
 			"action" : "allow",
