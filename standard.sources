@@ -99,6 +99,7 @@ GMSCS-Porn	black	https://raw.githubusercontent.com/gmscs/hosts/master/porn	/opt/
 #WebTap-Autofill	black	https://webtransparency.cs.princeton.edu/no_boundaries/autofill_sites.html	/opt/accomplist/work/webtap-autofill.list	7200	^.*<td><b>(?P<domain>[a-zA-Z0-9\.\-]+)</b>
 
 LightSwitch05-Ads	black	https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking.txt	/opt/accomplist/work/lightswitch05-ads.list	7200	@HOST0
+#LightSwitch05-Ads-Extended	black	https://raw.githubusercontent.com/lightswitch05/hosts/master/ads-and-tracking-extended.txt	/opt/accomplist/work/lightswitch05-ads-extended.list	7200	@HOST0
 
 MetaMask-Eth-Phish	black	https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt	/opt/accomplist/work/metamask-eth.list	7200	@HOST0
 
