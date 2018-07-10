@@ -180,3 +180,6 @@ LightSwitch05-Ads-Extended	black	https://raw.githubusercontent.com/lightswitch05
 
 MetaMask-Eth-Phish	black	https://raw.githubusercontent.com/MetaMask/eth-phishing-detect/master/src/hosts.txt	/opt/accomplist/work/metamask-eth.list	7200	@HOST0
 
+
+NoTrack-BlockList	black	https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt	/opt/accomplist/work/notrack-blocklist.list	7200	@DOMAIN
+NoTrack-Malware	black	https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-malware.txt	/opt/accomplist/work/notrack-malware.list	7200	@DOMAIN
