@@ -180,8 +180,8 @@
 ::	bks.at
 0.0.0.0	volksbank-magdeburg.de
 ::	volksbank-magdeburg.de
-0.0.0.0	vadianbank.ch
-::	vadianbank.ch
+0.0.0.0	bancacattolica.it
+::	bancacattolica.it
 0.0.0.0	trustar.com.au
 ::	trustar.com.au
 0.0.0.0	rshb.ru
@@ -2504,8 +2504,8 @@
 ::	otpsmart.com.ua
 0.0.0.0	onba.ch
 ::	onba.ch
-0.0.0.0	bancacattolica.it
-::	bancacattolica.it
+0.0.0.0	vadianbank.ch
+::	vadianbank.ch
 0.0.0.0	smbonline.com
 ::	smbonline.com
 0.0.0.0	oceanic.bs
@@ -9336,8 +9336,6 @@
 ::	bancadiverona.it
 0.0.0.0	indianamba.org
 ::	indianamba.org
-0.0.0.0	gitlab.com
-::	gitlab.com
 0.0.0.0	ntco.nl
 ::	ntco.nl
 0.0.0.0	zionsbancorporation.com

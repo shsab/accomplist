@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist whitelist (1531244173.45). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist whitelist (1531297112.66). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist whitelist",
 	"rules" : [
 		{
@@ -460,7 +460,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "vadianbank.ch"
+			"remote-domains" : "bancacattolica.it"
 		},
 		{
 			"action" : "allow",
@@ -6295,7 +6295,7 @@
 		{
 			"action" : "allow",
 			"process" : "any",
-			"remote-domains" : "bancacattolica.it"
+			"remote-domains" : "vadianbank.ch"
 		},
 		{
 			"action" : "allow",
@@ -23411,11 +23411,6 @@
 			"action" : "allow",
 			"process" : "any",
 			"remote-domains" : "indianamba.org"
-		},
-		{
-			"action" : "allow",
-			"process" : "any",
-			"remote-domains" : "gitlab.com"
 		},
 		{
 			"action" : "allow",

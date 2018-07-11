@@ -1,6 +1,6 @@
 ############################################
 ### ACCOMPLIST GENERATED WHITELIST       ###
-### Version: 1531244218                  ###
+### Version: 1531297159                  ###
 ### Chris Buijs                          ###
 ### https://github.com/cbuijs/accomplist ###
 ############################################
@@ -1879,7 +1879,6 @@ gilmercountybank.com	Shalla-Banking
 github.com	Chris-White
 githubapp.com	Chris-White
 githubusercontent.com	Chris-White
-gitlab.com	Source
 glacierbank.com	Shalla-Banking
 glbank.com	Shalla-Banking
 glsb.com	Shalla-Banking
@@ -10083,7 +10082,7 @@ AS2906	Chris-ASN-White
 173.205.6.0/23	Chris-ASN-White-AS20940
 173.205.70.0/24	Chris-ASN-White-AS20940
 173.205.78.0/23	Chris-ASN-White-AS20940
-173.222.0.0/20	Chris-ASN-White-AS20940
+173.222.0.0/20	Chris-ASN-White-AS16625
 173.222.32.0/20	Chris-ASN-White-AS16625
 173.222.80.0/20	Chris-ASN-White-AS16625
 173.222.108.0/23	Chris-ASN-White-AS20940
@@ -10103,9 +10102,9 @@ AS2906	Chris-ASN-White
 173.222.236.0/22	Chris-ASN-White-AS20940
 173.222.244.0/22	Chris-ASN-White-AS16625
 173.222.250.0/23	Chris-ASN-White-AS16625
-173.223.4.0/22	Chris-ASN-White-AS20940
+173.223.4.0/22	Chris-ASN-White-AS16625
 173.223.10.0/23	Chris-ASN-White-AS20940
-173.223.20.0/23	Chris-ASN-White-AS20940
+173.223.20.0/23	Chris-ASN-White-AS16625
 173.223.28.0/22	Chris-ASN-White-AS16625
 173.223.36.0/22	Chris-ASN-White-AS16625
 173.223.48.0/22	Chris-ASN-White-AS20940
@@ -10124,7 +10123,7 @@ AS2906	Chris-ASN-White
 173.223.228.0/22	Chris-ASN-White-AS20940
 173.223.235.0/24	Chris-ASN-White-AS20940
 173.223.238.0/23	Chris-ASN-White-AS16625
-173.223.240.0/20	Chris-ASN-White-AS20940
+173.223.240.0/20	Chris-ASN-White-AS16625
 176.103.130.130/31	Aggregated
 176.103.130.132/32	Chris-White
 176.103.130.134/32	Chris-White

@@ -1,5 +1,5 @@
 {
-	"description" : "Accomplist blacklist (1531210942.42). See: https://github.com/cbuijs/accomplist",
+	"description" : "Accomplist blacklist (1531297341.88). See: https://github.com/cbuijs/accomplist",
 	"name" : "Accomplist blacklist",
 	"rules" : [
 		{
@@ -3600,7 +3600,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "harvester.eu.square-enix.com"
+			"remote-domains" : "stats.lt"
 		},
 		{
 			"action" : "deny",
@@ -10185,6 +10185,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "iisfpzkkxkz.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "zjgygpdfudfu.com"
 		},
 		{
@@ -13465,6 +13470,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "ojmkcnuur.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "clickad.pl"
 		},
 		{
@@ -15796,6 +15806,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "g.bit.pt"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "gammachug.com"
 		},
 		{
 			"action" : "deny",
@@ -20785,7 +20800,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "stats.lt"
+			"remote-domains" : "harvester.eu.square-enix.com"
 		},
 		{
 			"action" : "deny",
@@ -24755,7 +24770,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "peermapcontent.affino.com"
+			"remote-domains" : "cdveeechegws.com"
 		},
 		{
 			"action" : "deny",
@@ -32070,6 +32085,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "exaorwqrj.bid"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "clicks2count.com"
 		},
 		{
@@ -33655,6 +33675,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "hunktnva.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "coolmirage.com"
 		},
 		{
@@ -35065,7 +35090,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "qbhcfxxivcdfm.com"
+			"remote-domains" : "sekindo.com"
 		},
 		{
 			"action" : "deny",
@@ -55340,12 +55365,12 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "kanoodle.com"
+			"remote-domains" : "thelistassassin.com"
 		},
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "ad-goi.com"
+			"remote-domains" : "cygnus.com"
 		},
 		{
 			"action" : "deny",
@@ -57625,6 +57650,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "wwzchzpluwuon.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "poweradvertising.co.uk"
 		},
 		{
@@ -58920,6 +58950,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "nvkkjenz.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "goodtag.it"
 		},
 		{
@@ -59470,7 +59505,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "perfoormapp.info"
+			"remote-domains" : "ptzbgvqpwnxg.com"
 		},
 		{
 			"action" : "deny",
@@ -61095,7 +61130,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "exaorwqrj.bid"
+			"remote-domains" : "aoredi.com"
 		},
 		{
 			"action" : "deny",
@@ -67000,6 +67035,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "fqrcutjorn.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "advertjunction.com"
 		},
 		{
@@ -68986,6 +69026,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "graphli.net"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "peermapcontent.affino.com"
 		},
 		{
 			"action" : "deny",
@@ -73010,6 +73055,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "perfoormapp.info"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "cbrqndeptsw.com"
 		},
 		{
@@ -74051,6 +74101,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "tvas-c.pw"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "wiykefcon.com"
 		},
 		{
 			"action" : "deny",
@@ -78645,7 +78700,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "cdveeechegws.com"
+			"remote-domains" : "pdtnzykqa.com"
 		},
 		{
 			"action" : "deny",
@@ -87055,6 +87110,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "qclnagolz.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "cosmjs.com"
 		},
 		{
@@ -88905,6 +88965,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "rfdujczogfnc.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "centralnervous.net"
 		},
 		{
@@ -89820,7 +89885,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "t4ft.de"
+			"remote-domains" : "epnt.ebay.com"
 		},
 		{
 			"action" : "deny",
@@ -89975,7 +90040,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "onclickclear.com"
+			"remote-domains" : "t4ft.de"
 		},
 		{
 			"action" : "deny",
@@ -90756,6 +90821,11 @@
 			"action" : "deny",
 			"process" : "any",
 			"remote-domains" : "logly.co.jp"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
+			"remote-domains" : "onclickclear.com"
 		},
 		{
 			"action" : "deny",
@@ -96275,6 +96345,11 @@
 		{
 			"action" : "deny",
 			"process" : "any",
+			"remote-domains" : "yphyzxdm.com"
+		},
+		{
+			"action" : "deny",
+			"process" : "any",
 			"remote-domains" : "enhwftpkwvnb.com"
 		},
 		{
@@ -97855,7 +97930,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "sekindo.com"
+			"remote-domains" : "qbhcfxxivcdfm.com"
 		},
 		{
 			"action" : "deny",
@@ -109140,7 +109215,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "thelistassassin.com"
+			"remote-domains" : "kanoodle.com"
 		},
 		{
 			"action" : "deny",
@@ -109165,7 +109240,7 @@
 		{
 			"action" : "deny",
 			"process" : "any",
-			"remote-domains" : "cygnus.com"
+			"remote-domains" : "ad-goi.com"
 		},
 		{
 			"action" : "deny",
